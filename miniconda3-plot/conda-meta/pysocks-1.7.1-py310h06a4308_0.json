@@ -1,0 +1,49 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/pysocks-1.7.1-py310h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/PySocks-1.7.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/PySocks-1.7.1.dist-info/LICENSE",
+    "lib/python3.10/site-packages/PySocks-1.7.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/PySocks-1.7.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/PySocks-1.7.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/PySocks-1.7.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/PySocks-1.7.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/PySocks-1.7.1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/__pycache__/socks.cpython-310.pyc",
+    "lib/python3.10/site-packages/__pycache__/sockshandler.cpython-310.pyc",
+    "lib/python3.10/site-packages/socks.py",
+    "lib/python3.10/site-packages/sockshandler.py"
+  ],
+  "fn": "pysocks-1.7.1-py310h06a4308_0.conda",
+  "legacy_bz2_md5": "5ad7b13cb48fc3f12d94907489550019",
+  "legacy_bz2_size": 28253,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/pysocks-1.7.1-py310h06a4308_0",
+    "type": 1
+  },
+  "md5": "b0753810caadcd4a550c833f87fb3866",
+  "name": "pysocks",
+  "package_tarball_full_path": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/pysocks-1.7.1-py310h06a4308_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::pysocks==1.7.1=py310h06a4308_0[md5=b0753810caadcd4a550c833f87fb3866]",
+  "sha256": "4ae4c13a181087485244bfdfe3cee8d3e69ca53d87f3f3fe30f2874b833359b3",
+  "size": 28895,
+  "subdir": "linux-64",
+  "timestamp": 1640793693853,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pysocks-1.7.1-py310h06a4308_0.conda",
+  "version": "1.7.1"
+}

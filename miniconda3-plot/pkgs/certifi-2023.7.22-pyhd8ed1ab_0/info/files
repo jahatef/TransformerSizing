@@ -1,0 +1,11 @@
+site-packages/certifi-2023.7.22-py3.11.egg-info/PKG-INFO
+site-packages/certifi-2023.7.22-py3.11.egg-info/SOURCES.txt
+site-packages/certifi-2023.7.22-py3.11.egg-info/dependency_links.txt
+site-packages/certifi-2023.7.22-py3.11.egg-info/installed-files.txt
+site-packages/certifi-2023.7.22-py3.11.egg-info/not-zip-safe
+site-packages/certifi-2023.7.22-py3.11.egg-info/top_level.txt
+site-packages/certifi/__init__.py
+site-packages/certifi/__main__.py
+site-packages/certifi/cacert.pem
+site-packages/certifi/core.py
+site-packages/certifi/py.typed

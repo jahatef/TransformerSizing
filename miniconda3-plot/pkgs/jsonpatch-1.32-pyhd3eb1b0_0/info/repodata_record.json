@@ -1,0 +1,27 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "jsonpointer >=1.9",
+    "python"
+  ],
+  "features": "",
+  "fn": "jsonpatch-1.32-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "933be63c7b1aba7b9990f42ada8bc833",
+  "legacy_bz2_size": 14805,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "ce3c2233a0823c4c25aba6843b05d19d",
+  "name": "jsonpatch",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "dcd5fe09150f6e1b327369bc837df2159c32406981be9943b0cfcf8107203e66",
+  "size": 14901,
+  "subdir": "noarch",
+  "timestamp": 1615747661494,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/jsonpatch-1.32-pyhd3eb1b0_0.conda",
+  "version": "1.32"
+}

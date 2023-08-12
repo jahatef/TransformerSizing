@@ -1,0 +1,58 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /tmp/build/80754af9/combined_recipe, last modified Sun Mar 14 18:46:45 2021
+# ------------------------------------------------
+
+package:
+  name: jsonpatch
+  version: '1.32'
+source:
+  fn: jsonpatch-1.32.tar.gz
+  sha256: b6ddfe6c3db30d81a96aaeceb6baf916094ffa23d7dd5fa2c13e13f8b6e600c2
+  url: https://pypi.org/packages/source/j/jsonpatch/jsonpatch-1.32.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: python -m pip install --no-deps --ignore-installed .
+  string: pyhd3eb1b0_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - ca-certificates 2021.1.19 h06a4308_1
+    - certifi 2020.12.5 py36h06a4308_0
+    - ld_impl_linux-64 2.33.1 h53a641e_7
+    - libedit 3.1.20191231 h14c3975_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.1.0 hdf63c60_0
+    - libstdcxx-ng 9.1.0 hdf63c60_0
+    - ncurses 6.2 he6710b0_1
+    - openssl 1.1.1j h27cfd23_0
+    - pip 21.0.1 py36h06a4308_0
+    - python 3.6.13 hdb3f193_0
+    - readline 8.1 h27cfd23_0
+    - setuptools 52.0.0 py36h06a4308_0
+    - sqlite 3.33.0 h62c20be_0
+    - tk 8.6.10 hbc83047_0
+    - wheel 0.36.2 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7b6447c_3
+  run:
+    - jsonpointer >=1.9
+    - python
+test:
+  imports:
+    - jsonpatch
+about:
+  dev_url: https://github.com/stefankoegl/python-json-patch
+  doc_url: https://python-json-patch.readthedocs.io/en/latest/
+  home: https://github.com/stefankoegl/python-json-patch
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: COPYING
+  summary: Apply JSON-Patches (RFC 6902)
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - anguslees
+    - pmlandwehr

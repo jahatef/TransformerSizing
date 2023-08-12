@@ -1,0 +1,61 @@
+{
+  "build": "h7b6447c_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/bzip2-1.0.8-h7b6447c_0",
+  "features": "",
+  "files": [
+    "bin/bunzip2",
+    "bin/bzcat",
+    "bin/bzcmp",
+    "bin/bzdiff",
+    "bin/bzegrep",
+    "bin/bzfgrep",
+    "bin/bzgrep",
+    "bin/bzip2",
+    "bin/bzip2recover",
+    "bin/bzless",
+    "bin/bzmore",
+    "include/bzlib.h",
+    "lib/libbz2.a",
+    "lib/libbz2.so",
+    "lib/libbz2.so.1.0",
+    "lib/libbz2.so.1.0.8",
+    "man/man1/bzcmp.1",
+    "man/man1/bzdiff.1",
+    "man/man1/bzegrep.1",
+    "man/man1/bzfgrep.1",
+    "man/man1/bzgrep.1",
+    "man/man1/bzip2.1",
+    "man/man1/bzless.1",
+    "man/man1/bzmore.1"
+  ],
+  "fn": "bzip2-1.0.8-h7b6447c_0.conda",
+  "legacy_bz2_md5": "f52e60deb7f4c82821be9a868e889348",
+  "legacy_bz2_size": 107105,
+  "license": "bzip2",
+  "license_family": "BSD",
+  "link": {
+    "source": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/bzip2-1.0.8-h7b6447c_0",
+    "type": 1
+  },
+  "md5": "9303f4af7c004e069bae22bde8d800ee",
+  "name": "bzip2",
+  "package_tarball_full_path": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/bzip2-1.0.8-h7b6447c_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::bzip2==1.0.8=h7b6447c_0[md5=9303f4af7c004e069bae22bde8d800ee]",
+  "sha256": "d3fa503351a53692866182a3819fb28d105e32c25d177bf6a9444c4153215e0d",
+  "size": 80125,
+  "subdir": "linux-64",
+  "timestamp": 1563219611337,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/bzip2-1.0.8-h7b6447c_0.conda",
+  "version": "1.0.8"
+}

@@ -1,0 +1,269 @@
+num_attention_heads: 64, hidden_size: 24320, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24320x72960, b=2048): 0.1126
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24320x72960, b=2048): 258.219
+Elapsed time for attention_key_query_prob (256x2048x380x2048): 0.0070
+Throughput (in TFLOP/s) for attention_key_query_prob (256x2048x380x2048): 117.053
+Elapsed time for attention_prob_times_values (256x2048x2048x380): 0.0064
+Throughput (in TFLOP/s) for attention_prob_times_values (256x2048x2048x380): 128.029
+Elapsed time for attention_dropout (4x64x2048x2048): 0.0045
+Elapsed time for attention_softmax (4x64x2048x2048): 0.0304
+(25306923008, 42481549312)
+Elapsed time for attention_linear_projection (4x24320x24320, b=2048): 0.0383
+Throughput (in TFLOP/s) for attention_linear_projection (4x24320x24320, b=2048): 253.148
+(25306923008, 42481549312)
+Elapsed time for mlp_h_to_4h (4x24320x97280, b=2048): 0.1514
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24320x97280, b=2048): 255.986
+Elapsed time for mlp_fused_gelu (2048x4x97280): 0.0027
+Elapsed time for mlp_4h_to_h (4x97280x24320, b=2048): 0.1616
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x97280x24320, b=2048): 239.825
+Elapsed time for transformer_add_bias_dropout (2048x4x24320): 0.0018
+Elapsed time for transformer_layer_norm (2048x4x24320): 0.0010
+
+Attention duration (in seconds): 0.1991
+Attention throughput (in TFLOP/s): 202.845
+MLP duration (in seconds): 0.3157
+MLP throughput (in TFLOP/s): 245.544
+Transformer duration (in seconds): 0.5204
+Transformer throughput (in TFLOP/s): 226.599
+Transformer - MLP - Attention (in seconds): 0.0055
+========================================================================================================================
+num_attention_heads: 64, hidden_size: 24384, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24384x73152, b=2048): 0.1141
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24384x73152, b=2048): 256.028
+Elapsed time for attention_key_query_prob (256x2048x381x2048): 0.0106
+Throughput (in TFLOP/s) for attention_key_query_prob (256x2048x381x2048): 76.850
+Elapsed time for attention_prob_times_values (256x2048x2048x381): 0.0106
+Throughput (in TFLOP/s) for attention_prob_times_values (256x2048x2048x381): 77.278
+Elapsed time for attention_dropout (4x64x2048x2048): 0.0045
+Elapsed time for attention_softmax (4x64x2048x2048): 0.0304
+(20571553792, 42481549312)
+Elapsed time for attention_linear_projection (4x24384x24384, b=2048): 0.0375
+Throughput (in TFLOP/s) for attention_linear_projection (4x24384x24384, b=2048): 259.517
+(20571553792, 42481549312)
+Elapsed time for mlp_h_to_4h (4x24384x97536, b=2048): 0.1524
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24384x97536, b=2048): 255.634
+Elapsed time for mlp_fused_gelu (2048x4x97536): 0.0027
+Elapsed time for mlp_4h_to_h (4x97536x24384, b=2048): 0.1636
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x97536x24384, b=2048): 238.219
+Elapsed time for transformer_add_bias_dropout (2048x4x24384): 0.0018
+Elapsed time for transformer_layer_norm (2048x4x24384): 0.0010
+
+Attention duration (in seconds): 0.2079
+Attention throughput (in TFLOP/s): 195.345
+MLP duration (in seconds): 0.3187
+MLP throughput (in TFLOP/s): 244.544
+Transformer duration (in seconds): 0.5321
+Transformer throughput (in TFLOP/s): 222.765
+Transformer - MLP - Attention (in seconds): 0.0056
+========================================================================================================================
+num_attention_heads: 64, hidden_size: 24448, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24448x73344, b=2048): 0.1144
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24448x73344, b=2048): 256.734
+Elapsed time for attention_key_query_prob (256x2048x382x2048): 0.0070
+Throughput (in TFLOP/s) for attention_key_query_prob (256x2048x382x2048): 117.476
+Elapsed time for attention_prob_times_values (256x2048x2048x382): 0.0064
+Throughput (in TFLOP/s) for attention_prob_times_values (256x2048x2048x382): 129.036
+Elapsed time for attention_dropout (4x64x2048x2048): 0.0045
+Elapsed time for attention_softmax (4x64x2048x2048): 0.0304
+(15813115904, 42481549312)
+Elapsed time for attention_linear_projection (4x24448x24448, b=2048): 0.0376
+Throughput (in TFLOP/s) for attention_linear_projection (4x24448x24448, b=2048): 260.268
+(15813115904, 42481549312)
+Elapsed time for mlp_h_to_4h (4x24448x97792, b=2048): 0.1532
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24448x97792, b=2048): 255.767
+Elapsed time for mlp_fused_gelu (2048x4x97792): 0.0027
+Elapsed time for mlp_4h_to_h (4x97792x24448, b=2048): 0.1634
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x97792x24448, b=2048): 239.714
+Elapsed time for transformer_add_bias_dropout (2048x4x24448): 0.0018
+Elapsed time for transformer_layer_norm (2048x4x24448): 0.0010
+
+Attention duration (in seconds): 0.2003
+Attention throughput (in TFLOP/s): 203.724
+MLP duration (in seconds): 0.3193
+MLP throughput (in TFLOP/s): 245.395
+Transformer duration (in seconds): 0.5251
+Transformer throughput (in TFLOP/s): 226.904
+Transformer - MLP - Attention (in seconds): 0.0056
+========================================================================================================================
+num_attention_heads: 64, hidden_size: 24512, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24512x73536, b=2048): 0.1150
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24512x73536, b=2048): 256.692
+Elapsed time for attention_key_query_prob (256x2048x383x2048): 0.0106
+Throughput (in TFLOP/s) for attention_key_query_prob (256x2048x383x2048): 77.783
+Elapsed time for attention_prob_times_values (256x2048x2048x383): 0.0107
+Throughput (in TFLOP/s) for attention_prob_times_values (256x2048x2048x383): 77.203
+Elapsed time for attention_dropout (4x64x2048x2048): 0.0045
+Elapsed time for attention_softmax (4x64x2048x2048): 0.0304
+(11029512192, 42481549312)
+Elapsed time for attention_linear_projection (4x24512x24512, b=2048): 0.0377
+Throughput (in TFLOP/s) for attention_linear_projection (4x24512x24512, b=2048): 260.839
+(11029512192, 42481549312)
+Elapsed time for mlp_h_to_4h (4x24512x98048, b=2048): 0.1536
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24512x98048, b=2048): 256.366
+Elapsed time for mlp_fused_gelu (2048x4x98048): 0.0027
+Elapsed time for mlp_4h_to_h (4x98048x24512, b=2048): 0.1644
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x98048x24512, b=2048): 239.483
+Elapsed time for transformer_add_bias_dropout (2048x4x24512): 0.0018
+Elapsed time for transformer_layer_norm (2048x4x24512): 0.0010
+
+Attention duration (in seconds): 0.2090
+Attention throughput (in TFLOP/s): 196.321
+MLP duration (in seconds): 0.3207
+MLP throughput (in TFLOP/s): 245.555
+Transformer duration (in seconds): 0.5353
+Transformer throughput (in TFLOP/s): 223.763
+Transformer - MLP - Attention (in seconds): 0.0056
+========================================================================================================================
+
+[2023-06-28 21:11:10,750] [INFO] [comm.py:643:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-06-28 21:11:11,296] [INFO] [comm.py:697:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=26.0.144.62, master_port=6000
+[2023-06-28 21:11:11,296] [INFO] [comm.py:661:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-06-28 21:11:12,395] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+num_attention_heads: 64, hidden_size: 24576, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24576x73728, b=2048): 0.1152
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24576x73728, b=2048): 257.673
+Elapsed time for attention_key_query_prob (256x2048x384x2048): 0.0041
+Throughput (in TFLOP/s) for attention_key_query_prob (256x2048x384x2048): 201.079
+Elapsed time for attention_prob_times_values (256x2048x2048x384): 0.0044
+Throughput (in TFLOP/s) for attention_prob_times_values (256x2048x2048x384): 189.066
+Elapsed time for attention_dropout (4x64x2048x2048): 0.0045
+Elapsed time for attention_softmax (4x64x2048x2048): 0.0304
+(25216745472, 42481549312)
+Elapsed time for attention_linear_projection (4x24576x24576, b=2048): 0.0379
+Throughput (in TFLOP/s) for attention_linear_projection (4x24576x24576, b=2048): 261.401
+(25216745472, 42481549312)
+Elapsed time for mlp_h_to_4h (4x24576x98304, b=2048): 0.1546
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24576x98304, b=2048): 256.110
+Elapsed time for mlp_fused_gelu (2048x4x98304): 0.0027
+Elapsed time for mlp_4h_to_h (4x98304x24576, b=2048): 0.1651
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x98304x24576, b=2048): 239.787
+Elapsed time for transformer_add_bias_dropout (2048x4x24576): 0.0018
+Elapsed time for transformer_layer_norm (2048x4x24576): 0.0010
+
+Attention duration (in seconds): 0.1964
+Attention throughput (in TFLOP/s): 209.892
+MLP duration (in seconds): 0.3223
+MLP throughput (in TFLOP/s): 245.602
+Transformer duration (in seconds): 0.5244
+Transformer throughput (in TFLOP/s): 229.606
+Transformer - MLP - Attention (in seconds): 0.0056
+========================================================================================================================
+num_attention_heads: 64, hidden_size: 24640, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24640x73920, b=2048): 0.1163
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24640x73920, b=2048): 256.495
+Elapsed time for attention_key_query_prob (256x2048x385x2048): 0.0108
+Throughput (in TFLOP/s) for attention_key_query_prob (256x2048x385x2048): 76.238
+Elapsed time for attention_prob_times_values (256x2048x2048x385): 0.0107
+Throughput (in TFLOP/s) for attention_prob_times_values (256x2048x2048x385): 76.928
+Elapsed time for attention_dropout (4x64x2048x2048): 0.0045
+Elapsed time for attention_softmax (4x64x2048x2048): 0.0304
+(20382810112, 42481549312)
+Elapsed time for attention_linear_projection (4x24640x24640, b=2048): 0.0394
+Throughput (in TFLOP/s) for attention_linear_projection (4x24640x24640, b=2048): 252.389
+(20382810112, 42481549312)
+Elapsed time for mlp_h_to_4h (4x24640x98560, b=2048): 0.1554
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24640x98560, b=2048): 256.059
+Elapsed time for mlp_fused_gelu (2048x4x98560): 0.0027
+Elapsed time for mlp_4h_to_h (4x98560x24640, b=2048): 0.1662
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x98560x24640, b=2048): 239.474
+Elapsed time for transformer_add_bias_dropout (2048x4x24640): 0.0018
+Elapsed time for transformer_layer_norm (2048x4x24640): 0.0010
+
+Attention duration (in seconds): 0.2123
+Attention throughput (in TFLOP/s): 195.244
+MLP duration (in seconds): 0.3242
+MLP throughput (in TFLOP/s): 245.421
+Transformer duration (in seconds): 0.5422
+Transformer throughput (in TFLOP/s): 223.216
+Transformer - MLP - Attention (in seconds): 0.0057
+========================================================================================================================
+num_attention_heads: 64, hidden_size: 24704, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24704x74112, b=2048): 0.1161
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24704x74112, b=2048): 258.319
+Elapsed time for attention_key_query_prob (256x2048x386x2048): 0.0075
+Throughput (in TFLOP/s) for attention_key_query_prob (256x2048x386x2048): 110.011
+Elapsed time for attention_prob_times_values (256x2048x2048x386): 0.0064
+Throughput (in TFLOP/s) for attention_prob_times_values (256x2048x2048x386): 129.388
+Elapsed time for attention_dropout (4x64x2048x2048): 0.0045
+Elapsed time for attention_softmax (4x64x2048x2048): 0.0304
+(15523708928, 42481549312)
+Elapsed time for attention_linear_projection (4x24704x24704, b=2048): 0.0395
+Throughput (in TFLOP/s) for attention_linear_projection (4x24704x24704, b=2048): 253.057
+(15523708928, 42481549312)
+Elapsed time for mlp_h_to_4h (4x24704x98816, b=2048): 0.1559
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24704x98816, b=2048): 256.476
+Elapsed time for mlp_fused_gelu (2048x4x98816): 0.0027
+Elapsed time for mlp_4h_to_h (4x98816x24704, b=2048): 0.1664
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x98816x24704, b=2048): 240.371
+Elapsed time for transformer_add_bias_dropout (2048x4x24704): 0.0018
+Elapsed time for transformer_layer_norm (2048x4x24704): 0.0010
+
+Attention duration (in seconds): 0.2045
+Attention throughput (in TFLOP/s): 203.695
+MLP duration (in seconds): 0.3251
+MLP throughput (in TFLOP/s): 246.088
+Transformer duration (in seconds): 0.5352
+Transformer throughput (in TFLOP/s): 227.297
+Transformer - MLP - Attention (in seconds): 0.0056
+========================================================================================================================
+num_attention_heads: 64, hidden_size: 24768, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24768x74304, b=2048): 0.1172
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24768x74304, b=2048): 257.279
+Elapsed time for attention_key_query_prob (256x2048x387x2048): 0.0110
+Throughput (in TFLOP/s) for attention_key_query_prob (256x2048x387x2048): 75.481
+Elapsed time for attention_prob_times_values (256x2048x2048x387): 0.0108
+Throughput (in TFLOP/s) for attention_prob_times_values (256x2048x2048x387): 77.283
+Elapsed time for attention_dropout (4x64x2048x2048): 0.0045
+Elapsed time for attention_softmax (4x64x2048x2048): 0.0304
+(10639441920, 42481549312)
+Elapsed time for attention_linear_projection (4x24768x24768, b=2048): 0.0388
+Throughput (in TFLOP/s) for attention_linear_projection (4x24768x24768, b=2048): 259.160
+(10639441920, 42481549312)
+Elapsed time for mlp_h_to_4h (4x24768x99072, b=2048): 0.1569
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24768x99072, b=2048): 256.200
+Elapsed time for mlp_fused_gelu (2048x4x99072): 0.0027
+Elapsed time for mlp_4h_to_h (4x99072x24768, b=2048): 0.1679
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x99072x24768, b=2048): 239.468
+Elapsed time for transformer_add_bias_dropout (2048x4x24768): 0.0018
+Elapsed time for transformer_layer_norm (2048x4x24768): 0.0010
+
+Attention duration (in seconds): 0.2127
+Attention throughput (in TFLOP/s): 196.871
+MLP duration (in seconds): 0.3275
+MLP throughput (in TFLOP/s): 245.493
+Transformer duration (in seconds): 0.5459
+Transformer throughput (in TFLOP/s): 223.998
+Transformer - MLP - Attention (in seconds): 0.0057
+========================================================================================================================

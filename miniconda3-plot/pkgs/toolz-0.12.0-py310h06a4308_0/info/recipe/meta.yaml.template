@@ -1,0 +1,63 @@
+{% set name = "toolz" %}
+{% set version = "0.12.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/toolz-{{ version }}.tar.gz
+  sha256: 88c570861c440ee3f2f6037c4654613228ff40c93a6c25e0eba70d17282c6194
+
+build:
+  number: 0
+  skip: True  # [py<35]
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+    - wheel
+  run:
+    - python
+
+test:
+  imports:
+    - tlz
+    - toolz
+    - toolz.curried
+    - toolz.functoolz
+    - toolz.sandbox
+  requires:
+    - pip
+    - pytest
+  commands:
+    - pip check
+    - pytest --doctest-modules --pyargs toolz
+
+about:
+  home: https://toolz.readthedocs.io/
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  license_url: https://github.com/pytoolz/toolz/blob/master/LICENSE.txt
+  summary: List processing tools and functional utilities
+  description: |
+    Toolz provides a set of utility functions for iterators, functions, and
+    dictionaries. These functions interoperate well and form the building
+    blocks of common data analytic operations. They extend the standard
+    libraries itertools and functools and borrow heavily from the standard
+    libraries of contemporary functional languages.
+  doc_url: https://toolz.readthedocs.io/
+  doc_source_url: https://github.com/pytoolz/toolz/blob/master/doc/source/index.rst
+  dev_url: https://github.com/pytoolz/toolz
+
+extra:
+  recipe-maintainers:
+    - mrocklin
+    - eriknw
+    - jcrist
+    - jakirkham
+    - ocefpaf

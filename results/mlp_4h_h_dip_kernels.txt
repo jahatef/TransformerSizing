@@ -1,0 +1,73 @@
+4x81408x20352, B=2048: 249.04TF/s
+81664: ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+4x81664x20416, B=2048: 244.44TF/s
+81920: ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+4x81920x20480, B=2048: 248.42TF/s
+82176: ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+4x82176x20544, B=2048: 243.29TF/s
+82432: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x82432x20608, B=2048: 155.49TF/s
+82688: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x82688x20672, B=2048: 158.02TF/s
+82944: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x82944x20736, B=2048: 159.99TF/s
+83200: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x83200x20800, B=2048: 154.64TF/s
+83456: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x83456x20864, B=2048: 158.05TF/s
+83712: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x83712x20928, B=2048: 154.19TF/s
+83968: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x83968x20992, B=2048: 153.38TF/s
+84224: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x84224x21056, B=2048: 155.63TF/s
+84480: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x84480x21120, B=2048: 150.69TF/s
+84736: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x84736x21184, B=2048: 158.34TF/s
+84992: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x84992x21248, B=2048: 156.14TF/s
+85248: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x85248x21312, B=2048: 159.40TF/s
+85504: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x85504x21376, B=2048: 157.12TF/s
+85760: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x85760x21440, B=2048: 158.08TF/s
+86016: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x86016x21504, B=2048: 157.28TF/s
+86272: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x86272x21568, B=2048: 155.15TF/s
+86528: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x86528x21632, B=2048: 158.63TF/s
+86784: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x86784x21696, B=2048: 158.88TF/s
+87040: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x87040x21760, B=2048: 162.48TF/s
+87296: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x87296x21824, B=2048: 151.70TF/s
+87552: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x87552x21888, B=2048: 155.16TF/s
+87808: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x87808x21952, B=2048: 158.98TF/s
+88064: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x88064x22016, B=2048: 154.42TF/s
+88320: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x88320x22080, B=2048: 157.31TF/s
+88576: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x88576x22144, B=2048: 154.56TF/s
+88832: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x88832x22208, B=2048: 156.89TF/s
+89088: ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+4x89088x22272, B=2048: 158.43TF/s
+89344: ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+4x89344x22336, B=2048: 239.20TF/s
+89600: ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+4x89600x22400, B=2048: 239.46TF/s
+89856: ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+4x89856x22464, B=2048: 237.95TF/s
+4x82176x20544, B=2048: 13.99TF/s
+4x82432x20608, B=2048: 11.56TF/s
+4x82432x20608, B=2048: 0.59TF/s
+4x82176x20544, B=2048: 0.62TF/s
+4x82176x20544, B=2048: 0.62TF/s
+4x82432x20608, B=2048: 0.58TF/s

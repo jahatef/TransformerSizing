@@ -1,0 +1,90 @@
+# This file created by conda-build 3.22.0
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Thu Nov  3 08:27:50 2022
+# ------------------------------------------------
+
+package:
+  name: toolz
+  version: 0.12.0
+source:
+  sha256: 88c570861c440ee3f2f6037c4654613228ff40c93a6c25e0eba70d17282c6194
+  url: https://pypi.io/packages/source/t/toolz/toolz-0.12.0.tar.gz
+build:
+  number: '0'
+  script: /croot/toolz_1667464077321/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+    -m pip install . -vv
+  string: py310h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.10.11 h06a4308_0
+    - certifi 2022.9.24 py310h06a4308_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h5eee18b_3
+    - openssl 1.1.1q h7f8727e_0
+    - pip 22.2.2 py310h06a4308_0
+    - python 3.10.6 haa1d7c7_1
+    - readline 8.2 h5eee18b_0
+    - setuptools 65.5.0 py310h06a4308_0
+    - sqlite 3.39.3 h5082296_0
+    - tk 8.6.12 h1ccaba5_0
+    - tzdata 2022f h04d1e81_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.6 h5eee18b_0
+    - zlib 1.2.13 h5eee18b_0
+  run:
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - pip check
+    - pytest --doctest-modules --pyargs toolz
+  imports:
+    - tlz
+    - toolz
+    - toolz.curried
+    - toolz.functoolz
+    - toolz.sandbox
+  requires:
+    - pip
+    - pytest
+about:
+  description: 'Toolz provides a set of utility functions for iterators, functions,
+    and
+
+    dictionaries. These functions interoperate well and form the building
+
+    blocks of common data analytic operations. They extend the standard
+
+    libraries itertools and functools and borrow heavily from the standard
+
+    libraries of contemporary functional languages.
+
+    '
+  dev_url: https://github.com/pytoolz/toolz
+  doc_source_url: https://github.com/pytoolz/toolz/blob/master/doc/source/index.rst
+  doc_url: https://toolz.readthedocs.io/
+  home: https://toolz.readthedocs.io/
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  license_url: https://github.com/pytoolz/toolz/blob/master/LICENSE.txt
+  summary: List processing tools and functional utilities
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 89656a1d-f56d-4df7-beb0-c1a7c02e2aa7
+  recipe-maintainers:
+    - eriknw
+    - jakirkham
+    - jcrist
+    - mrocklin
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/toolz-feedstock.git
+  sha: be0168670c32d9b763a3f483300d942da68dc01a

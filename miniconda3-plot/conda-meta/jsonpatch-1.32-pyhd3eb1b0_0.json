@@ -1,0 +1,76 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "jsonpointer >=1.9",
+    "python"
+  ],
+  "extracted_package_dir": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/jsonpatch-1.32-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "bin/jsondiff",
+    "bin/jsonpatch",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/AUTHORS",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/COPYING",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/METADATA",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/RECORD",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/WHEEL",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/jsonpatch.py",
+    "lib/python3.10/site-packages/__pycache__/jsonpatch.cpython-310.pyc"
+  ],
+  "fn": "jsonpatch-1.32-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "933be63c7b1aba7b9990f42ada8bc833",
+  "legacy_bz2_size": 14805,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/jsonpatch-1.32-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "ce3c2233a0823c4c25aba6843b05d19d",
+  "name": "jsonpatch",
+  "noarch": "python",
+  "package_tarball_full_path": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/jsonpatch-1.32-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/jsondiff",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/jsonpatch_1615747632069/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "883d7139a73a32e004b43806f2153a2d53931581ac0f92d05bb0a7ee4bd83427",
+        "sha256_in_prefix": "aa5ed73f4ca6dc5267ae7e6079d17ceabd7874c7185b2e7d23a393894f2b017b",
+        "size_in_bytes": 1253
+      },
+      {
+        "_path": "python-scripts/jsonpatch",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/jsonpatch_1615747632069/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "dd7012b024151fb3546100934f0385892b5352bfc276e84b81180ad51c797f74",
+        "sha256_in_prefix": "82bcaa49393f648d2935317d2cdcfb92bd6165d273334c384e5924f70fe957cf",
+        "size_in_bytes": 4108
+      },
+      {
+        "_path": "lib/python3.10/site-packages/__pycache__/jsonpatch.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/noarch::jsonpatch==1.32=pyhd3eb1b0_0[md5=ce3c2233a0823c4c25aba6843b05d19d]",
+  "sha256": "dcd5fe09150f6e1b327369bc837df2159c32406981be9943b0cfcf8107203e66",
+  "size": 14901,
+  "subdir": "noarch",
+  "timestamp": 1615747661494,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/jsonpatch-1.32-pyhd3eb1b0_0.conda",
+  "version": "1.32"
+}

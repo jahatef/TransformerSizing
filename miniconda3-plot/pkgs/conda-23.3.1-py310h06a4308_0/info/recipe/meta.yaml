@@ -1,0 +1,149 @@
+# This file created by conda-build 3.24.0
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Thu Mar 30 14:54:57 2023
+# ------------------------------------------------
+
+package:
+  name: conda
+  version: 23.3.1
+source:
+  patches:
+    - patches/01-deprecations-version-fallback.patch
+  sha256: f0203ae42a8a360170e8aebd45e42b6c8bf283d44b9016ef4b30451c0b55c8dc
+  url: https://github.com/conda/conda/archive/23.3.1.tar.gz
+build:
+  always_include_files:
+    - bin/activate
+    - bin/conda
+    - bin/deactivate
+  number: '0'
+  string: py310h06a4308_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - c-ares 1.19.0 h5eee18b_0
+    - ca-certificates 2023.01.10 h06a4308_0
+    - curl 7.88.1 h5eee18b_0
+    - expat 2.4.9 h6a678d5_0
+    - gdbm 1.18 hd4cb3f1_4
+    - gettext 0.21.0 h39681ba_1
+    - git 2.34.1 pl5262hc120c5b_0
+    - icu 58.2 he6710b0_3
+    - krb5 1.19.4 h568e23c_0
+    - libcurl 7.88.1 h91b91d3_0
+    - libedit 3.1.20221030 h5eee18b_0
+    - libev 4.33 h7f8727e_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libnghttp2 1.46.0 hce63b2e_0
+    - libssh2 1.10.0 h8f2d780_0
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libxml2 2.10.3 hcbfbd50_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 1.1.1t h7f8727e_0
+    - pcre2 10.37 he7ceb23_1
+    - perl 5.34.0 h5eee18b_2
+    - readline 8.2 h5eee18b_0
+    - tk 8.6.12 h1ccaba5_0
+    - xz 5.2.10 h5eee18b_1
+    - zlib 1.2.13 h5eee18b_0
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - boltons 23.0.0 py310h06a4308_0
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2023.01.10 h06a4308_0
+    - certifi 2022.12.7 py310h06a4308_0
+    - cffi 1.15.1 py310h5eee18b_3
+    - conda-package-handling 2.0.2 py310h06a4308_0
+    - conda-package-streaming 0.7.0 py310h06a4308_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.4.2 h6a678d5_6
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 1.1.1t h7f8727e_0
+    - packaging 23.0 py310h06a4308_0
+    - pip 23.0.1 py310h06a4308_0
+    - pluggy 1.0.0 py310h06a4308_1
+    - pycparser 2.21 pyhd3eb1b0_0
+    - python 3.10.10 h7a1cb2a_2
+    - readline 8.2 h5eee18b_0
+    - ruamel.yaml 0.17.21 py310h5eee18b_0
+    - ruamel.yaml.clib 0.2.6 py310h5eee18b_1
+    - setuptools 65.6.3 py310h06a4308_0
+    - sqlite 3.41.1 h5eee18b_0
+    - tk 8.6.12 h1ccaba5_0
+    - toolz 0.12.0 py310h06a4308_0
+    - tqdm 4.65.0 py310h2f386ee_0
+    - tzdata 2022g h04d1e81_0
+    - wheel 0.38.4 py310h06a4308_0
+    - xz 5.2.10 h5eee18b_1
+    - zlib 1.2.13 h5eee18b_0
+    - zstandard 0.19.0 py310h5eee18b_0
+  run:
+    - boltons >=23.0.0
+    - conda-package-handling >=1.3.0
+    - jsonpatch >=1.32
+    - packaging
+    - pluggy >=1.0.0
+    - pycosat >=0.6.3
+    - pyopenssl >=16.2.0
+    - python >=3.10,<3.11.0a0
+    - requests >=2.20.1,<3
+    - ruamel.yaml >=0.11.14,<0.18
+    - setuptools >=31.0.1
+    - toolz >=0.8.1
+    - tqdm >=4
+  run_constrained:
+    - conda-build >=3.18.3
+    - conda-content-trust >=0.1.1
+    - conda-env >=2.6
+    - conda-libmamba-solver >=22.12.0
+    - cytoolz >=0.8.1
+test:
+  downstreams: null
+  imports:
+    - conda
+    - conda_env
+  requires: null
+about:
+  description: 'Conda is an open source package management system and environment
+    management system for installing multiple versions of software packages and their
+    dependencies and switching easily between them. It works on Linux, OS X and Windows,
+    and was created for Python programs but can package and distribute any software.
+
+    '
+  dev_url: https://github.com/conda/conda
+  doc_url: https://docs.conda.io/projects/conda/en/stable/
+  home: https://docs.conda.io
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: OS-agnostic, system-level binary package and environment manager.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 74dfae6d-a609-4cd7-b70c-0ee5684aaf89
+  recipe-maintainers:
+    - chenghlee
+    - jakirkham
+    - jezdez
+    - jjhelmus
+    - kalefranz
+    - kenodegard
+    - mbargull
+    - mcg1969
+    - msarahan
+    - mwcraig
+    - ocefpaf
+    - patricksnape
+    - pelson
+    - scopatz
+    - travishathaway
+  remote_url: git@github.com:AnacondaRecipes/conda-feedstock.git
+  sha: 5f3030eb353df2781bbe2e1abee86e8eaf90eaef

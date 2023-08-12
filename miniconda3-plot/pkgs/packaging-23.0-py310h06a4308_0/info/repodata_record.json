@@ -1,0 +1,24 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "packaging-23.0-py310h06a4308_0.conda",
+  "legacy_bz2_md5": "b63140e9c01861d01643acde9e2fd0f6",
+  "legacy_bz2_size": 65759,
+  "license": "Apache-2.0 or BSD-2-Clause",
+  "license_family": "Apache",
+  "md5": "adcfc4deb28a6dc4e467d86f8d80f68f",
+  "name": "packaging",
+  "sha256": "63c368d865f8b211c406f6682b8777b1de4ffea05c88c4b3c95ebc718a61f6f2",
+  "size": 69951,
+  "subdir": "linux-64",
+  "timestamp": 1678965365352,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/packaging-23.0-py310h06a4308_0.conda",
+  "version": "23.0"
+}

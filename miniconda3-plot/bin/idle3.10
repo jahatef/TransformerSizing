@@ -1,0 +1,5 @@
+#!/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/bin/python3.10
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

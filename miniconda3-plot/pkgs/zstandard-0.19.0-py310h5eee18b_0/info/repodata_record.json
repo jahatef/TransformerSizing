@@ -1,0 +1,26 @@
+{
+  "build": "py310h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.11",
+    "libgcc-ng >=11.2.0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "zstandard-0.19.0-py310h5eee18b_0.conda",
+  "legacy_bz2_md5": "43965738c2997758f1872ce22c1151e5",
+  "legacy_bz2_size": 683538,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "91ffd92050e57ada4c065435845010c2",
+  "name": "zstandard",
+  "sha256": "374349264aefbf50ce573ef171a083c371fabd635d1c2f9898ce2abfec737a6e",
+  "size": 485468,
+  "subdir": "linux-64",
+  "timestamp": 1677013424472,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/zstandard-0.19.0-py310h5eee18b_0.conda",
+  "version": "0.19.0"
+}

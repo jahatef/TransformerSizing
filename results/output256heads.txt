@@ -1,0 +1,16 @@
+[2023-06-12 21:10:37,550] [INFO] [comm.py:643:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-06-12 21:10:38,197] [INFO] [comm.py:697:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=26.0.130.134, master_port=6000
+[2023-06-12 21:10:38,197] [INFO] [comm.py:661:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-06-12 21:10:41,155] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+num_attention_heads: 256, hidden_size: 10240, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x10240x30720, b=2048): 0.0209
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x10240x30720, b=2048): 246.017
+Elapsed time for attention_key_query_prob (1024x2048x40x2048): 0.0085
+Throughput (in TFLOP/s) for attention_key_query_prob (1024x2048x40x2048): 40.484
+Elapsed time for attention_prob_times_values (1024x2048x2048x40): 0.0065
+Throughput (in TFLOP/s) for attention_prob_times_values (1024x2048x2048x40): 52.486
+Elapsed time for attention_dropout (4x256x2048x2048): 0.0181

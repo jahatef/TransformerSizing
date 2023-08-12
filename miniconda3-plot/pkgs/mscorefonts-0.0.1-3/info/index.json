@@ -1,0 +1,14 @@
+{
+  "arch": null,
+  "build": "3",
+  "build_number": 3,
+  "depends": [],
+  "license": "PROPRIETARY",
+  "license_family": "PROPRIETARY",
+  "name": "mscorefonts",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1565681283244,
+  "version": "0.0.1"
+}

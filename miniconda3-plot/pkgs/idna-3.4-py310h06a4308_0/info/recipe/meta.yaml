@@ -1,0 +1,77 @@
+# This file created by conda-build 3.22.0
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Tue Oct 18 20:39:32 2022
+# ------------------------------------------------
+
+package:
+  name: idna
+  version: '3.4'
+source:
+  sha256: 814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4
+  url: https://pypi.io/packages/source/i/idna/idna-3.4.tar.gz
+build:
+  number: '0'
+  script: /croot/idna_1666125576474/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+    -m pip install . -vvv
+  string: py310h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.07.19 h06a4308_0
+    - certifi 2022.9.24 py310h06a4308_0
+    - flit-core 3.6.0 pyhd3eb1b0_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h5eee18b_3
+    - openssl 1.1.1q h7f8727e_0
+    - pip 22.2.2 py310h06a4308_0
+    - python 3.10.6 haa1d7c7_0
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 63.4.1 py310h06a4308_0
+    - sqlite 3.39.3 h5082296_0
+    - tk 8.6.12 h1ccaba5_0
+    - tzdata 2022e h04d1e81_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.6 h5eee18b_0
+    - zlib 1.2.12 h5eee18b_3
+  run:
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - idna
+    - idna.codec
+    - idna.compat
+  requires:
+    - pip
+about:
+  description: 'A library to support the Internationalised Domain Names in Applications
+
+    (IDNA) protocol as specified in RFC 5891. This version of the protocol
+
+    is often referred to as "IDNA2008".
+
+    '
+  dev_url: https://github.com/kjd/idna
+  doc_url: https://github.com/kjd/idna/blob/master/README.rst
+  home: https://github.com/kjd/idna
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.md
+  summary: Internationalized Domain Names in Applications (IDNA).
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 85a617f2-137d-46c3-ad68-654bab2b9c5a
+  recipe-maintainers:
+    - goanpeca
+    - jschueller
+  remote_url: git@github.com:AnacondaRecipes/idna-feedstock.git
+  sha: e08109603646ed4a27e09a78107f0c8166543787

@@ -1,0 +1,60 @@
+# This file created by conda-build 3.21.8
+# ------------------------------------------------
+
+package:
+  name: ld_impl_linux-64
+  version: '2.38'
+source:
+  - folder: binutils
+    patches:
+      - patches/binutils/0000-sh-conf.patch
+      - patches/binutils/0001-check_ldrunpath_length.patch
+      - patches/binutils/0002-MinGW-w64-winpthreads-doesnt-have-pthread_mutexattr_settype.patch
+      - patches/binutils/0003-Dont-link-to-libfl-as-its-unnecessary.patch
+      - patches/binutils/0004-Darwin-gold-binary-cc-include-string-not-cstring.patch
+      - patches/binutils/0005-Darwin-Two-fixes-from-Android-NDK-PTHREAD_ONCE_INIT-wcsncasecmp.patch
+      - patches/binutils/0006-sysroot.patch
+      - patches/binutils/0007-poison-system-directories.patch
+      - patches/binutils/0008-binutils-2.38-vs.-ppc32-linux-kernel.patch
+      - patches/binutils/0009-fix-align-kernel.patch
+    sha256: e316477a914f567eccc34d5d29785b8b0f5a10208d36bbacedcc39048ecfe024
+    url: https://ftp.gnu.org/gnu/binutils/binutils-2.38.tar.xz
+build:
+  detect_binary_files_with_prefix: false
+  merge_build_host: false
+  missing_dso_whitelist:
+    - '*'
+  number: 1
+  string: h1181459_1
+requirements:
+  build: []
+  run: []
+  run_constrained:
+    - binutils_impl_linux-64 2.38
+test:
+  commands:
+    - x86_64-conda_cos7-linux-gnu-ld --help
+    - echo "conda"
+    - echo 7.5.0
+about:
+  home: https://www.gnu.org/software/binutils/
+  license: GPL-3.0-only
+  license_file:
+    - binutils/COPYING
+    - binutils/COPYING.LIB
+    - binutils/COPYING3
+    - binutils/COPYING3.LIB
+  summary: 'A set of programming tools for creating and managing binary programs,
+    object files,
+
+    libraries, profile data, and assembly source code.
+
+    '
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: dda14b6c-d304-49a5-85f8-a2f5186693ee
+  recipe-maintainers:
+    - katietz
+  remote_url: git@github.com:AnacondaRecipes/binutils-feedstock.git
+  sha: c7ab57d9063117180c82e9273018bf66280c2d39

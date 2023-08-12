@@ -1,0 +1,61 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/idna-3.4-py310h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/idna-3.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/idna-3.4.dist-info/LICENSE.md",
+    "lib/python3.10/site-packages/idna-3.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/idna-3.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/idna-3.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/idna-3.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/idna-3.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/idna/__init__.py",
+    "lib/python3.10/site-packages/idna/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/idna/__pycache__/codec.cpython-310.pyc",
+    "lib/python3.10/site-packages/idna/__pycache__/compat.cpython-310.pyc",
+    "lib/python3.10/site-packages/idna/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/idna/__pycache__/idnadata.cpython-310.pyc",
+    "lib/python3.10/site-packages/idna/__pycache__/intranges.cpython-310.pyc",
+    "lib/python3.10/site-packages/idna/__pycache__/package_data.cpython-310.pyc",
+    "lib/python3.10/site-packages/idna/__pycache__/uts46data.cpython-310.pyc",
+    "lib/python3.10/site-packages/idna/codec.py",
+    "lib/python3.10/site-packages/idna/compat.py",
+    "lib/python3.10/site-packages/idna/core.py",
+    "lib/python3.10/site-packages/idna/idnadata.py",
+    "lib/python3.10/site-packages/idna/intranges.py",
+    "lib/python3.10/site-packages/idna/package_data.py",
+    "lib/python3.10/site-packages/idna/py.typed",
+    "lib/python3.10/site-packages/idna/uts46data.py"
+  ],
+  "fn": "idna-3.4-py310h06a4308_0.conda",
+  "legacy_bz2_md5": "aaedbfe2ce4396b9ae3598d8b1abb21d",
+  "legacy_bz2_size": 115993,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/idna-3.4-py310h06a4308_0",
+    "type": 1
+  },
+  "md5": "7f4dba8f7c37983e0d56fad719c94ba3",
+  "name": "idna",
+  "package_tarball_full_path": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/idna-3.4-py310h06a4308_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::idna==3.4=py310h06a4308_0[md5=7f4dba8f7c37983e0d56fad719c94ba3]",
+  "sha256": "2f0a7c1c45943cbc02e987a9e682290b15a08a940ecdff9cd82e83e84919dcd3",
+  "size": 98832,
+  "subdir": "linux-64",
+  "timestamp": 1666125633476,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/idna-3.4-py310h06a4308_0.conda",
+  "version": "3.4"
+}

@@ -1,0 +1,14 @@
+{
+  "arch": null,
+  "build": "hab24e00_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "Ubuntu Font Licence Version 1.0",
+  "license_family": "Other",
+  "name": "font-ttf-ubuntu",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1566932680646,
+  "version": "0.83"
+}

@@ -1,0 +1,108 @@
+# This file created by conda-build 3.22.0
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Wed Jan  4 20:43:29 2023
+# ------------------------------------------------
+
+package:
+  name: conda-package-handling
+  version: 2.0.2
+source:
+  sha256: ec0a2c51f442d98b935ee2288beb1ec6c7e25020b5961f8d09f35738b276b532
+  url: https://github.com/conda/conda-package-handling/archive/2.0.2.tar.gz
+build:
+  entry_points:
+    - cph = conda_package_handling.cli:main
+  number: '0'
+  script: /croot/conda-package-handling_1672865015732/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+    -m pip install . --no-deps -vv
+  string: py310h06a4308_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.10.11 h06a4308_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.4.2 h6a678d5_6
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.3 h5eee18b_3
+    - openssl 1.1.1s h7f8727e_0
+    - python 3.10.8 h7a1cb2a_1
+    - readline 8.2 h5eee18b_0
+    - sqlite 3.40.0 h5082296_0
+    - tk 8.6.12 h1ccaba5_0
+    - tzdata 2022g h04d1e81_0
+    - xz 5.2.8 h5eee18b_0
+    - zlib 1.2.13 h5eee18b_0
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.10.11 h06a4308_0
+    - certifi 2022.12.7 py310h06a4308_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.4.2 h6a678d5_6
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.3 h5eee18b_3
+    - openssl 1.1.1s h7f8727e_0
+    - pip 22.3.1 py310h06a4308_0
+    - python 3.10.8 h7a1cb2a_1
+    - readline 8.2 h5eee18b_0
+    - setuptools 65.5.0 py310h06a4308_0
+    - sqlite 3.40.0 h5082296_0
+    - tk 8.6.12 h1ccaba5_0
+    - tzdata 2022g h04d1e81_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.8 h5eee18b_0
+    - zlib 1.2.13 h5eee18b_0
+  run:
+    - conda-package-streaming >=0.7.0
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - pip check
+    - pytest -v --cov=conda_package_handling --color=yes tests/
+  imports:
+    - conda_package_handling
+    - conda_package_handling.api
+  requires:
+    - mock
+    - pip
+    - pytest
+    - pytest-cov
+    - pytest-mock
+    - requests
+  source_files:
+    - tests
+about:
+  description: 'cph is an abstraction of conda package handling and a tool for extracting,
+    creating, and converting between formats.
+
+    '
+  dev_url: https://github.com/conda/conda-package-handling
+  doc_source_url: https://github.com/conda/conda-package-handling/tree/2.0.2/docs
+  doc_url: https://conda.github.io/conda-package-handling/
+  home: https://github.com/conda/conda-package-handling
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file:
+    - LICENSE
+  license_url: https://github.com/conda/conda-package-handling/blob/2.0.2/LICENSE
+  summary: Create and extract conda packages of various formats
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 76aec5f7-2c92-4fc2-bb66-2daa19679984
+  recipe-maintainers:
+    - beckermr
+    - dbast
+    - dholth
+    - jezdez
+  remote_url: git@github.com:AnacondaRecipes/conda-package-handling-feedstock.git
+  sha: 6ba36706a931d4d26e6e4c76759a38caef44d100

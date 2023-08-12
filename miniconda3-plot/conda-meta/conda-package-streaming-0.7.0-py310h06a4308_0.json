@@ -1,0 +1,61 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "zstandard >=0.15"
+  ],
+  "extracted_package_dir": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/conda-package-streaming-0.7.0-py310h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/conda_package_streaming-0.7.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/conda_package_streaming-0.7.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/conda_package_streaming-0.7.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/conda_package_streaming-0.7.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/conda_package_streaming-0.7.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/conda_package_streaming-0.7.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/conda_package_streaming-0.7.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/conda_package_streaming/__init__.py",
+    "lib/python3.10/site-packages/conda_package_streaming/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_streaming/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_streaming/__pycache__/extract.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_streaming/__pycache__/lazy_wheel.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_streaming/__pycache__/package_streaming.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_streaming/__pycache__/s3.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_streaming/__pycache__/transmute.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_streaming/__pycache__/url.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_streaming/exceptions.py",
+    "lib/python3.10/site-packages/conda_package_streaming/extract.py",
+    "lib/python3.10/site-packages/conda_package_streaming/lazy_wheel.py",
+    "lib/python3.10/site-packages/conda_package_streaming/package_streaming.py",
+    "lib/python3.10/site-packages/conda_package_streaming/s3.py",
+    "lib/python3.10/site-packages/conda_package_streaming/transmute.py",
+    "lib/python3.10/site-packages/conda_package_streaming/url.py"
+  ],
+  "fn": "conda-package-streaming-0.7.0-py310h06a4308_0.conda",
+  "legacy_bz2_md5": "bc0592f05898a182817cbb64b8fa48e2",
+  "legacy_bz2_size": 25561,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/conda-package-streaming-0.7.0-py310h06a4308_0",
+    "type": 1
+  },
+  "md5": "323eb92af9fe159497108382a2aa3c7d",
+  "name": "conda-package-streaming",
+  "package_tarball_full_path": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/conda-package-streaming-0.7.0-py310h06a4308_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::conda-package-streaming==0.7.0=py310h06a4308_0[md5=323eb92af9fe159497108382a2aa3c7d]",
+  "sha256": "4470d0094a7ddc7aa7986277b66e17936db23c743c6c294e3af615c35779b0fe",
+  "size": 27205,
+  "subdir": "linux-64",
+  "timestamp": 1670508260420,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/conda-package-streaming-0.7.0-py310h06a4308_0.conda",
+  "version": "0.7.0"
+}

@@ -1,0 +1,81 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "conda-package-streaming >=0.7.0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/conda-package-handling-2.0.2-py310h06a4308_0",
+  "features": "",
+  "files": [
+    "bin/cph",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/AUTHORS.md",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/LICENSE",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/conda_package_handling/__init__.py",
+    "lib/python3.10/site-packages/conda_package_handling/__main__.py",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/cli.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/conda_fmt.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/streaming.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/tarball.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/validate.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/api.py",
+    "lib/python3.10/site-packages/conda_package_handling/cli.py",
+    "lib/python3.10/site-packages/conda_package_handling/conda_fmt.py",
+    "lib/python3.10/site-packages/conda_package_handling/exceptions.py",
+    "lib/python3.10/site-packages/conda_package_handling/interface.py",
+    "lib/python3.10/site-packages/conda_package_handling/streaming.py",
+    "lib/python3.10/site-packages/conda_package_handling/tarball.py",
+    "lib/python3.10/site-packages/conda_package_handling/utils.py",
+    "lib/python3.10/site-packages/conda_package_handling/validate.py"
+  ],
+  "fn": "conda-package-handling-2.0.2-py310h06a4308_0.conda",
+  "legacy_bz2_md5": "f7afb43d006cbd32033c1c5ef8405442",
+  "legacy_bz2_size": 275108,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/conda-package-handling-2.0.2-py310h06a4308_0",
+    "type": 1
+  },
+  "md5": "64566e4e128101c78fb70c70c750b504",
+  "name": "conda-package-handling",
+  "package_tarball_full_path": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/conda-package-handling-2.0.2-py310h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/cph",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/conda-package-handling_1672865015732/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "6b5b515be19281963aaa37cf49e5bdcf2e2cf33ff0c96c5afc1633be2f392c77",
+        "sha256_in_prefix": "b8bcf7fe60ee1026e8c6bbb489ca7cb7361073c3439cad443eb3fe95ecb01797",
+        "size_in_bytes": 479
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::conda-package-handling==2.0.2=py310h06a4308_0[md5=64566e4e128101c78fb70c70c750b504]",
+  "sha256": "c85b6437d2ee3562bfca72a94e2ebfe93d23e540ba36b7ae8dc1568c7bf74a31",
+  "size": 273679,
+  "subdir": "linux-64",
+  "timestamp": 1672865052883,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/conda-package-handling-2.0.2-py310h06a4308_0.conda",
+  "version": "2.0.2"
+}

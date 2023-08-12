@@ -1,0 +1,72 @@
+{% set name = "mscorefonts" %}
+{% set version = "0.0.1" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/pushcx/corefonts/archive/master.zip
+  sha256: 7d3c7abe6c6f21e1a48fa1cafccb1005dcfcff9ad2f135ae219854ace6be42d0
+
+build:
+  number: 3
+  noarch: generic
+
+requirements:
+  build:
+    - cabextract
+
+test:
+  commands:
+    - test -f $PREFIX/fonts/andalemo.ttf  # [unix]
+    - test -f $PREFIX/fonts/ariali.ttf  # [unix]
+    - test -f $PREFIX/fonts/cour.ttf  # [unix]
+    - test -f $PREFIX/fonts/georgia.ttf  # [unix]
+    - test -f $PREFIX/fonts/impact.ttf  # [unix]
+    - test -f $PREFIX/fonts/timesi.ttf  # [unix]
+    - test -f $PREFIX/fonts/trebucit.ttf  # [unix]
+    - test -f $PREFIX/fonts/verdanaz.ttf  # [unix]
+    - test -f $PREFIX/fonts/arial.ttf  # [unix]
+    - test -f $PREFIX/fonts/ariblk.ttf  # [unix]
+    - test -f $PREFIX/fonts/courbd.ttf  # [unix]
+    - test -f $PREFIX/fonts/georgiab.ttf  # [unix]
+    - test -f $PREFIX/fonts/times.ttf  # [unix]
+    - test -f $PREFIX/fonts/trebuc.ttf  # [unix]
+    - test -f $PREFIX/fonts/verdana.ttf  # [unix]
+    - test -f $PREFIX/fonts/webdings.ttf  # [unix]
+    - test -f $PREFIX/fonts/arialbd.ttf  # [unix]
+    - test -f $PREFIX/fonts/comic.ttf  # [unix]
+    - test -f $PREFIX/fonts/courbi.ttf  # [unix]
+    - test -f $PREFIX/fonts/georgiai.ttf  # [unix]
+    - test -f $PREFIX/fonts/timesbd.ttf  # [unix]
+    - test -f $PREFIX/fonts/trebucbd.ttf  # [unix]
+    - test -f $PREFIX/fonts/verdanab.ttf  # [unix]
+    - test -f $PREFIX/fonts/arialbi.ttf  # [unix]
+    - test -f $PREFIX/fonts/comicbd.ttf  # [unix]
+    - test -f $PREFIX/fonts/couri.ttf  # [unix]
+    - test -f $PREFIX/fonts/georgiaz.ttf  # [unix]
+    - test -f $PREFIX/fonts/timesbi.ttf  # [unix]
+    - test -f $PREFIX/fonts/trebucbi.ttf  # [unix]
+    - test -f $PREFIX/fonts/verdanai.ttf  # [unix]
+
+about:
+  home: https://sourceforge.net/projects/mscorefonts
+  license: PROPRIETARY
+  license_family: PROPRIETARY
+  license_file: LICENSE
+  summary: 'Microsofts Core fonts for the Web'
+
+  description: |
+    In 1996 Microsoft started a font project named Core fonts 
+    for the Web. It was a freeware font project including fonts 
+    Andale Mono, Arial, Arial Black, Comic Sans MS, Courier New, 
+    Georgia, Impact, Times New Roman, Trebuchet MS, Verdana and 
+    Webdings.
+
+  doc_url: https://sourceforge.net/projects/mscorefonts/
+  dev_url: https://sourceforge.net/projects/mscorefonts/
+
+extra:
+  recipe-maintainers:
+    - jan-janssen

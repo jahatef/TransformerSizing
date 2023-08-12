@@ -1,0 +1,185 @@
+{
+  "paths": [
+    {
+      "_path": "fonts/andalemo.ttf",
+      "path_type": "hardlink",
+      "sha256": "48d9bc613917709d3b0e0f4a6d4fe33a5c544c5035dffe9e90bc11e50e822071",
+      "size_in_bytes": 105468
+    },
+    {
+      "_path": "fonts/arial.ttf",
+      "path_type": "hardlink",
+      "sha256": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833",
+      "size_in_bytes": 275572
+    },
+    {
+      "_path": "fonts/arialbd.ttf",
+      "path_type": "hardlink",
+      "sha256": "4044aa6b5bebbc36980206b45b0aaaaa5681552a48bcadb41746d5d1d71fd7b4",
+      "size_in_bytes": 286620
+    },
+    {
+      "_path": "fonts/arialbi.ttf",
+      "path_type": "hardlink",
+      "sha256": "2f371cd9d96b3ac544519d85c16dc43ceacdfcea35090ee8ddf3ec5857c50328",
+      "size_in_bytes": 224692
+    },
+    {
+      "_path": "fonts/ariali.ttf",
+      "path_type": "hardlink",
+      "sha256": "70ade233175a6a6675e4501461af9326e6f78b1ffdf787ca0da5ab0fc8c9cfd6",
+      "size_in_bytes": 206132
+    },
+    {
+      "_path": "fonts/ariblk.ttf",
+      "path_type": "hardlink",
+      "sha256": "dad7c04acb26e23dfe4780e79375ca193ddaf68409317e81577a30674668830e",
+      "size_in_bytes": 117028
+    },
+    {
+      "_path": "fonts/comic.ttf",
+      "path_type": "hardlink",
+      "sha256": "b82c53776058f291382ff7e008d4675839d2dc21eb295c66391f6fb0655d8fc0",
+      "size_in_bytes": 126364
+    },
+    {
+      "_path": "fonts/comicbd.ttf",
+      "path_type": "hardlink",
+      "sha256": "873361465d994994762d0b9845c99fc7baa2a600442ea8db713a7dd19f8b0172",
+      "size_in_bytes": 111476
+    },
+    {
+      "_path": "fonts/cour.ttf",
+      "path_type": "hardlink",
+      "sha256": "6715838c52f813f3821549d3f645db9a768bd6f3a43d8f85a89cb6875a546c61",
+      "size_in_bytes": 302688
+    },
+    {
+      "_path": "fonts/courbd.ttf",
+      "path_type": "hardlink",
+      "sha256": "edf8a7c5bfcac2e1fe507faab417137cbddc9071637ef4648238d0768c921e02",
+      "size_in_bytes": 311508
+    },
+    {
+      "_path": "fonts/courbi.ttf",
+      "path_type": "hardlink",
+      "sha256": "66dbfa20b534fba0e203da140fec7276a45a1069e424b1b9c35547538128bbe8",
+      "size_in_bytes": 234788
+    },
+    {
+      "_path": "fonts/couri.ttf",
+      "path_type": "hardlink",
+      "sha256": "f3f6b09855b6700977e214aab5eb9e5be6813976a24f894bd7766e92c732fbe1",
+      "size_in_bytes": 244156
+    },
+    {
+      "_path": "fonts/georgia.ttf",
+      "path_type": "hardlink",
+      "sha256": "7d0bb20c632bb59e81a0885f573bd2173f71f73204de9058feb68ce032227072",
+      "size_in_bytes": 142964
+    },
+    {
+      "_path": "fonts/georgiab.ttf",
+      "path_type": "hardlink",
+      "sha256": "82d2fbadb88a8632d7f2e8ad50420c9fd2e7d3cbc0e90b04890213a711b34b93",
+      "size_in_bytes": 139584
+    },
+    {
+      "_path": "fonts/georgiai.ttf",
+      "path_type": "hardlink",
+      "sha256": "1523f19bda6acca42c47c50da719a12dd34f85cc2606e6a5af15a7728b377b60",
+      "size_in_bytes": 156668
+    },
+    {
+      "_path": "fonts/georgiaz.ttf",
+      "path_type": "hardlink",
+      "sha256": "c983e037d8e4e694dd0fb0ba2e625bca317d67a41da2dc81e46a374e53d0ec8a",
+      "size_in_bytes": 158796
+    },
+    {
+      "_path": "fonts/impact.ttf",
+      "path_type": "hardlink",
+      "sha256": "00f1fc230ac99f9b97ba1a7c214eb5b909a78660cb3826fca7d64c3af5a14848",
+      "size_in_bytes": 136076
+    },
+    {
+      "_path": "fonts/times.ttf",
+      "path_type": "hardlink",
+      "sha256": "4e98adeff8ccc8ef4e3ece8d4547e288ff85fdc9c7ca711a4599c234874bbe86",
+      "size_in_bytes": 330412
+    },
+    {
+      "_path": "fonts/timesbd.ttf",
+      "path_type": "hardlink",
+      "sha256": "4357b63cef20c01661a53c5dae70ffd20cb4765503aaed6d38b17a57c5a90bff",
+      "size_in_bytes": 333900
+    },
+    {
+      "_path": "fonts/timesbi.ttf",
+      "path_type": "hardlink",
+      "sha256": "192e1b0d18e90334e999a99f8c32808d6a2e74b3698b8cd90c943c2249a46549",
+      "size_in_bytes": 238612
+    },
+    {
+      "_path": "fonts/timesi.ttf",
+      "path_type": "hardlink",
+      "sha256": "c25ae529b4cecdbca148b6ccb862ee0abad770af8b1fd29c8dba619d1b8da78a",
+      "size_in_bytes": 247092
+    },
+    {
+      "_path": "fonts/trebuc.ttf",
+      "path_type": "hardlink",
+      "sha256": "ec3ffb302488251e1b67fb09dd578b364c5339e27c1cfb26eb627666236453d0",
+      "size_in_bytes": 126796
+    },
+    {
+      "_path": "fonts/trebucbd.ttf",
+      "path_type": "hardlink",
+      "sha256": "f65941f9487c0a0a3b7445996ecbbd24466d7ae76ea2a597ced55f438fa63838",
+      "size_in_bytes": 123828
+    },
+    {
+      "_path": "fonts/trebucbi.ttf",
+      "path_type": "hardlink",
+      "sha256": "c0a6bdf31f9f2953b2f08a0c1734c892bc825f0fb17c604d420f7acf203a213b",
+      "size_in_bytes": 131188
+    },
+    {
+      "_path": "fonts/trebucit.ttf",
+      "path_type": "hardlink",
+      "sha256": "db56fdac7d3ba20b7aededcb6ee86c46687489d17b759e1708ea4e2d21e38410",
+      "size_in_bytes": 139288
+    },
+    {
+      "_path": "fonts/verdana.ttf",
+      "path_type": "hardlink",
+      "sha256": "96ed14949ca4b7392cff235b9c41d55c125382abbe0c0d3c2b9dd66897cae0cb",
+      "size_in_bytes": 139640
+    },
+    {
+      "_path": "fonts/verdanab.ttf",
+      "path_type": "hardlink",
+      "sha256": "c8f5065ba91680f596af3b0378e2c3e713b95a523be3d56ae185ca2b8f5f0b23",
+      "size_in_bytes": 136032
+    },
+    {
+      "_path": "fonts/verdanai.ttf",
+      "path_type": "hardlink",
+      "sha256": "91b59186656f52972531a11433c866fd56e62ec4e61e2621a2dba70c8f19a828",
+      "size_in_bytes": 154264
+    },
+    {
+      "_path": "fonts/verdanaz.ttf",
+      "path_type": "hardlink",
+      "sha256": "698e220f48f4a40e77af7eb34958c8fd02f1e18c3ba3f365d93bfa2ed4474c80",
+      "size_in_bytes": 153324
+    },
+    {
+      "_path": "fonts/webdings.ttf",
+      "path_type": "hardlink",
+      "sha256": "10d099c88521b1b9e380b7690cbe47b54bb19396ca515358cfdc15ac249e2f5d",
+      "size_in_bytes": 118752
+    }
+  ],
+  "paths_version": 1
+}

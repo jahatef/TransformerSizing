@@ -1,0 +1,59 @@
+{
+  "build": "py310h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/pluggy-1.0.0-py310h06a4308_1",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pluggy/__init__.py",
+    "lib/python3.10/site-packages/pluggy/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_callers.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_manager.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_result.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_tracing.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/_callers.py",
+    "lib/python3.10/site-packages/pluggy/_hooks.py",
+    "lib/python3.10/site-packages/pluggy/_manager.py",
+    "lib/python3.10/site-packages/pluggy/_result.py",
+    "lib/python3.10/site-packages/pluggy/_tracing.py",
+    "lib/python3.10/site-packages/pluggy/_version.py"
+  ],
+  "fn": "pluggy-1.0.0-py310h06a4308_1.conda",
+  "legacy_bz2_md5": "62c36b23393fb4da3abe0ecde5aa631a",
+  "legacy_bz2_size": 28944,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/pluggy-1.0.0-py310h06a4308_1",
+    "type": 1
+  },
+  "md5": "2b96380162a84640a34ede74691658db",
+  "name": "pluggy",
+  "package_tarball_full_path": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/pluggy-1.0.0-py310h06a4308_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::pluggy==1.0.0=py310h06a4308_1[md5=2b96380162a84640a34ede74691658db]",
+  "sha256": "353c9b72a6dfea69ac868916bdaa361bc423f29eb74027bf582976ef39ec4168",
+  "size": 29216,
+  "subdir": "linux-64",
+  "timestamp": 1648024755502,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pluggy-1.0.0-py310h06a4308_1.conda",
+  "version": "1.0.0"
+}

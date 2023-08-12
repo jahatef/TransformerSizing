@@ -1,0 +1,54 @@
+{
+  "build": "h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/zlib-1.2.13-h5eee18b_0",
+  "features": "",
+  "files": [
+    "include/zconf.h",
+    "include/zlib.h",
+    "lib/libz.a",
+    "lib/libz.so",
+    "lib/libz.so.1",
+    "lib/libz.so.1.2.13",
+    "lib/pkgconfig/zlib.pc"
+  ],
+  "fn": "zlib-1.2.13-h5eee18b_0.conda",
+  "legacy_bz2_md5": "4f315d7551f4bbeb06b6fc28342a9aa5",
+  "legacy_bz2_size": 127528,
+  "license": "Zlib",
+  "license_family": "Other",
+  "link": {
+    "source": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/zlib-1.2.13-h5eee18b_0",
+    "type": 1
+  },
+  "md5": "333e31fbfbb5057c92fa845ad6adef93",
+  "name": "zlib",
+  "package_tarball_full_path": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/zlib-1.2.13-h5eee18b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/zlib.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/zlib_1666594980945/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "11202b5c550c2d9b391a82e4c02e1f4a5647684b657d35d0422a179a668f1cce",
+        "sha256_in_prefix": "8b12eca47e2df3076c5af714568204b722ade01940bee64146ff8a23334ccf4b",
+        "size_in_bytes": 1487
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::zlib==1.2.13=h5eee18b_0[md5=333e31fbfbb5057c92fa845ad6adef93]",
+  "sha256": "4b69b6752e384459b1fc47dfc078598d5b687b3ccffe21591676b640481fb794",
+  "size": 105851,
+  "subdir": "linux-64",
+  "timestamp": 1666595012798,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/zlib-1.2.13-h5eee18b_0.conda",
+  "version": "1.2.13"
+}

@@ -1,0 +1,26 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "setuptools",
+    "wheel"
+  ],
+  "features": "",
+  "fn": "pip-23.0.1-py310h06a4308_0.conda",
+  "legacy_bz2_md5": "95e9e68787b0389b3d57a48fe8de068c",
+  "legacy_bz2_size": 2676291,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "f8f27960f21f51c3945fae93e2993e85",
+  "name": "pip",
+  "sha256": "603d93a0439af820fd2066013d0eafad63661683084805a4a5fd16317025f744",
+  "size": 2721809,
+  "subdir": "linux-64",
+  "timestamp": 1678181441092,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pip-23.0.1-py310h06a4308_0.conda",
+  "version": "23.0.1"
+}

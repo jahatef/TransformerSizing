@@ -1,0 +1,28 @@
+{
+  "build": "py310h2f386ee_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [
+    "ipywidgets >=6",
+    "requests",
+    "slack-sdk"
+  ],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "tqdm-4.65.0-py310h2f386ee_0.conda",
+  "legacy_bz2_md5": "8db7239ae56fe0026c80a98aea04691b",
+  "legacy_bz2_size": 124632,
+  "license": "MPL-2.0 AND MIT",
+  "license_family": "MOZILLA",
+  "md5": "37f2f147d26d1cc490adf72eea75f7f9",
+  "name": "tqdm",
+  "sha256": "24937a81e11bfab0840924844ebbaa08398c11572586b20ba138237f0998d8e8",
+  "size": 135186,
+  "subdir": "linux-64",
+  "timestamp": 1679561970726,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/tqdm-4.65.0-py310h2f386ee_0.conda",
+  "version": "4.65.0"
+}

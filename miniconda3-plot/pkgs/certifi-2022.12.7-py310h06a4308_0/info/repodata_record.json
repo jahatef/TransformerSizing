@@ -1,0 +1,24 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "certifi-2022.12.7-py310h06a4308_0.conda",
+  "legacy_bz2_md5": "d760ff6d9330e2b2097f018d40dce0a2",
+  "legacy_bz2_size": 155112,
+  "license": "MPL-2.0",
+  "license_family": "Other",
+  "md5": "1f28faeb97a361c9998090edc4e7d729",
+  "name": "certifi",
+  "sha256": "db512b2e63178e6244e889a17553f2bd7fb60c7caed9fb7997e938bb2d9feef5",
+  "size": 153593,
+  "subdir": "linux-64",
+  "timestamp": 1671487846135,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/certifi-2022.12.7-py310h06a4308_0.conda",
+  "version": "2022.12.7"
+}

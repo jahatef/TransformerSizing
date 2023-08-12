@@ -1,0 +1,72 @@
+# This file created by conda-build 3.22.0
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Tue Mar  7 09:28:49 2023
+# ------------------------------------------------
+
+package:
+  name: pip
+  version: 23.0.1
+source:
+  sha256: cd015ea1bfb0fcef59d8a286c1f8bebcb983f6317719d415dc5351efb7cd7024
+  url: https://pypi.io/packages/source/p/pip/pip-23.0.1.tar.gz
+build:
+  disable_pip: true
+  entry_points:
+    - pip = pip._internal.cli.main:main
+    - pip3 = pip._internal.cli.main:main
+  number: '0'
+  string: py310h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2023.01.10 h06a4308_0
+    - certifi 2022.12.7 py310h06a4308_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.4.2 h6a678d5_6
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 1.1.1t h7f8727e_0
+    - python 3.10.9 h7a1cb2a_1
+    - readline 8.2 h5eee18b_0
+    - setuptools 65.6.3 py310h06a4308_0
+    - sqlite 3.40.1 h5082296_0
+    - tk 8.6.12 h1ccaba5_0
+    - tzdata 2022g h04d1e81_0
+    - wheel 0.38.4 py310h06a4308_0
+    - xz 5.2.10 h5eee18b_1
+    - zlib 1.2.13 h5eee18b_0
+  run:
+    - python >=3.10,<3.11.0a0
+    - setuptools
+    - wheel
+test:
+  commands:
+    - pip -h
+    - pip list
+  imports:
+    - pip
+about:
+  dev_url: https://github.com/pypa/pip
+  doc_url: https://pip.pypa.io/en/stable/
+  home: https://pip.pypa.io/en/stable/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: PyPA recommended tool for installing Python packages
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: cc6fa95a-173a-4cb3-91c4-24ba6b51a326
+  recipe-maintainers:
+    - jakirkham
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/pip-feedstock.git
+  sha: 6552ed008e00cec1105d280c8cb80c94aa12375b

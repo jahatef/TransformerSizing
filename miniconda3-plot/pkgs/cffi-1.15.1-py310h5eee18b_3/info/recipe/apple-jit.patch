@@ -1,0 +1,13 @@
+Index: cffi-1.15.1/c/_cffi_backend.c
+===================================================================
+--- cffi-1.15.1.orig/c/_cffi_backend.c
++++ cffi-1.15.1/c/_cffi_backend.c
+@@ -87,7 +87,7 @@
+  * This is also used on macOS, provided we are executing on macOS 10.15 or
+  * above.  It's a mess because it needs runtime checks in that case.
+  */
+-#ifdef __NetBSD__
++#if defined(__NetBSD__) || (defined(__APPLE__) && !defined(FFI_AVAILABLE_APPLE))
+ 
+ # define CFFI_CHECK_FFI_CLOSURE_ALLOC 1
+ # define CFFI_CHECK_FFI_CLOSURE_ALLOC_MAYBE 1

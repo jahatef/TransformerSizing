@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "py310h2f386ee_0",
+  "build_number": 0,
+  "constrains": [
+    "ipywidgets >=6",
+    "requests",
+    "slack-sdk"
+  ],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "license": "MPL-2.0 AND MIT",
+  "license_family": "MOZILLA",
+  "name": "tqdm",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1679561970726,
+  "version": "4.65.0"
+}

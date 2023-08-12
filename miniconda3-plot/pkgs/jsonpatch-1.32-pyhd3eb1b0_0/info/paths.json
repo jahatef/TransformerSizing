@@ -1,0 +1,81 @@
+{
+  "paths": [
+    {
+      "_path": "python-scripts/jsondiff",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/tmp/build/80754af9/jsonpatch_1615747632069/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "883d7139a73a32e004b43806f2153a2d53931581ac0f92d05bb0a7ee4bd83427",
+      "size_in_bytes": 1253
+    },
+    {
+      "_path": "python-scripts/jsonpatch",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/tmp/build/80754af9/jsonpatch_1615747632069/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "dd7012b024151fb3546100934f0385892b5352bfc276e84b81180ad51c797f74",
+      "size_in_bytes": 4108
+    },
+    {
+      "_path": "site-packages/jsonpatch-1.32.dist-info/AUTHORS",
+      "path_type": "hardlink",
+      "sha256": "84eb449c119b7c37a02a3ccc0c4979bee549c9ccdb2363e5604da1a382e318d4",
+      "size_in_bytes": 140
+    },
+    {
+      "_path": "site-packages/jsonpatch-1.32.dist-info/COPYING",
+      "path_type": "hardlink",
+      "sha256": "d8b24f15d472885f788a2d6e985850f264627b86012a17bb242c83f310d907e5",
+      "size_in_bytes": 1413
+    },
+    {
+      "_path": "site-packages/jsonpatch-1.32.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/jsonpatch-1.32.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "51e20a7622e5efef19f671616bc94be2ca0ba8951a6eaa78f9dee8dda5180144",
+      "size_in_bytes": 3018
+    },
+    {
+      "_path": "site-packages/jsonpatch-1.32.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "27e80a744fe820acc9675643c8644eb51eee23d1413f98fe3dea61a0e844472e",
+      "size_in_bytes": 1029
+    },
+    {
+      "_path": "site-packages/jsonpatch-1.32.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/jsonpatch-1.32.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/jsonpatch-1.32.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "2d825802f2be8f7940f45b47037414065f9d539f7e079b552b89d3765d5d239b",
+      "size_in_bytes": 82
+    },
+    {
+      "_path": "site-packages/jsonpatch-1.32.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "cdcbe223b321e00bef3c1a6029907311d81b561fdec2c7ef4b6b77fb072c9cde",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "site-packages/jsonpatch.py",
+      "path_type": "hardlink",
+      "sha256": "046483ef62370cead667463a12aa32a6ca3b1d8675a626f0d0e3c4ba4facce1e",
+      "size_in_bytes": 28813
+    }
+  ],
+  "paths_version": 1
+}

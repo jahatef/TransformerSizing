@@ -1,0 +1,69 @@
+{% set name = "requests" %}
+{% set version = "2.28.1" %}
+{% set hash = "7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983" %}
+{% set build_number = "1" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/requests-{{ version }}.tar.gz
+  sha256: {{ hash }}
+
+build:
+  number: {{ build_number }}
+  script: {{ PYTHON }} -m pip install . -vv
+  skip: True  # [py<37]
+
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+    - wheel
+  run:
+    - python
+    - certifi >=2017.4.17
+    - charset-normalizer >=2,<3
+    - idna >=2.5,<4
+    - urllib3 >=1.21.1,<1.27
+  # https://github.com/psf/requests/blob/da9996fe4dc63356e9467d0a5e10df3d89a8528e/requests/__init__.py#L103-L115
+  run_constrained:
+    - chardet >=3.0.2,<6
+
+test:
+  requires:
+    - pip
+    - conda
+  commands:
+    - pip check
+    # to make sure this doesn't break conda at the very least
+    - conda create -v --dry-run -n requests-test numpy
+  imports:
+    - requests
+
+about:
+  home: https://requests.readthedocs.io/en/latest/
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: Requests is an elegant and simple HTTP library for Python, built with ♥.
+  description: |
+    Requests is the only Non-GMO HTTP library for Python, safe for human
+    consumption.
+  doc_url: https://requests.readthedocs.io/en/latest/
+  dev_url: https://github.com/psf/requests
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - kalefranz
+    - mcg1969
+    - mingwandroid
+    - msarahan
+    - pelson
+    - sigmavirus24
+    - ocefpaf
+    - carlodri

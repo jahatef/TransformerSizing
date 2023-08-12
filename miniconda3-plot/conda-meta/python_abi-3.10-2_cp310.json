@@ -1,0 +1,36 @@
+{
+  "build": "2_cp310",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "pypy <0a0"
+  ],
+  "depends": [
+    "python 3.10.*"
+  ],
+  "extracted_package_dir": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/python_abi-3.10-2_cp310",
+  "features": "",
+  "files": [],
+  "fn": "python_abi-3.10-2_cp310.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/python_abi-3.10-2_cp310",
+    "type": 1
+  },
+  "md5": "9e7160cd0d865e98f6803f1fe15c8b61",
+  "name": "python_abi",
+  "package_tarball_full_path": "/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts/miniconda3-plot/pkgs/python_abi-3.10-2_cp310.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e7e52aaec7cba6e17e45d731f9d38ede007aea0d72aee66670ab71016f5783ed",
+  "size": 4060,
+  "subdir": "linux-64",
+  "timestamp": 1633503868881,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python_abi-3.10-2_cp310.tar.bz2",
+  "version": "3.10"
+}

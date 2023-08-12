@@ -1,0 +1,10 @@
+{
+  "ctng_target_platform": "linux-64",
+  "channel_targets": "defaults",
+  "c_compiler_version": "7.5.0",
+  "target_platform": "linux-64",
+  "c_compiler": "gcc",
+  "ctng_triplet_old": "x86_64-conda_cos7-linux-gnu",
+  "ctng_vendor": "conda",
+  "ctng_triplet": "x86_64-conda-linux-gnu"
+}

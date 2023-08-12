@@ -11,7 +11,7 @@ m = 4
 k = (h*4)
 n = int(h)
 b=2048
-file = "cutlassBmmBenchMultipleTiles.txt"
+file = "results/cutlassBmmBenchMultipleTiles.txt"
 def test_torch_against_cutlass(M,K,N,b):
     cutlass_sizes = [(b, M, K), (b, K, N), (b, M, N), (b, M, N)]
     A, B, C, D = [torch.randint(-3,3,size,device='cuda').to(dtype) for size in cutlass_sizes]

@@ -1,0 +1,22 @@
+{
+  "build": "hab24e00_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "font-ttf-ubuntu-0.83-hab24e00_0.tar.bz2",
+  "license": "Ubuntu Font Licence Version 1.0",
+  "license_family": "Other",
+  "md5": "19410c3df09dfb12d1206132a1d357c5",
+  "name": "font-ttf-ubuntu",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "sha256": "470d5db54102bd51dbb0c5990324a2f4a0bc976faa493b22193338adb9882e2e",
+  "size": 1961279,
+  "subdir": "noarch",
+  "timestamp": 1566932680646,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/font-ttf-ubuntu-0.83-hab24e00_0.tar.bz2",
+  "version": "0.83"
+}

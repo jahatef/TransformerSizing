@@ -1,0 +1,1 @@
+{"constructor": "3.4.3", "conda": "22.11.1", "platform": "linux", "python": "3.10.8 (main, Nov 24 2022, 14:13:03) [GCC 11.2.0]", "python_version": [3, 10, 8, "final", 0], "machine": "x86_64", "platform_full": "#42-Ubuntu SMP Tue Feb 28 19:41:23 UTC 2023", "extra": ["debian", "11", "bullseye"]}

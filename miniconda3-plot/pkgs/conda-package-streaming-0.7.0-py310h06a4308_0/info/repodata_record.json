@@ -1,0 +1,25 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "zstandard >=0.15"
+  ],
+  "features": "",
+  "fn": "conda-package-streaming-0.7.0-py310h06a4308_0.conda",
+  "legacy_bz2_md5": "bc0592f05898a182817cbb64b8fa48e2",
+  "legacy_bz2_size": 25561,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "323eb92af9fe159497108382a2aa3c7d",
+  "name": "conda-package-streaming",
+  "sha256": "4470d0094a7ddc7aa7986277b66e17936db23c743c6c294e3af615c35779b0fe",
+  "size": 27205,
+  "subdir": "linux-64",
+  "timestamp": 1670508260420,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/conda-package-streaming-0.7.0-py310h06a4308_0.conda",
+  "version": "0.7.0"
+}

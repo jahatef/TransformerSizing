@@ -1,0 +1,25 @@
+{
+  "build": "h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "ncurses >=6.3,<7.0a0"
+  ],
+  "features": "",
+  "fn": "readline-8.2-h5eee18b_0.conda",
+  "legacy_bz2_md5": "960bf00d81e7bbdeff2c7d01ed78eaeb",
+  "legacy_bz2_size": 467661,
+  "license": "GPL-3.0-only",
+  "license_family": "GPL",
+  "md5": "be42180685cce6e6b0329201d9f48efb",
+  "name": "readline",
+  "sha256": "3bf83c138bf0843b2fdacc5fe6b0956813b11107540d0233c148b97682e894fb",
+  "size": 365188,
+  "subdir": "linux-64",
+  "timestamp": 1666648052561,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/readline-8.2-h5eee18b_0.conda",
+  "version": "8.2"
+}
