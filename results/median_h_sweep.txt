@@ -12139,10 +12139,7 @@ Attention duration (in seconds): 0.2071
 Attention throughput (in TFLOP/s): 218.895
 MLP duration (in seconds): 0.3701
 MLP throughput (in TFLOP/s): 235.573
-[2023-06-25 13:21:07,148] [INFO] [comm.py:643:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
-[2023-06-25 13:21:07,973] [INFO] [comm.py:697:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=26.0.155.220, master_port=6000
-[2023-06-25 13:21:07,973] [INFO] [comm.py:661:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
-[2023-06-25 13:21:10,805] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+========================================================================================================================
 num_attention_heads: 128, hidden_size: 8192, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
 
 

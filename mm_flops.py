@@ -30,17 +30,13 @@ def benchmark_mm_b(m, n, k, b=None, num_iterations=100):
     else:
         A = torch.randn(b,m,n).half().to("cuda:0")
         C = torch.empty(b,m, k).half().to("cuda:0")
-    #C = torch.empty(m, k).half().to("cuda:0")
     num_warmup_iterations = 50
-    #torch.cuda.profiler.start()
     for i in range(num_warmup_iterations + num_iterations):
         if i == num_warmup_iterations:
-            #torch.cuda.profiler.start()
             start_time = time.time()
         with torch.no_grad():
             torch.nn.functional.linear(A, B, out=C)
         torch.cuda.synchronize()
-    #torch.cuda.profiler.stop()
     elapsed_time = (time.time() - start_time) / num_iterations
     if b is None:
         print(f"Elapsed time for {m}x{n}x{k}: {elapsed_time:.3f}")
@@ -82,8 +78,8 @@ if __name__ == '__main__':
     #    benchmark_mm(2048, 2048, k)
 
     # Figure 8. basicGemmLargeKSweep.out
-    for k in range(1536, 6208, 64):
-        benchmark_mm(2304, 4096, k)
+    #for k in range(1536, 6208, 64):
+    #    benchmark_mm(2304, 4096, k)
 
     # m from 1024 to 10000.
     #for m in range(64, 2**15, 64):
@@ -123,3 +119,7 @@ if __name__ == '__main__':
     
     #for hidden_size in range( 64, 2**15, 64):
     #    benchmark_mm_b(4, 3*hidden_size, hidden_size, b=2048)
+
+    #h to 4h drop
+    for h in range(20608-64,20608+64,64): #range(20608-128, 22272+128+64, 64):
+        benchmark_mm_b(4, 4*h, h, b=2048)

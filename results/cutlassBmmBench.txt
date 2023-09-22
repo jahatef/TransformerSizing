@@ -1,90 +1,93 @@
-Elapsed time for 4x20480x81920, b=2048: 6.8255
-Throughput (in TFLOP/s) for 4x20480x81920, b=2048: 4.027
+Elapsed time for 4x81920x20480, b=2048: 0.0988
+Throughput (in TFLOP/s) for 4x81920x20480, b=2048: 278.209
 --------------------------------------------------------------------------------
-Elapsed time for 4x20544x82176, b=2048: 6.8976
-Throughput (in TFLOP/s) for 4x20544x82176, b=2048: 4.010
+Elapsed time for 4x82176x20544, b=2048: 0.0996
+Throughput (in TFLOP/s) for 4x82176x20544, b=2048: 277.730
 --------------------------------------------------------------------------------
-Elapsed time for 4x20608x82432, b=2048: 6.9158
-Throughput (in TFLOP/s) for 4x20608x82432, b=2048: 4.024
+Elapsed time for 4x82432x20608, b=2048: 0.1046
+Throughput (in TFLOP/s) for 4x82432x20608, b=2048: 266.110
 --------------------------------------------------------------------------------
-Elapsed time for 4x20672x82688, b=2048: 6.9787
-Throughput (in TFLOP/s) for 4x20672x82688, b=2048: 4.013
+Elapsed time for 4x82688x20672, b=2048: 0.1105
+Throughput (in TFLOP/s) for 4x82688x20672, b=2048: 253.403
 --------------------------------------------------------------------------------
-Elapsed time for 4x20736x82944, b=2048: 7.0087
-Throughput (in TFLOP/s) for 4x20736x82944, b=2048: 4.021
+Elapsed time for 4x82944x20736, b=2048: 0.1063
+Throughput (in TFLOP/s) for 4x82944x20736, b=2048: 264.989
 --------------------------------------------------------------------------------
-Elapsed time for 4x20800x83200, b=2048: 7.0642
-Throughput (in TFLOP/s) for 4x20800x83200, b=2048: 4.014
+Elapsed time for 4x83200x20800, b=2048: 0.1069
+Throughput (in TFLOP/s) for 4x83200x20800, b=2048: 265.261
 --------------------------------------------------------------------------------
-Elapsed time for 4x20864x83456, b=2048: 7.0882
-Throughput (in TFLOP/s) for 4x20864x83456, b=2048: 4.025
+Elapsed time for 4x83456x20864, b=2048: 0.1077
+Throughput (in TFLOP/s) for 4x83456x20864, b=2048: 264.927
 --------------------------------------------------------------------------------
-Elapsed time for 4x20928x83712, b=2048: 7.1573
-Throughput (in TFLOP/s) for 4x20928x83712, b=2048: 4.010
+Elapsed time for 4x83712x20928, b=2048: 0.1079
+Throughput (in TFLOP/s) for 4x83712x20928, b=2048: 266.127
 --------------------------------------------------------------------------------
-Elapsed time for 4x20992x83968, b=2048: 7.1811
-Throughput (in TFLOP/s) for 4x20992x83968, b=2048: 4.022
+Elapsed time for 4x83968x20992, b=2048: 0.1088
+Throughput (in TFLOP/s) for 4x83968x20992, b=2048: 265.340
 --------------------------------------------------------------------------------
-Elapsed time for 4x21056x84224, b=2048: 7.2530
-Throughput (in TFLOP/s) for 4x21056x84224, b=2048: 4.006
+Elapsed time for 4x84224x21056, b=2048: 0.1097
+Throughput (in TFLOP/s) for 4x84224x21056, b=2048: 264.800
 --------------------------------------------------------------------------------
-Elapsed time for 4x21120x84480, b=2048: 7.2608
-Throughput (in TFLOP/s) for 4x21120x84480, b=2048: 4.026
+Elapsed time for 4x84480x21120, b=2048: 0.1101
+Throughput (in TFLOP/s) for 4x84480x21120, b=2048: 265.464
 --------------------------------------------------------------------------------
-Elapsed time for 4x21184x84736, b=2048: 7.3266
-Throughput (in TFLOP/s) for 4x21184x84736, b=2048: 4.014
+Elapsed time for 4x84736x21184, b=2048: 0.1111
+Throughput (in TFLOP/s) for 4x84736x21184, b=2048: 264.713
 --------------------------------------------------------------------------------
-Elapsed time for 4x21248x84992, b=2048: 7.3466
-Throughput (in TFLOP/s) for 4x21248x84992, b=2048: 4.027
+Elapsed time for 4x84992x21248, b=2048: 0.1115
+Throughput (in TFLOP/s) for 4x84992x21248, b=2048: 265.371
 --------------------------------------------------------------------------------
-Elapsed time for 4x21312x85248, b=2048: 7.4098
-Throughput (in TFLOP/s) for 4x21312x85248, b=2048: 4.017
+Elapsed time for 4x85248x21312, b=2048: 0.1121
+Throughput (in TFLOP/s) for 4x85248x21312, b=2048: 265.553
 --------------------------------------------------------------------------------
-Elapsed time for 4x21376x85504, b=2048: 7.4293
-Throughput (in TFLOP/s) for 4x21376x85504, b=2048: 4.031
+Elapsed time for 4x85504x21376, b=2048: 0.1128
+Throughput (in TFLOP/s) for 4x85504x21376, b=2048: 265.591
 --------------------------------------------------------------------------------
-Elapsed time for 4x21440x85760, b=2048: 7.4940
-Throughput (in TFLOP/s) for 4x21440x85760, b=2048: 4.020
+Elapsed time for 4x85760x21440, b=2048: 0.1136
+Throughput (in TFLOP/s) for 4x85760x21440, b=2048: 265.087
 --------------------------------------------------------------------------------
-Elapsed time for 4x21504x86016, b=2048: 7.5255
-Throughput (in TFLOP/s) for 4x21504x86016, b=2048: 4.027
+Elapsed time for 4x86016x21504, b=2048: 0.1145
+Throughput (in TFLOP/s) for 4x86016x21504, b=2048: 264.626
 --------------------------------------------------------------------------------
-Elapsed time for 4x21568x86272, b=2048: 7.5985
-Throughput (in TFLOP/s) for 4x21568x86272, b=2048: 4.012
+Elapsed time for 4x86272x21568, b=2048: 0.1157
+Throughput (in TFLOP/s) for 4x86272x21568, b=2048: 263.508
 --------------------------------------------------------------------------------
-Elapsed time for 4x21632x86528, b=2048: 7.6147
-Throughput (in TFLOP/s) for 4x21632x86528, b=2048: 4.027
+Elapsed time for 4x86528x21632, b=2048: 0.1159
+Throughput (in TFLOP/s) for 4x86528x21632, b=2048: 264.673
 --------------------------------------------------------------------------------
-Elapsed time for 4x21696x86784, b=2048: 7.6734
-Throughput (in TFLOP/s) for 4x21696x86784, b=2048: 4.020
+Elapsed time for 4x86784x21696, b=2048: 0.1171
+Throughput (in TFLOP/s) for 4x86784x21696, b=2048: 263.491
 --------------------------------------------------------------------------------
-Elapsed time for 4x21760x87040, b=2048: 7.6971
-Throughput (in TFLOP/s) for 4x21760x87040, b=2048: 4.032
+Elapsed time for 4x87040x21760, b=2048: 0.1174
+Throughput (in TFLOP/s) for 4x87040x21760, b=2048: 264.212
 --------------------------------------------------------------------------------
-Elapsed time for 4x21824x87296, b=2048: 7.7588
-Throughput (in TFLOP/s) for 4x21824x87296, b=2048: 4.023
+Elapsed time for 4x87296x21824, b=2048: 0.1175
+Throughput (in TFLOP/s) for 4x87296x21824, b=2048: 265.718
 --------------------------------------------------------------------------------
-Elapsed time for 4x21888x87552, b=2048: 7.7905
-Throughput (in TFLOP/s) for 4x21888x87552, b=2048: 4.030
+Elapsed time for 4x87552x21888, b=2048: 0.1186
+Throughput (in TFLOP/s) for 4x87552x21888, b=2048: 264.823
 --------------------------------------------------------------------------------
-Elapsed time for 4x21952x87808, b=2048: 7.8486
-Throughput (in TFLOP/s) for 4x21952x87808, b=2048: 4.024
+Elapsed time for 4x87808x21952, b=2048: 0.1196
+Throughput (in TFLOP/s) for 4x87808x21952, b=2048: 264.143
 --------------------------------------------------------------------------------
-Elapsed time for 4x22016x88064, b=2048: 7.8822
-Throughput (in TFLOP/s) for 4x22016x88064, b=2048: 4.030
+Elapsed time for 4x88064x22016, b=2048: 0.1199
+Throughput (in TFLOP/s) for 4x88064x22016, b=2048: 264.995
 --------------------------------------------------------------------------------
-Elapsed time for 4x22080x88320, b=2048: 7.9379
-Throughput (in TFLOP/s) for 4x22080x88320, b=2048: 4.025
+Elapsed time for 4x88320x22080, b=2048: 0.1212
+Throughput (in TFLOP/s) for 4x88320x22080, b=2048: 263.623
 --------------------------------------------------------------------------------
-Elapsed time for 4x22144x88576, b=2048: 7.9576
-Throughput (in TFLOP/s) for 4x22144x88576, b=2048: 4.038
+Elapsed time for 4x88576x22144, b=2048: 0.1215
+Throughput (in TFLOP/s) for 4x88576x22144, b=2048: 264.408
 --------------------------------------------------------------------------------
-Elapsed time for 4x22208x88832, b=2048: 8.0292
-Throughput (in TFLOP/s) for 4x22208x88832, b=2048: 4.026
+Elapsed time for 4x88832x22208, b=2048: 0.1225
+Throughput (in TFLOP/s) for 4x88832x22208, b=2048: 263.854
 --------------------------------------------------------------------------------
-Elapsed time for 4x22272x89088, b=2048: 8.0506
-Throughput (in TFLOP/s) for 4x22272x89088, b=2048: 4.038
+Elapsed time for 4x89088x22272, b=2048: 0.1231
+Throughput (in TFLOP/s) for 4x89088x22272, b=2048: 264.033
 --------------------------------------------------------------------------------
-Elapsed time for 4x22336x89344, b=2048: 8.1289
-Throughput (in TFLOP/s) for 4x22336x89344, b=2048: 4.022
+Elapsed time for 4x89344x22336, b=2048: 0.1177
+Throughput (in TFLOP/s) for 4x89344x22336, b=2048: 277.832
+--------------------------------------------------------------------------------
+Elapsed time for 4x89600x22400, b=2048: 0.1247
+Throughput (in TFLOP/s) for 4x89600x22400, b=2048: 263.770
 --------------------------------------------------------------------------------

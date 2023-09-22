@@ -1,0 +1,12 @@
+2.0.1+cu117
+/fsx/quentin/jacob/miniconda3/bin/python
+Name: torch
+Version: 2.0.1
+Summary: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+Home-page: https://pytorch.org/
+Author: PyTorch Team
+Author-email: packages@pytorch.org
+License: BSD-3
+Location: /admin/home-quentin/.local/lib/python3.8/site-packages
+Requires: filelock, jinja2, networkx, nvidia-cublas-cu11, nvidia-cuda-cupti-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cuda-runtime-cu11, nvidia-cudnn-cu11, nvidia-cufft-cu11, nvidia-curand-cu11, nvidia-cusolver-cu11, nvidia-cusparse-cu11, nvidia-nccl-cu11, nvidia-nvtx-cu11, sympy, triton, typing-extensions
+Required-by: deepspeed, lm-eval, torchaudio, torchvision, triton
