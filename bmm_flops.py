@@ -1,5 +1,6 @@
 import time
 import torch
+import numpy as np
 
 
 def benchmark_bmm(b, m, n, k, num_iterations=100):
@@ -14,6 +15,54 @@ def benchmark_bmm(b, m, n, k, num_iterations=100):
             torch.bmm(A, B, out=C)
         torch.cuda.synchronize()
     elapsed_time = (time.time() - start_time) / num_iterations
+    print(f"Elapsed time for {b}x{m}x{n}x{k}: {elapsed_time:.3f}")
+    print(f"Throughput (in TFLOP/s) for {b}x{m}x{n}x{k}: {(2 * b * m * n * k) / (elapsed_time * 10**12):.3f}")
+    flops = (2 * b * m * n * k) / (elapsed_time * 10**12)
+    print("-" * 80)
+    return flops
+
+def benchmark_bmm_max(b, m, n, k, num_iterations=200):
+    A = torch.randn((b, m, n)).half().to("cuda:0")
+    B = torch.randn((b, n, k)).half().to("cuda:0")
+    C = torch.empty((b, m, k)).half().to("cuda:0")
+    num_warmup_iterations=50
+    times = np.zeros(num_iterations+num_warmup_iterations)
+    start_time = time.time()
+    for i in range(num_warmup_iterations + num_iterations):
+        with torch.no_grad():
+            torch.bmm(A, B, out=C)
+        torch.cuda.synchronize()
+        times[i] = time.time()
+
+    #elapsed_time = (time.time() - start_time) / num_iterations
+    times -= start_time
+    times = np.diff(times)
+    times = times[50:]
+    elapsed_time = np.amax(times)
+    print(f"Elapsed time for {b}x{m}x{n}x{k}: {elapsed_time:.3f}")
+    print(f"Throughput (in TFLOP/s) for {b}x{m}x{n}x{k}: {(2 * b * m * n * k) / (elapsed_time * 10**12):.3f}")
+    flops = (2 * b * m * n * k) / (elapsed_time * 10**12)
+    print("-" * 80)
+    return flops
+
+def benchmark_bmm_min(b, m, n, k, num_iterations=200):
+    A = torch.randn((b, m, n)).half().to("cuda:0")
+    B = torch.randn((b, n, k)).half().to("cuda:0")
+    C = torch.empty((b, m, k)).half().to("cuda:0")
+    num_warmup_iterations=50
+    times = np.zeros(num_iterations+num_warmup_iterations)
+    start_time = time.time()
+    for i in range(num_warmup_iterations + num_iterations):
+        with torch.no_grad():
+            torch.bmm(A, B, out=C)
+        torch.cuda.synchronize()
+        times[i] = time.time()
+
+    #elapsed_time = (time.time() - start_time) / num_iterations
+    times -= start_time
+    times = np.diff(times)
+    times = times[50:]
+    elapsed_time = np.amin(times)
     print(f"Elapsed time for {b}x{m}x{n}x{k}: {elapsed_time:.3f}")
     print(f"Throughput (in TFLOP/s) for {b}x{m}x{n}x{k}: {(2 * b * m * n * k) / (elapsed_time * 10**12):.3f}")
     flops = (2 * b * m * n * k) / (elapsed_time * 10**12)
@@ -49,12 +98,12 @@ if __name__ == '__main__':
     '''
     # Try to determine the effect of b and outer_dim on throughput with non-square
     # individual MMs.
-    '''for log_b in range(7):
+    for log_b in range(7):
         b = 2**log_b
         for log_outer_dim in range(5, 14):
             outer_dim = 2**log_outer_dim
-            benchmark_bmm(b, m=outer_dim, n=4096, k=outer_dim)'''
-
+            benchmark_bmm_min(b, m=outer_dim, n=4096, k=outer_dim)
+    '''
     h = 2048
     m = 2048
     k = int(h)
@@ -65,3 +114,4 @@ if __name__ == '__main__':
     B = torch.randn((b, n, k)).half().to("cuda:0")
     C = torch.empty((b, m, k)).half().to("cuda:0")
     torch.bmm(A, B, out=C)
+    '''

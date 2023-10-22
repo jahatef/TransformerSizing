@@ -1,0 +1,3 @@
+bash: /fsx/home-quentin/jacob/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+[ip-26-0-152-246:3814093] mtl_ofi_component.c:362: mtl:ofi:provider: rdmap32s27-rdm
+slurmstepd: error: *** JOB 27721 ON ip-26-0-152-246 CANCELLED AT 2023-09-24T16:19:08 ***

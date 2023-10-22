@@ -121,5 +121,5 @@ if __name__ == '__main__':
     #    benchmark_mm_b(4, 3*hidden_size, hidden_size, b=2048)
 
     #h to 4h drop
-    for h in range(20608-64,20608+64,64): #range(20608-128, 22272+128+64, 64):
-        benchmark_mm_b(4, 4*h, h, b=2048)
+    for h in range(2000,5000,64): #range(20608-128, 22272+128+64, 64):
+        benchmark_mm_b(2304, 4096, h)

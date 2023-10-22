@@ -10,7 +10,7 @@ from megatron.model.transformer import ParallelSelfAttention, ParallelMLP, Paral
 from megatron.model.transformer import bias_dropout_add_fused_train
 from megatron.model.activations import bias_gelu_impl
 from megatron.model.gpt2_model import gpt2_attention_mask_func as attention_mask_func
-import cutlass
+
 
 print(torch.__version__, "\n")
 
@@ -456,9 +456,9 @@ if __name__ == '__main__':
     seq_length = 2048
     train_batch_size = 2048
     configurations = []
-    for tensor_mp_size in [8]:
-        for num_attention_heads in [64]:# [32,128]: #[32, 64, 96, 128]:
-            for hidden_size in range(2**13, 2**15,num_attention_heads):
+    for tensor_mp_size in [2,4,8]:
+        for num_attention_heads in [128]:# [32,128]: #[32, 64, 96, 128]:
+            for hidden_size in range(22912, 2**15,num_attention_heads):
                 for microbatch_size in [4]:
                     configurations.append((microbatch_size, hidden_size,
                                            (tensor_mp_size, 1, 1), num_attention_heads))
@@ -474,6 +474,6 @@ if __name__ == '__main__':
                  'dp_size': dp_size}
         label_str = ", ".join([f"{k}: {v}" for (k, v) in label.items()])
         print(label_str)
-        benchmark_transformer_from_mm_and_bmm(configuration, seq_length, train_batch_size)
-        #benchmark_transformer(configuration, seq_length, train_batch_size)
+        #benchmark_transformer_from_mm_and_bmm(configuration, seq_length, train_batch_size)
+        benchmark_transformer(configuration, seq_length, train_batch_size)
         print("=" * 120)

@@ -1,0 +1,71 @@
+bash: /fsx/home-quentin/jacob/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+1.13.1 
+
+[2023-09-29 23:05:00,377] [INFO] [distributed.py:36:init_distributed] Not using the DeepSpeed or torch.distributed launchers, attempting to detect MPI environment...
+[2023-09-29 23:05:01,131] [INFO] [distributed.py:83:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=26.0.144.149, master_port=6000
+[2023-09-29 23:05:01,132] [INFO] [distributed.py:46:init_distributed] Initializing torch distributed with backend: nccl
+[2023-09-29 23:05:04,085] [INFO] [checkpointing.py:223:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+Traceback (most recent call last):
+num_attention_heads: 128, hidden_size: 22912, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 2, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.1775
+Attention throughput (in TFLOP/s): 101.246
+MLP duration (in seconds): 0.2809
+MLP throughput (in TFLOP/s): 122.468
+Transformer duration (in seconds): 0.4674
+Transformer throughput (in TFLOP/s): 112.045
+Transformer - MLP - Attention (in seconds): 0.0090
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 23040, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 2, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.1711
+Attention throughput (in TFLOP/s): 106.164
+MLP duration (in seconds): 0.2849
+MLP throughput (in TFLOP/s): 122.131
+Transformer duration (in seconds): 0.4624
+Transformer throughput (in TFLOP/s): 114.535
+Transformer - MLP - Attention (in seconds): 0.0064
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 23168, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 2, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.1845
+Attention throughput (in TFLOP/s): 99.523
+MLP duration (in seconds): 0.2881
+MLP throughput (in TFLOP/s): 122.091
+Transformer duration (in seconds): 0.4788
+Transformer throughput (in TFLOP/s): 111.830
+Transformer - MLP - Attention (in seconds): 0.0061
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 23296, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 2, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.1728
+Attention throughput (in TFLOP/s): 107.430
+MLP duration (in seconds): 0.2926
+MLP throughput (in TFLOP/s): 121.569
+  File "/fsx/home-quentin/jacob/TransformerSizing/torch_transformer_flops.py", line 478, in <module>
+    benchmark_transformer(configuration, seq_length, train_batch_size)
+  File "/fsx/home-quentin/jacob/TransformerSizing/torch_transformer_flops.py", line 423, in benchmark_transformer
+    out = layer(inp, attention_mask)
+  File "/fsx/home-quentin/jacob/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron/model/transformer.py", line 856, in forward
+    attention_output, attention_bias = self.attention(
+  File "/fsx/home-quentin/jacob/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron/model/transformer.py", line 685, in forward
+    context_layer = self.attention(
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron/model/transformer.py", line 415, in attention
+    matmul_result = torch.baddbmm(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 4.00 GiB (GPU 0; 39.56 GiB total capacity; 30.76 GiB already allocated; 3.38 GiB free; 34.96 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

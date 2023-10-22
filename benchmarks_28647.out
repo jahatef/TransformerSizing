@@ -1,0 +1,18 @@
+bash: /fsx/home-quentin/jacob/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+Traceback (most recent call last):
+1.13.1 
+
+  File "/fsx/home-quentin/jacob/TransformerSizing/torch_transformer_flops.py", line 466, in <module>
+    megatron_wrapper.initialize_megatron(configurations[0])
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron_wrapper.py", line 92, in initialize_megatron
+    args = get_megatron_args(configuration, override_tensor_mp_size=True)
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron_wrapper.py", line 112, in get_megatron_args
+    neox_args = megatron.NeoXArgs.from_dict(asdict(args))
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron/neox_arguments/arguments.py", line 234, in from_dict
+    return cls(**args_dict)
+  File "<string>", line 228, in __init__
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron/neox_arguments/arguments.py", line 134, in __post_init__
+    if not self.validate_types():
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron/neox_arguments/arguments.py", line 1238, in validate_types
+    elif field_def.type.__origin__ == Literal:
+AttributeError: type object 'int' has no attribute '__origin__'

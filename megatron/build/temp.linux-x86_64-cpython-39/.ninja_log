@@ -1,0 +1,5 @@
+# ninja log v5
+2	27015	1695491734000000000	/fsx/home-quentin/jacob/TransformerSizing/megatron/build/temp.linux-x86_64-cpython-39/fsx/home-quentin/jacob/TransformerSizing/megatron/fused_kernels/scaled_upper_triang_masked_softmax.o	63a7a837b7d3b164
+3	91452	1695491799000000000	/fsx/home-quentin/jacob/TransformerSizing/megatron/build/temp.linux-x86_64-cpython-39/fsx/home-quentin/jacob/TransformerSizing/megatron/fused_kernels/scaled_upper_triang_masked_softmax_cuda.o	78d89be0bec4114b
+13	21142	1695491820000000000	/fsx/home-quentin/jacob/TransformerSizing/megatron/build/temp.linux-x86_64-cpython-39/fsx/home-quentin/jacob/TransformerSizing/megatron/fused_kernels/scaled_masked_softmax.o	6058dcb9a4c5e600
+13	84128	1695491883000000000	/fsx/home-quentin/jacob/TransformerSizing/megatron/build/temp.linux-x86_64-cpython-39/fsx/home-quentin/jacob/TransformerSizing/megatron/fused_kernels/scaled_masked_softmax_cuda.o	da8eec8325e5968d

@@ -1,0 +1,32 @@
+bash: /fsx/home-quentin/jacob/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+1.13.1 
+
+[2023-09-28 17:25:51,955] [INFO] [distributed.py:36:init_distributed] Not using the DeepSpeed or torch.distributed launchers, attempting to detect MPI environment...
+[2023-09-28 17:25:52,704] [INFO] [distributed.py:83:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=26.0.144.52, master_port=6000
+[2023-09-28 17:25:52,704] [INFO] [distributed.py:46:init_distributed] Initializing torch distributed with backend: nccl
+[2023-09-28 17:25:55,792] [INFO] [checkpointing.py:223:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+num_attention_heads: 128, hidden_size: 23296, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.1737
+Attention throughput (in TFLOP/s): 213.738
+MLP duration (in seconds): 0.2969
+MLP throughput (in TFLOP/s): 239.602
+Traceback (most recent call last):
+  File "/fsx/home-quentin/jacob/TransformerSizing/torch_transformer_flops.py", line 478, in <module>
+    benchmark_transformer(configuration, seq_length, train_batch_size)
+  File "/fsx/home-quentin/jacob/TransformerSizing/torch_transformer_flops.py", line 423, in benchmark_transformer
+    out = layer(inp, attention_mask)
+  File "/fsx/home-quentin/jacob/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron/model/transformer.py", line 856, in forward
+    attention_output, attention_bias = self.attention(
+  File "/fsx/home-quentin/jacob/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron/model/transformer.py", line 685, in forward
+    context_layer = self.attention(
+  File "/fsx/home-quentin/jacob/TransformerSizing/megatron/model/transformer.py", line 415, in attention
+    matmul_result = torch.baddbmm(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 4.00 GiB (GPU 0; 39.56 GiB total capacity; 30.76 GiB already allocated; 3.92 GiB free; 34.42 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
