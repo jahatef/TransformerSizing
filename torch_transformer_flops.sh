@@ -13,7 +13,7 @@
 #SBATCH --account=neox
 
 # setup the environment using the script we created before
-source /fsx/home-quentin/jacob/setup.sh
+source /fsx/home-jacob/setup.sh
 
 
 export HOSTNAMES=`scontrol show hostnames "$SLURM_JOB_NODELIST"`
@@ -25,17 +25,17 @@ export COUNT_NODE=`scontrol show hostnames "$SLURM_JOB_NODELIST" | wc -l`
 export TORCHELASTIC_ERROR_FILE=$TRAIN_PATH/tmp/torch-elastic-error.json
 
 # Move to the gpt-neox install
-TRAIN_PATH=/fsx/home-quentin/jacob/TransformerSizing
+TRAIN_PATH=/fsx/home-jacob/TransformerSizing
 cd $TRAIN_PATH
 
 # Write the hostfile for this job
 #/fsx/shiv/zphang/scripts/write_hostfile.sh
 #export DLTS_HOSTFILE=/fsx/shiv/zphang/hostfiles/hosts_$SLURM_JOBID
-bash /fsx/home-quentin/jacob/write_hostfile.sh
-export DLTS_HOSTFILE=/fsx/home-quentin/jacob/hostfiles/hosts_$SLURM_JOBID
+bash /fsx/home-jacob/write_hostfile.sh
+export DLTS_HOSTFILE=/fsx/home-jacob/hostfiles/hosts_$SLURM_JOBID
 #export DLTS_HOSTFILE=/fsx/quentin/hostfiles/hosts_test_2
 
 #sudo mkdir -p /home/quentin/.cache/torch_extensions
 #sudo chmod -R 777 /home/quentin
 
-python torch_transformer_flops.py | tee -a results/max_h_sweep_tp_final_model.out
+python torch_transformer_flops.py | tee -a results/max_h_sweep_tp_final.out
