@@ -38,4 +38,4 @@ export DLTS_HOSTFILE=/fsx/home-jacob/hostfiles/hosts_$SLURM_JOBID
 #sudo mkdir -p /home/quentin/.cache/torch_extensions
 #sudo chmod -R 777 /home/quentin
 
-python torch_transformer_flops.py | tee -a results/max_h_sweep_tp_final.out
+python torch_transformer_flops.py | tee -a results/max_h_sweep_tp_final_model.out

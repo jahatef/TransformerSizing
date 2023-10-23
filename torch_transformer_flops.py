@@ -456,7 +456,7 @@ if __name__ == '__main__':
     seq_length = 2048
     train_batch_size = 2048
     configurations = []
-    for tensor_mp_size in [1]:
+    for tensor_mp_size in [2,4,8]:
         for num_attention_heads in [128]:# [32,128]: #[32, 64, 96, 128]:
             for hidden_size in range(num_attention_heads, 8192, num_attention_heads):
                 for microbatch_size in [4]:
@@ -474,6 +474,6 @@ if __name__ == '__main__':
                  'dp_size': dp_size}
         label_str = ", ".join([f"{k}: {v}" for (k, v) in label.items()])
         print(label_str)
-        benchmark_transformer_from_mm_and_bmm(configuration, seq_length, train_batch_size)
-        #benchmark_transformer(configuration, seq_length, train_batch_size)
+        #benchmark_transformer_from_mm_and_bmm(configuration, seq_length, train_batch_size)
+        benchmark_transformer(configuration, seq_length, train_batch_size)
         print("=" * 120)
