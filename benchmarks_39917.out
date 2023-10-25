@@ -1,0 +1,2 @@
+bash: /fsx/home-jacob/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+/fsx/home-jacob/write_hostfile.sh: line 7: /fsx/home-quentin/jacob/hostfiles/hosts_39917: Permission denied

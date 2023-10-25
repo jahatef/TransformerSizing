@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name="benchmarks"
-#SBATCH --partition=g40
+#SBATCH --partition=g40x
 #SBATCH --mem-per-cpu=16GB        # Amount of CPU memory
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=8          # Crucial - only 1 task per dist per node!
@@ -10,10 +10,10 @@
 #SBATCH --output=%x_%j.out      # Set this dir where you want slurm outs to go
 #SBATCH --error=%x_%j.out      # Set this dir where you want slurm outs to go
 #SBATCH --exclusive      # Turn off node sharing
-#SBATCH --account=stablegpt
+#SBATCH --account=neox
 
 # setup the environment using the script we created before
-source /fsx/quentin/jacob/gpt-neox-stuff/setup.sh
+source /fsx/home-jacob/setup.sh
 
 export NCCL_DEBUG=WARN
 export NCCL_TREE_THRESHOLD=0
@@ -42,17 +42,17 @@ export COUNT_NODE=`scontrol show hostnames "$SLURM_JOB_NODELIST" | wc -l`
 export TORCHELASTIC_ERROR_FILE=$TRAIN_PATH/tmp/torch-elastic-error.json
 
 # Move to the gpt-neox install
-TRAIN_PATH=/fsx/quentin/jacob/gpt-neox-stuff/GEMMs_project/transformer_sizing/experiments/scripts
+TRAIN_PATH=/fsx/home-jacob/TransformerSizing
 cd $TRAIN_PATH
 
 # Write the hostfile for this job
 #/fsx/shiv/zphang/scripts/write_hostfile.sh
 #export DLTS_HOSTFILE=/fsx/shiv/zphang/hostfiles/hosts_$SLURM_JOBID
-bash /fsx/quentin/jacob/write_hostfile.sh
-export DLTS_HOSTFILE=/fsx/quentin/jacob/hostfiles/hosts_$SLURM_JOBID
+bash /fsx/home-jacob/write_hostfile.sh
+export DLTS_HOSTFILE=/fsx/home-jacob/hostfiles/hosts_$SLURM_JOBID
 #export DLTS_HOSTFILE=/fsx/quentin/hostfiles/hosts_test_2
 
 #sudo mkdir -p /home/quentin/.cache/torch_extensions
 #sudo chmod -R 777 /home/quentin
 
-python mm_flops.py > mm_4nkSweep.txt
+python mm_flops.py > results/vocab.out
