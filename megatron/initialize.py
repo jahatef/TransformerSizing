@@ -109,7 +109,7 @@ def setup_deepspeed_random_and_activation_checkpointing(neox_args):
         mpu,
         partition_activations=neox_args.partition_activations,
         contiguous_checkpointing=neox_args.contiguous_checkpointing,
-        num_checkpoints=num_layers,
+        num_checkpoints=0,
         checkpoint_in_cpu=neox_args.checkpoint_in_cpu,
         synchronize=neox_args.synchronize_each_layer,
         profile=neox_args.profile_backward,

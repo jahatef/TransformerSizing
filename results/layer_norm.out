@@ -1,0 +1,1144 @@
+Elapsed time for transformer_layer_norm (2055x4x14336): 0.0005828690528869629
+Throughput (in TFLOP/s) for transformer_layer_norm (2055x4x14336): 404351266948.64465
+Elapsed time for transformer_layer_norm (2056x4x14336): 0.0005825519561767578
+Throughput (in TFLOP/s) for transformer_layer_norm (2056x4x14336): 404768236549.2805
+Elapsed time for transformer_layer_norm (2057x4x14336): 0.000583045482635498
+Throughput (in TFLOP/s) for transformer_layer_norm (2057x4x14336): 404622320258.1361
+Elapsed time for transformer_layer_norm (2058x4x14336): 0.0005831360816955566
+Throughput (in TFLOP/s) for transformer_layer_norm (2058x4x14336): 404756130530.82404
+Elapsed time for transformer_layer_norm (2059x4x14336): 0.0005834078788757324
+Throughput (in TFLOP/s) for transformer_layer_norm (2059x4x14336): 404764146235.15753
+Elapsed time for transformer_layer_norm (2060x4x14336): 0.0005841922760009766
+Throughput (in TFLOP/s) for transformer_layer_norm (2060x4x14336): 404416986847.6745
+Elapsed time for transformer_layer_norm (2061x4x14336): 0.0005841875076293946
+Throughput (in TFLOP/s) for transformer_layer_norm (2061x4x14336): 404616608388.6085
+Elapsed time for transformer_layer_norm (2062x4x14336): 0.0005842018127441407
+Throughput (in TFLOP/s) for transformer_layer_norm (2062x4x14336): 404803016425.37463
+Elapsed time for transformer_layer_norm (2063x4x14336): 0.0005845165252685547
+Throughput (in TFLOP/s) for transformer_layer_norm (2063x4x14336): 404781274389.6233
+Elapsed time for transformer_layer_norm (2064x4x14336): 0.0005850529670715332
+Throughput (in TFLOP/s) for transformer_layer_norm (2064x4x14336): 404606155891.9626
+Elapsed time for transformer_layer_norm (2065x4x14336): 0.000585634708404541
+Throughput (in TFLOP/s) for transformer_layer_norm (2065x4x14336): 404400074997.6103
+Elapsed time for transformer_layer_norm (2066x4x14336): 0.000585472583770752
+Throughput (in TFLOP/s) for transformer_layer_norm (2066x4x14336): 404707948020.2928
+Elapsed time for transformer_layer_norm (2067x4x14336): 0.000585930347442627
+Throughput (in TFLOP/s) for transformer_layer_norm (2067x4x14336): 404587502652.2882
+Elapsed time for transformer_layer_norm (2068x4x14336): 0.0005859994888305664
+Throughput (in TFLOP/s) for transformer_layer_norm (2068x4x14336): 404735479331.75037
+Elapsed time for transformer_layer_norm (2069x4x14336): 0.0005860567092895508
+Throughput (in TFLOP/s) for transformer_layer_norm (2069x4x14336): 404891656794.8774
+Elapsed time for transformer_layer_norm (2070x4x14336): 0.0005863571166992188
+Throughput (in TFLOP/s) for transformer_layer_norm (2070x4x14336): 404879813408.6266
+Elapsed time for transformer_layer_norm (2071x4x14336): 0.0005867290496826172
+Throughput (in TFLOP/s) for transformer_layer_norm (2071x4x14336): 404818626465.6275
+Elapsed time for transformer_layer_norm (2072x4x14336): 0.000587160587310791
+Throughput (in TFLOP/s) for transformer_layer_norm (2072x4x14336): 404716428751.4035
+Elapsed time for transformer_layer_norm (2073x4x14336): 0.0005872392654418945
+Throughput (in TFLOP/s) for transformer_layer_norm (2073x4x14336): 404857505264.22253
+Elapsed time for transformer_layer_norm (2074x4x14336): 0.0005875682830810547
+Throughput (in TFLOP/s) for transformer_layer_norm (2074x4x14336): 404825990185.7006
+Elapsed time for transformer_layer_norm (2075x4x14336): 0.000588078498840332
+Throughput (in TFLOP/s) for transformer_layer_norm (2075x4x14336): 404669785529.1132
+Elapsed time for transformer_layer_norm (2076x4x14336): 0.0005882382392883301
+Throughput (in TFLOP/s) for transformer_layer_norm (2076x4x14336): 404754863077.33386
+Elapsed time for transformer_layer_norm (2077x4x14336): 0.0005882501602172852
+Throughput (in TFLOP/s) for transformer_layer_norm (2077x4x14336): 404941625365.6645
+Elapsed time for transformer_layer_norm (2078x4x14336): 0.0005888247489929199
+Throughput (in TFLOP/s) for transformer_layer_norm (2078x4x14336): 404741248406.43475
+Elapsed time for transformer_layer_norm (2079x4x14336): 0.000589296817779541
+Throughput (in TFLOP/s) for transformer_layer_norm (2079x4x14336): 404611640189.1046
+Elapsed time for transformer_layer_norm (2080x4x14336): 0.0005891895294189453
+Throughput (in TFLOP/s) for transformer_layer_norm (2080x4x14336): 404879971704.9579
+Elapsed time for transformer_layer_norm (2081x4x14336): 0.0005896401405334473
+Throughput (in TFLOP/s) for transformer_layer_norm (2081x4x14336): 404765061930.95874
+Elapsed time for transformer_layer_norm (2082x4x14336): 0.0005898237228393555
+Throughput (in TFLOP/s) for transformer_layer_norm (2082x4x14336): 404833523566.2169
+Elapsed time for transformer_layer_norm (2083x4x14336): 0.0005901670455932618
+Throughput (in TFLOP/s) for transformer_layer_norm (2083x4x14336): 404792347834.0818
+Elapsed time for transformer_layer_norm (2084x4x14336): 0.0005899548530578613
+Throughput (in TFLOP/s) for transformer_layer_norm (2084x4x14336): 405132343197.3845
+Elapsed time for transformer_layer_norm (2085x4x14336): 0.0005907773971557617
+Throughput (in TFLOP/s) for transformer_layer_norm (2085x4x14336): 404762404843.58527
+Elapsed time for transformer_layer_norm (2086x4x14336): 0.0005910158157348633
+Throughput (in TFLOP/s) for transformer_layer_norm (2086x4x14336): 404793174109.1097
+Elapsed time for transformer_layer_norm (2087x4x14336): 0.0005913972854614258
+Throughput (in TFLOP/s) for transformer_layer_norm (2087x4x14336): 404725997031.334
+Elapsed time for transformer_layer_norm (2088x4x14336): 0.0005916810035705567
+Throughput (in TFLOP/s) for transformer_layer_norm (2088x4x14336): 404725760257.47614
+Elapsed time for transformer_layer_norm (2089x4x14336): 0.0005918478965759277
+Throughput (in TFLOP/s) for transformer_layer_norm (2089x4x14336): 404805412650.9243
+Elapsed time for transformer_layer_norm (2090x4x14336): 0.0005927252769470215
+Throughput (in TFLOP/s) for transformer_layer_norm (2090x4x14336): 404399692948.1792
+Elapsed time for transformer_layer_norm (2091x4x14336): 0.000592494010925293
+Throughput (in TFLOP/s) for transformer_layer_norm (2091x4x14336): 404751109003.59424
+Elapsed time for transformer_layer_norm (2092x4x14336): 0.0005925226211547851
+Throughput (in TFLOP/s) for transformer_layer_norm (2092x4x14336): 404925124263.4391
+Elapsed time for transformer_layer_norm (2093x4x14336): 0.0005928802490234375
+Throughput (in TFLOP/s) for transformer_layer_norm (2093x4x14336): 404874313818.6592
+Elapsed time for transformer_layer_norm (2094x4x14336): 0.0005930471420288086
+Throughput (in TFLOP/s) for transformer_layer_norm (2094x4x14336): 404953763335.62006
+Elapsed time for transformer_layer_norm (2095x4x14336): 0.0005930995941162109
+Throughput (in TFLOP/s) for transformer_layer_norm (2095x4x14336): 405111320903.92505
+Elapsed time for transformer_layer_norm (2096x4x14336): 0.0005936503410339355
+Throughput (in TFLOP/s) for transformer_layer_norm (2096x4x14336): 404928678355.22485
+Elapsed time for transformer_layer_norm (2097x4x14336): 0.0005942511558532714
+Throughput (in TFLOP/s) for transformer_layer_norm (2097x4x14336): 404712272969.2811
+Elapsed time for transformer_layer_norm (2098x4x14336): 0.000594630241394043
+Throughput (in TFLOP/s) for transformer_layer_norm (2098x4x14336): 404647135732.45874
+Elapsed time for transformer_layer_norm (2099x4x14336): 0.0005947017669677735
+Throughput (in TFLOP/s) for transformer_layer_norm (2099x4x14336): 404791317885.9699
+Elapsed time for transformer_layer_norm (2100x4x14336): 0.0005947494506835937
+Throughput (in TFLOP/s) for transformer_layer_norm (2100x4x14336): 404951698102.7516
+Elapsed time for transformer_layer_norm (2101x4x14336): 0.0005951857566833496
+Throughput (in TFLOP/s) for transformer_layer_norm (2101x4x14336): 404847537586.81616
+Elapsed time for transformer_layer_norm (2102x4x14336): 0.0005954909324645996
+Throughput (in TFLOP/s) for transformer_layer_norm (2102x4x14336): 404832656313.0854
+Elapsed time for transformer_layer_norm (2103x4x14336): 0.0005956315994262696
+Throughput (in TFLOP/s) for transformer_layer_norm (2103x4x14336): 404929597812.3398
+Elapsed time for transformer_layer_norm (2104x4x14336): 0.0005959033966064453
+Throughput (in TFLOP/s) for transformer_layer_norm (2104x4x14336): 404937366315.0388
+Elapsed time for transformer_layer_norm (2048x4x14208): 0.0005770111083984375
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14208): 403.43048619309803
+Elapsed time for transformer_layer_norm (2048x4x14209): 0.0009258818626403808
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14209): 251.43624191547784
+Elapsed time for transformer_layer_norm (2048x4x14210): 0.0009254264831542969
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14210): 251.577671741627
+Elapsed time for transformer_layer_norm (2048x4x14211): 0.000926506519317627
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14211): 251.30208924107927
+Elapsed time for transformer_layer_norm (2048x4x14212): 0.0005929851531982422
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14212): 392.6732511668055
+Elapsed time for transformer_layer_norm (2048x4x14213): 0.0009342312812805175
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14213): 249.25925374797896
+Elapsed time for transformer_layer_norm (2048x4x14214): 0.0009302091598510742
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14214): 250.35463641025024
+Elapsed time for transformer_layer_norm (2048x4x14215): 0.000927736759185791
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14215): 251.03948689539757
+Elapsed time for transformer_layer_norm (2048x4x14216): 0.0005923342704772949
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14216): 393.2153778850586
+Elapsed time for transformer_layer_norm (2048x4x14217): 0.0009276723861694336
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14217): 251.09222983538993
+Elapsed time for transformer_layer_norm (2048x4x14218): 0.0009266805648803711
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14218): 251.37865282636216
+Elapsed time for transformer_layer_norm (2048x4x14219): 0.0009279823303222656
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14219): 251.0436765742051
+Elapsed time for transformer_layer_norm (2048x4x14220): 0.0005935192108154297
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14220): 392.5407564818511
+Elapsed time for transformer_layer_norm (2048x4x14221): 0.0009278440475463867
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14221): 251.11640756454986
+Elapsed time for transformer_layer_norm (2048x4x14222): 0.0009289121627807617
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14222): 250.84529768935204
+Elapsed time for transformer_layer_norm (2048x4x14223): 0.0009292507171630859
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14223): 250.77153850514887
+Elapsed time for transformer_layer_norm (2048x4x14224): 0.0005925273895263671
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14224): 393.30842779484647
+Elapsed time for transformer_layer_norm (2048x4x14225): 0.0009291768074035645
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14225): 250.82675131685164
+Elapsed time for transformer_layer_norm (2048x4x14226): 0.0009275197982788086
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14226): 251.2925162702969
+Elapsed time for transformer_layer_norm (2048x4x14227): 0.0009283065795898437
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14227): 251.09718397448944
+Elapsed time for transformer_layer_norm (2048x4x14228): 0.000593883991241455
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14228): 392.5203498291033
+Elapsed time for transformer_layer_norm (2048x4x14229): 0.0009284615516662598
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14229): 251.09056544303627
+Elapsed time for transformer_layer_norm (2048x4x14230): 0.0009278273582458496
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14230): 251.2798506402987
+Elapsed time for transformer_layer_norm (2048x4x14231): 0.000928802490234375
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14231): 251.03367664438971
+Elapsed time for transformer_layer_norm (2048x4x14232): 0.0005929851531982422
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14232): 393.2258451031506
+Elapsed time for transformer_layer_norm (2048x4x14233): 0.0009292984008789063
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14233): 250.93497608459424
+Elapsed time for transformer_layer_norm (2048x4x14234): 0.0009305882453918457
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14234): 250.6047730076384
+Elapsed time for transformer_layer_norm (2048x4x14235): 0.0009300756454467773
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14235): 250.76050656929726
+Elapsed time for transformer_layer_norm (2048x4x14236): 0.0005940794944763184
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14236): 392.6118072895339
+Elapsed time for transformer_layer_norm (2048x4x14237): 0.0009285974502563477
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14237): 251.19496929009094
+Elapsed time for transformer_layer_norm (2048x4x14238): 0.0009271454811096191
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14238): 251.60602812927823
+Elapsed time for transformer_layer_norm (2048x4x14239): 0.0009285569190979004
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14239): 251.24122302232652
+Elapsed time for transformer_layer_norm (2048x4x14240): 0.0005892562866210937
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14240): 395.93664980280965
+Elapsed time for transformer_layer_norm (2048x4x14241): 0.0009293341636657714
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14241): 251.06635817588813
+Elapsed time for transformer_layer_norm (2048x4x14242): 0.0009281563758850097
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14242): 251.40260204268517
+Elapsed time for transformer_layer_norm (2048x4x14243): 0.0009286069869995117
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14243): 251.29825132375694
+Elapsed time for transformer_layer_norm (2048x4x14244): 0.0005918312072753907
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14244): 394.3247553206613
+Elapsed time for transformer_layer_norm (2048x4x14245): 0.0009281539916992188
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14245): 251.45620456010852
+Elapsed time for transformer_layer_norm (2048x4x14246): 0.0009271192550659179
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14246): 251.75452103344017
+Elapsed time for transformer_layer_norm (2048x4x14247): 0.0009281682968139648
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14247): 251.48763300928124
+Elapsed time for transformer_layer_norm (2048x4x14248): 0.0005919528007507324
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14248): 394.35446830211015
+Elapsed time for transformer_layer_norm (2048x4x14249): 0.0009287548065185547
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14249): 251.36409993409387
+Elapsed time for transformer_layer_norm (2048x4x14250): 0.0009270882606506347
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14250): 251.83362783188335
+Elapsed time for transformer_layer_norm (2048x4x14251): 0.0009276986122131348
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14251): 251.6856023347775
+Elapsed time for transformer_layer_norm (2048x4x14252): 0.000593259334564209
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14252): 393.59644997667976
+Elapsed time for transformer_layer_norm (2048x4x14253): 0.00093017578125
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14253): 251.05056131023622
+Elapsed time for transformer_layer_norm (2048x4x14254): 0.0009293007850646973
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14254): 251.30457194625237
+Elapsed time for transformer_layer_norm (2048x4x14255): 0.0009292721748352051
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14255): 251.3299400591844
+Elapsed time for transformer_layer_norm (2048x4x14256): 0.0005914425849914551
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14256): 394.9162774665178
+Elapsed time for transformer_layer_norm (2048x4x14257): 0.0009290862083435058
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14257): 251.415515484261
+Elapsed time for transformer_layer_norm (2048x4x14258): 0.0009282207489013671
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14258): 251.66758260520496
+Elapsed time for transformer_layer_norm (2048x4x14259): 0.0009292411804199219
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14259): 251.40884941671217
+Elapsed time for transformer_layer_norm (2048x4x14260): 0.0005944037437438965
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14260): 393.05916636464497
+Elapsed time for transformer_layer_norm (2048x4x14261): 0.0009289216995239257
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14261): 251.53059092036202
+Elapsed time for transformer_layer_norm (2048x4x14262): 0.0009284687042236329
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14262): 251.67095771460504
+Elapsed time for transformer_layer_norm (2048x4x14263): 0.0009290480613708496
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14263): 251.53165020891163
+Elapsed time for transformer_layer_norm (2048x4x14264): 0.000592961311340332
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14264): 394.1258418221933
+Elapsed time for transformer_layer_norm (2048x4x14265): 0.0009292268753051758
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14265): 251.5185109376466
+Elapsed time for transformer_layer_norm (2048x4x14266): 0.0009288430213928222
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14266): 251.64009269242297
+Elapsed time for transformer_layer_norm (2048x4x14267): 0.0009294962882995606
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14267): 251.48086220723698
+Elapsed time for transformer_layer_norm (2048x4x14268): 0.0005944442749023438
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14268): 393.2528613189245
+Elapsed time for transformer_layer_norm (2048x4x14269): 0.000929555892944336
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14269): 251.49998808516995
+Elapsed time for transformer_layer_norm (2048x4x14270): 0.0009283995628356933
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14270): 251.83088118426605
+Elapsed time for transformer_layer_norm (2048x4x14271): 0.0009294724464416503
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14271): 251.55782174622897
+Elapsed time for transformer_layer_norm (2048x4x14272): 0.00059112548828125
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14272): 395.5715878195147
+Elapsed time for transformer_layer_norm (2048x4x14273): 0.000934746265411377
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14273): 250.1735932553679
+Elapsed time for transformer_layer_norm (2048x4x14274): 0.0009287166595458985
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14274): 251.81546340985182
+Elapsed time for transformer_layer_norm (2048x4x14275): 0.0009299421310424805
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14275): 251.50124098347376
+Elapsed time for transformer_layer_norm (2048x4x14276): 0.000593879222869873
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14276): 393.8477303006275
+Elapsed time for transformer_layer_norm (2048x4x14277): 0.0009298038482666016
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14277): 251.57388672468693
+Elapsed time for transformer_layer_norm (2048x4x14278): 0.000928642749786377
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14278): 251.90607696427173
+Elapsed time for transformer_layer_norm (2048x4x14279): 0.0009293937683105468
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14279): 251.72014702150352
+Elapsed time for transformer_layer_norm (2048x4x14280): 0.0005933451652526856
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14280): 394.3126761644091
+Elapsed time for transformer_layer_norm (2048x4x14281): 0.0009299015998840332
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14281): 251.6179174540396
+Elapsed time for transformer_layer_norm (2048x4x14282): 0.0009293532371520996
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14282): 251.7840134899146
+Elapsed time for transformer_layer_norm (2048x4x14283): 0.0009301590919494629
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14283): 251.58349149665068
+Elapsed time for transformer_layer_norm (2048x4x14284): 0.0005942368507385254
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14284): 393.8312740267549
+Elapsed time for transformer_layer_norm (2048x4x14285): 0.0009304571151733398
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14285): 251.53812699513662
+Elapsed time for transformer_layer_norm (2048x4x14286): 0.0009292507171630859
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14286): 251.88231730890507
+Elapsed time for transformer_layer_norm (2048x4x14287): 0.0009302163124084473
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14287): 251.63846825470307
+Elapsed time for transformer_layer_norm (2048x4x14288): 0.0005921816825866699
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14288): 395.30873528115023
+Elapsed time for transformer_layer_norm (2048x4x14289): 0.0009301018714904785
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14289): 251.7046607215612
+Elapsed time for transformer_layer_norm (2048x4x14290): 0.0009346532821655273
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14290): 250.4964829926484
+Elapsed time for transformer_layer_norm (2048x4x14291): 0.00093031644821167
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14291): 251.68182767282056
+Elapsed time for transformer_layer_norm (2048x4x14292): 0.0005951285362243653
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14292): 393.4614352145953
+Elapsed time for transformer_layer_norm (2048x4x14293): 0.000930182933807373
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14293): 251.75318046470895
+Elapsed time for transformer_layer_norm (2048x4x14294): 0.0009293198585510254
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14294): 252.00461804953605
+Elapsed time for transformer_layer_norm (2048x4x14295): 0.0009301090240478515
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14295): 251.80841594323743
+Elapsed time for transformer_layer_norm (2048x4x14296): 0.0005937314033508301
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14296): 394.4976847748078
+Elapsed time for transformer_layer_norm (2048x4x14297): 0.0009301090240478515
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14297): 251.84364622178842
+Elapsed time for transformer_layer_norm (2048x4x14298): 0.0009287190437316894
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14298): 252.2382130323562
+Elapsed time for transformer_layer_norm (2048x4x14299): 0.0009299421310424805
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14299): 251.9240801977367
+Elapsed time for transformer_layer_norm (2048x4x14300): 0.0005954408645629883
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14300): 393.4751777104739
+Elapsed time for transformer_layer_norm (2048x4x14301): 0.000930182933807373
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14301): 251.89409038171155
+Elapsed time for transformer_layer_norm (2048x4x14302): 0.0009295940399169922
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14302): 252.0712891198441
+Elapsed time for transformer_layer_norm (2048x4x14303): 0.0009298491477966309
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14303): 252.01975240316403
+Elapsed time for transformer_layer_norm (2048x4x14304): 0.0005890750885009766
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14304): 397.83847691873916
+Elapsed time for transformer_layer_norm (2048x4x14305): 0.0009281444549560547
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14305): 252.5179337639818
+Elapsed time for transformer_layer_norm (2048x4x14306): 0.0009268999099731445
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14306): 252.8746647594249
+Elapsed time for transformer_layer_norm (2048x4x14307): 0.0009282636642456055
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14307): 252.52080527195935
+Elapsed time for transformer_layer_norm (2048x4x14308): 0.000592966079711914
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14308): 395.33841820073667
+Elapsed time for transformer_layer_norm (2048x4x14309): 0.0009285807609558105
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14309): 252.4698613814556
+Elapsed time for transformer_layer_norm (2048x4x14310): 0.0009270310401916504
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14310): 252.9095896848608
+Elapsed time for transformer_layer_norm (2048x4x14311): 0.0009284090995788575
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14311): 252.5518374457557
+Elapsed time for transformer_layer_norm (2048x4x14312): 0.0005928897857666016
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14312): 395.49982750471776
+Elapsed time for transformer_layer_norm (2048x4x14313): 0.0009287023544311524
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14313): 252.50737319777576
+Elapsed time for transformer_layer_norm (2048x4x14314): 0.0009279966354370118
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14314): 252.71705418367134
+Elapsed time for transformer_layer_norm (2048x4x14315): 0.0009294676780700683
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14315): 252.33471322745592
+Elapsed time for transformer_layer_norm (2048x4x14316): 0.0005961990356445312
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14316): 393.4144974696782
+Elapsed time for transformer_layer_norm (2048x4x14317): 0.0009301519393920899
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14317): 252.18431319221395
+Elapsed time for transformer_layer_norm (2048x4x14318): 0.0009294557571411133
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14318): 252.39083215919476
+Elapsed time for transformer_layer_norm (2048x4x14319): 0.000930016040802002
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14319): 252.25639742481204
+Elapsed time for transformer_layer_norm (2048x4x14320): 0.0005942749977111817
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14320): 394.798503897391
+Elapsed time for transformer_layer_norm (2048x4x14321): 0.0009311604499816895
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14321): 251.9815612922713
+Elapsed time for transformer_layer_norm (2048x4x14322): 0.0009300041198730468
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14322): 252.31248226301608
+Elapsed time for transformer_layer_norm (2048x4x14323): 0.0009316253662109375
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14323): 251.89098591682912
+Elapsed time for transformer_layer_norm (2048x4x14324): 0.0005969977378845214
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14324): 393.10771399504955
+Elapsed time for transformer_layer_norm (2048x4x14325): 0.0009318161010742188
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14325): 251.87459170262414
+Elapsed time for transformer_layer_norm (2048x4x14326): 0.0009307074546813965
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14326): 252.19222519319925
+Elapsed time for transformer_layer_norm (2048x4x14327): 0.0009317159652709961
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14327): 251.93683134078967
+Elapsed time for transformer_layer_norm (2048x4x14328): 0.0005983734130859376
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14328): 392.3134732697182
+Elapsed time for transformer_layer_norm (2048x4x14329): 0.0009328150749206543
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14329): 251.67510936716943
+Elapsed time for transformer_layer_norm (2048x4x14330): 0.0009312224388122558
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14330): 252.12313429588082
+Elapsed time for transformer_layer_norm (2048x4x14331): 0.0009316062927246094
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14331): 252.0368377002887
+Elapsed time for transformer_layer_norm (2048x4x14332): 0.0005973505973815917
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14332): 393.09492453725335
+Elapsed time for transformer_layer_norm (2048x4x14333): 0.0009307360649108887
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14333): 252.30769586916512
+Elapsed time for transformer_layer_norm (2048x4x14334): 0.0009302234649658203
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14334): 252.464343079788
+Elapsed time for transformer_layer_norm (2048x4x14335): 0.0009304213523864746
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14335): 252.4282567221683
+Elapsed time for transformer_layer_norm (2048x4x14336): 0.0005806756019592286
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14336): 404.4961131611173
+Elapsed time for transformer_layer_norm (2048x4x14337): 0.0009331774711608887
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14337): 251.7178299512349
+Elapsed time for transformer_layer_norm (2048x4x14338): 0.0009314656257629394
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14338): 252.19802588806022
+Elapsed time for transformer_layer_norm (2048x4x14339): 0.0009330105781555176
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14339): 251.79797689372072
+Elapsed time for transformer_layer_norm (2048x4x14340): 0.0005970859527587891
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14340): 393.4886743096999
+Elapsed time for transformer_layer_norm (2048x4x14341): 0.0009345889091491699
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14341): 251.40780261762933
+Elapsed time for transformer_layer_norm (2048x4x14342): 0.0009342479705810547
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14342): 251.51708689702033
+Elapsed time for transformer_layer_norm (2048x4x14343): 0.0009355401992797852
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14343): 251.1871880875977
+Elapsed time for transformer_layer_norm (2048x4x14344): 0.0005961036682128906
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14344): 394.247022006361
+Elapsed time for transformer_layer_norm (2048x4x14345): 0.0009357595443725586
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14345): 251.1633265334101
+Elapsed time for transformer_layer_norm (2048x4x14346): 0.0009348535537719726
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14346): 251.42426110660284
+Elapsed time for transformer_layer_norm (2048x4x14347): 0.0009359645843505859
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14347): 251.14331453373958
+Elapsed time for transformer_layer_norm (2048x4x14348): 0.0005983972549438477
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14348): 392.84543847391006
+Elapsed time for transformer_layer_norm (2048x4x14349): 0.0009370589256286621
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14349): 250.88498660025903
+Elapsed time for transformer_layer_norm (2048x4x14350): 0.0009370756149291992
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14350): 250.89800252433608
+Elapsed time for transformer_layer_norm (2048x4x14351): 0.0009372520446777343
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14351): 250.8682539933495
+Elapsed time for transformer_layer_norm (2048x4x14352): 0.0005952525138854981
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14352): 395.03095327579217
+Elapsed time for transformer_layer_norm (2048x4x14353): 0.0009370660781860352
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14353): 250.95300905056766
+Elapsed time for transformer_layer_norm (2048x4x14354): 0.0009352350234985351
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14354): 251.46185727759837
+Elapsed time for transformer_layer_norm (2048x4x14355): 0.0009360194206237793
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14355): 251.26863269916328
+Elapsed time for transformer_layer_norm (2048x4x14356): 0.0005977916717529297
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14356): 393.4626645270711
+Elapsed time for transformer_layer_norm (2048x4x14357): 0.000936121940612793
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14357): 251.27611884197455
+Elapsed time for transformer_layer_norm (2048x4x14358): 0.0009351825714111328
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14358): 251.54603944878392
+Elapsed time for transformer_layer_norm (2048x4x14359): 0.0009360742568969726
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14359): 251.32392464233024
+Elapsed time for transformer_layer_norm (2048x4x14360): 0.0005982851982116699
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14360): 393.2476362498297
+Elapsed time for transformer_layer_norm (2048x4x14361): 0.0009358739852905274
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14361): 251.41271976585367
+Elapsed time for transformer_layer_norm (2048x4x14362): 0.0009347057342529297
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14362): 251.74447890604932
+Elapsed time for transformer_layer_norm (2048x4x14363): 0.0009361362457275391
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14363): 251.3772894426422
+Elapsed time for transformer_layer_norm (2048x4x14364): 0.0005997896194458007
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14364): 392.37053855225355
+Elapsed time for transformer_layer_norm (2048x4x14365): 0.000936279296875
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14365): 251.37388040677968
+Elapsed time for transformer_layer_norm (2048x4x14366): 0.0009345746040344238
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14366): 251.84992507171785
+Elapsed time for transformer_layer_norm (2048x4x14367): 0.0009364581108093262
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14367): 251.36087272132983
+Elapsed time for transformer_layer_norm (2048x4x14368): 0.0005933809280395508
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14368): 396.71870273577355
+Elapsed time for transformer_layer_norm (2048x4x14369): 0.0009358024597167969
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14369): 251.5719995769684
+Elapsed time for transformer_layer_norm (2048x4x14370): 0.0009348917007446289
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14370): 251.83460267373934
+Elapsed time for transformer_layer_norm (2048x4x14371): 0.0009358406066894531
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14371): 251.59675944488333
+Elapsed time for transformer_layer_norm (2048x4x14372): 0.0005981040000915528
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14372): 393.69549102489884
+Elapsed time for transformer_layer_norm (2048x4x14373): 0.0009366273880004883
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14373): 251.42039942128753
+Elapsed time for transformer_layer_norm (2048x4x14374): 0.0009345388412475585
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14374): 251.99981595801358
+Elapsed time for transformer_layer_norm (2048x4x14375): 0.0009359860420227051
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14375): 251.62768398878194
+Elapsed time for transformer_layer_norm (2048x4x14376): 0.0005970907211303711
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14376): 394.47336169300826
+Elapsed time for transformer_layer_norm (2048x4x14377): 0.0009361100196838379
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14377): 251.62936305238534
+Elapsed time for transformer_layer_norm (2048x4x14378): 0.000936131477355957
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14378): 251.64109710886964
+Elapsed time for transformer_layer_norm (2048x4x14379): 0.0009369373321533204
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14379): 251.4421487065357
+Elapsed time for transformer_layer_norm (2048x4x14380): 0.000599527359008789
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14380): 392.97943031244733
+Elapsed time for transformer_layer_norm (2048x4x14381): 0.0009374070167541504
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14381): 251.35112047256482
+Elapsed time for transformer_layer_norm (2048x4x14382): 0.0009368610382080078
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14382): 251.51508963454503
+Elapsed time for transformer_layer_norm (2048x4x14383): 0.0009381222724914551
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14383): 251.19441133633939
+Elapsed time for transformer_layer_norm (2048x4x14384): 0.0006005668640136719
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14384): 392.4083563735129
+Elapsed time for transformer_layer_norm (2048x4x14385): 0.0009379911422729492
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14385): 251.26446229426926
+Elapsed time for transformer_layer_norm (2048x4x14386): 0.0009375858306884766
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14386): 251.39055677379798
+Elapsed time for transformer_layer_norm (2048x4x14387): 0.0009391498565673828
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14387): 250.98934568499044
+Elapsed time for transformer_layer_norm (2048x4x14388): 0.0006036901473999023
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14388): 390.48673067682756
+Elapsed time for transformer_layer_norm (2048x4x14389): 0.0009398937225341796
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14389): 250.82556713365736
+Elapsed time for transformer_layer_norm (2048x4x14390): 0.0009390044212341308
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14390): 251.0805643387001
+Elapsed time for transformer_layer_norm (2048x4x14391): 0.0009401202201843262
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14391): 250.7999923177602
+Elapsed time for transformer_layer_norm (2048x4x14392): 0.0006004500389099121
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14392): 392.7029939544692
+Elapsed time for transformer_layer_norm (2048x4x14393): 0.0009400010108947754
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14393): 250.86665787255984
+Elapsed time for transformer_layer_norm (2048x4x14394): 0.000938560962677002
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14394): 251.26902287449965
+Elapsed time for transformer_layer_norm (2048x4x14395): 0.0009392237663269043
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14395): 251.1091482728849
+Elapsed time for transformer_layer_norm (2048x4x14396): 0.0006007933616638183
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14396): 392.58766665930773
+Elapsed time for transformer_layer_norm (2048x4x14397): 0.0009394359588623047
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14397): 251.08731018308143
+Elapsed time for transformer_layer_norm (2048x4x14398): 0.0009386968612670898
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14398): 251.30246167178746
+Elapsed time for transformer_layer_norm (2048x4x14399): 0.0009394383430480957
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14399): 251.12155336832163
+Elapsed time for transformer_layer_norm (2048x4x14400): 0.0005953216552734375
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14400): 396.3060942099193
+Elapsed time for transformer_layer_norm (2048x4x14401): 0.0009397768974304199
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14401): 251.06595474429525
+Elapsed time for transformer_layer_norm (2048x4x14402): 0.0009380197525024414
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14402): 251.5537304736937
+Elapsed time for transformer_layer_norm (2048x4x14403): 0.0009391045570373535
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14403): 251.28059514954927
+Elapsed time for transformer_layer_norm (2048x4x14404): 0.0005997228622436524
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14404): 393.50698607204527
+Elapsed time for transformer_layer_norm (2048x4x14405): 0.0009419345855712891
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14405): 250.56041429549757
+Elapsed time for transformer_layer_norm (2048x4x14406): 0.0009382987022399903
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14406): 251.54879084510418
+Elapsed time for transformer_layer_norm (2048x4x14407): 0.0009392285346984863
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14407): 251.31720266119854
+Elapsed time for transformer_layer_norm (2048x4x14408): 0.0005999517440795899
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14408): 393.4660984478847
+Elapsed time for transformer_layer_norm (2048x4x14409): 0.0009389734268188477
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14409): 251.42038023355627
+Elapsed time for transformer_layer_norm (2048x4x14410): 0.0009373283386230469
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14410): 251.87912311157237
+Elapsed time for transformer_layer_norm (2048x4x14411): 0.0009391522407531739
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14411): 251.4074010094961
+Elapsed time for transformer_layer_norm (2048x4x14412): 0.0006001877784729004
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14412): 393.4205534820992
+Elapsed time for transformer_layer_norm (2048x4x14413): 0.0009392762184143067
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14413): 251.40910348891592
+Elapsed time for transformer_layer_norm (2048x4x14414): 0.000938727855682373
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14414): 251.57341882470624
+Elapsed time for transformer_layer_norm (2048x4x14415): 0.000939488410949707
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14415): 251.3871988705596
+Elapsed time for transformer_layer_norm (2048x4x14416): 0.000598137378692627
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14416): 394.8787559745118
+Elapsed time for transformer_layer_norm (2048x4x14417): 0.0009398412704467773
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14417): 251.32768205392014
+Elapsed time for transformer_layer_norm (2048x4x14418): 0.0009386157989501953
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14418): 251.6732749056726
+Elapsed time for transformer_layer_norm (2048x4x14419): 0.0009405517578125
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14419): 251.1726696991564
+Elapsed time for transformer_layer_norm (2048x4x14420): 0.000600435733795166
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14420): 393.47638173812845
+Elapsed time for transformer_layer_norm (2048x4x14421): 0.0009401297569274902
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14421): 251.32026963191123
+Elapsed time for transformer_layer_norm (2048x4x14422): 0.00093963623046875
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14422): 251.46970746554078
+Elapsed time for transformer_layer_norm (2048x4x14423): 0.0009410834312438965
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14423): 251.1004063557437
+Elapsed time for transformer_layer_norm (2048x4x14424): 0.000600125789642334
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14424): 393.7888024123157
+Elapsed time for transformer_layer_norm (2048x4x14425): 0.0009409475326538086
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14425): 251.17149660134498
+Elapsed time for transformer_layer_norm (2048x4x14426): 0.0009410905838012695
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14426): 251.15072668701924
+Elapsed time for transformer_layer_norm (2048x4x14427): 0.0009412074089050293
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14427): 251.13696063547528
+Elapsed time for transformer_layer_norm (2048x4x14428): 0.0006007242202758789
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14428): 393.50561209508106
+Elapsed time for transformer_layer_norm (2048x4x14429): 0.000941324234008789
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14429): 251.14060326825998
+Elapsed time for transformer_layer_norm (2048x4x14430): 0.0009408211708068848
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14430): 251.29230435709272
+Elapsed time for transformer_layer_norm (2048x4x14431): 0.0009431552886962891
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14431): 250.68777838994512
+Elapsed time for transformer_layer_norm (2048x4x14432): 0.0005980873107910156
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14432): 395.35011650267563
+Elapsed time for transformer_layer_norm (2048x4x14433): 0.0009411978721618653
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14433): 251.24395092059063
+Elapsed time for transformer_layer_norm (2048x4x14434): 0.000940556526184082
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14434): 251.43268843122755
+Elapsed time for transformer_layer_norm (2048x4x14435): 0.0009414005279541016
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14435): 251.22467321532122
+Elapsed time for transformer_layer_norm (2048x4x14436): 0.0006015157699584961
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14436): 393.20569104334464
+Elapsed time for transformer_layer_norm (2048x4x14437): 0.0009418749809265137
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14437): 251.13291338020457
+Elapsed time for transformer_layer_norm (2048x4x14438): 0.0009401535987854004
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14438): 251.61015424033437
+Elapsed time for transformer_layer_norm (2048x4x14439): 0.0009412527084350586
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14439): 251.33375328430407
+Elapsed time for transformer_layer_norm (2048x4x14440): 0.0006029725074768067
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14440): 392.36442303150983
+Elapsed time for transformer_layer_norm (2048x4x14441): 0.0009446167945861817
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14441): 250.4733616383038
+Elapsed time for transformer_layer_norm (2048x4x14442): 0.0009494829177856445
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14442): 249.2069352356889
+Elapsed time for transformer_layer_norm (2048x4x14443): 0.0009444236755371093
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14443): 250.5592755978108
+Elapsed time for transformer_layer_norm (2048x4x14444): 0.0006043314933776855
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14444): 391.59054028002134
+Elapsed time for transformer_layer_norm (2048x4x14445): 0.0009448647499084473
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14445): 250.47699157253126
+Elapsed time for transformer_layer_norm (2048x4x14446): 0.0009399724006652833
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14446): 251.79809942556074
+Elapsed time for transformer_layer_norm (2048x4x14447): 0.0009411954879760742
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14447): 251.4882944339158
+Elapsed time for transformer_layer_norm (2048x4x14448): 0.0005995392799377442
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14448): 394.82989675769113
+Elapsed time for transformer_layer_norm (2048x4x14449): 0.0009412074089050293
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14449): 251.5199240467167
+Elapsed time for transformer_layer_norm (2048x4x14450): 0.0009409976005554199
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14450): 251.59341518008125
+Elapsed time for transformer_layer_norm (2048x4x14451): 0.0009411501884460449
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14451): 251.57003303684033
+Elapsed time for transformer_layer_norm (2048x4x14452): 0.0005999398231506347
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14452): 394.6755305499168
+Elapsed time for transformer_layer_norm (2048x4x14453): 0.0009411239624023438
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14453): 251.61186141254103
+Elapsed time for transformer_layer_norm (2048x4x14454): 0.0009408378601074218
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14454): 251.7057891069151
+Elapsed time for transformer_layer_norm (2048x4x14455): 0.0009413313865661621
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14455): 251.59122852996916
+Elapsed time for transformer_layer_norm (2048x4x14456): 0.0005995559692382812
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14456): 395.0375213525228
+Elapsed time for transformer_layer_norm (2048x4x14457): 0.0009424376487731933
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14457): 251.33067244112559
+Elapsed time for transformer_layer_norm (2048x4x14458): 0.0009409189224243164
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14458): 251.7537551372325
+Elapsed time for transformer_layer_norm (2048x4x14459): 0.0009421920776367188
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14459): 251.43095725682824
+Elapsed time for transformer_layer_norm (2048x4x14460): 0.0006000757217407227
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14460): 394.80457451728716
+Elapsed time for transformer_layer_norm (2048x4x14461): 0.0009416747093200684
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14461): 251.6038942694696
+Elapsed time for transformer_layer_norm (2048x4x14462): 0.0009408020973205567
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14462): 251.85467663691477
+Elapsed time for transformer_layer_norm (2048x4x14463): 0.0009412264823913574
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14463): 251.7585261710395
+Elapsed time for transformer_layer_norm (2048x4x14464): 0.0005835676193237304
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14464): 406.0852044440421
+Elapsed time for transformer_layer_norm (2048x0x14336): 1.6810894012451173e-05
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x0x14336): 0.0
+Elapsed time for transformer_layer_norm (2048x1x14336): 0.00017198562622070313
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x1x14336): 341.4253696099368
+Elapsed time for transformer_layer_norm (2048x2x14336): 0.000311429500579834
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x2x14336): 377.1014363807661
+Elapsed time for transformer_layer_norm (2048x3x14336): 0.00044559240341186525
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x3x14336): 395.3405997300474
+Elapsed time for transformer_layer_norm (2048x4x14336): 0.0005807828903198242
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14336): 404.4213903592378
+Elapsed time for transformer_layer_norm (2048x5x14336): 0.0007171249389648438
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x5x14336): 409.4144047253577
+Elapsed time for transformer_layer_norm (2048x6x14336): 0.0008539056777954101
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x6x14336): 412.6000624678055
+Elapsed time for transformer_layer_norm (2048x7x14336): 0.0009901189804077148
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x7x14336): 415.1438363808961
+Elapsed time for transformer_layer_norm (1920x4x14336): 0.0005463552474975586
+Throughput (in TFLOP/s) for transformer_layer_norm (1920x4x14336): 403.03623147864795
+Elapsed time for transformer_layer_norm (1921x4x14336): 0.0005464696884155273
+Throughput (in TFLOP/s) for transformer_layer_norm (1921x4x14336): 403.161698938506
+Elapsed time for transformer_layer_norm (1922x4x14336): 0.0005468177795410156
+Throughput (in TFLOP/s) for transformer_layer_norm (1922x4x14336): 403.1147929846454
+Elapsed time for transformer_layer_norm (1923x4x14336): 0.0005470871925354004
+Throughput (in TFLOP/s) for transformer_layer_norm (1923x4x14336): 403.125913033925
+Elapsed time for transformer_layer_norm (1924x4x14336): 0.0005473804473876953
+Throughput (in TFLOP/s) for transformer_layer_norm (1924x4x14336): 403.11946298606546
+Elapsed time for transformer_layer_norm (1925x4x14336): 0.0005474853515625
+Throughput (in TFLOP/s) for transformer_layer_norm (1925x4x14336): 403.251702296544
+Elapsed time for transformer_layer_norm (1926x4x14336): 0.0005477809906005859
+Throughput (in TFLOP/s) for transformer_layer_norm (1926x4x14336): 403.2434344934418
+Elapsed time for transformer_layer_norm (1927x4x14336): 0.0005478596687316894
+Throughput (in TFLOP/s) for transformer_layer_norm (1927x4x14336): 403.3948629794743
+Elapsed time for transformer_layer_norm (1928x4x14336): 0.0005485010147094726
+Throughput (in TFLOP/s) for transformer_layer_norm (1928x4x14336): 403.1322788292761
+Elapsed time for transformer_layer_norm (1929x4x14336): 0.0005490064620971679
+Throughput (in TFLOP/s) for transformer_layer_norm (1929x4x14336): 402.970032729495
+Elapsed time for transformer_layer_norm (1930x4x14336): 0.0005491375923156738
+Throughput (in TFLOP/s) for transformer_layer_norm (1930x4x14336): 403.08265742032347
+Elapsed time for transformer_layer_norm (1931x4x14336): 0.0005491137504577637
+Throughput (in TFLOP/s) for transformer_layer_norm (1931x4x14336): 403.3090189698943
+Elapsed time for transformer_layer_norm (1932x4x14336): 0.0005492949485778808
+Throughput (in TFLOP/s) for transformer_layer_norm (1932x4x14336): 403.3847691002097
+Elapsed time for transformer_layer_norm (1933x4x14336): 0.0005498313903808593
+Throughput (in TFLOP/s) for transformer_layer_norm (1933x4x14336): 403.1997952071045
+Elapsed time for transformer_layer_norm (1934x4x14336): 0.0005499720573425293
+Throughput (in TFLOP/s) for transformer_layer_norm (1934x4x14336): 403.3052025802398
+Elapsed time for transformer_layer_norm (1935x4x14336): 0.0005504655838012696
+Throughput (in TFLOP/s) for transformer_layer_norm (1935x4x14336): 403.1519617766305
+Elapsed time for transformer_layer_norm (1936x4x14336): 0.000550525188446045
+Throughput (in TFLOP/s) for transformer_layer_norm (1936x4x14336): 403.3166377486486
+Elapsed time for transformer_layer_norm (1937x4x14336): 0.0005509424209594727
+Throughput (in TFLOP/s) for transformer_layer_norm (1937x4x14336): 403.21937020772884
+Elapsed time for transformer_layer_norm (1938x4x14336): 0.0005515241622924805
+Throughput (in TFLOP/s) for transformer_layer_norm (1938x4x14336): 403.00200643272956
+Elapsed time for transformer_layer_norm (1939x4x14336): 0.0005513381958007813
+Throughput (in TFLOP/s) for transformer_layer_norm (1939x4x14336): 403.345956608372
+Elapsed time for transformer_layer_norm (1940x4x14336): 0.0005520033836364746
+Throughput (in TFLOP/s) for transformer_layer_norm (1940x4x14336): 403.06767421289095
+Elapsed time for transformer_layer_norm (1941x4x14336): 0.0005525922775268554
+Throughput (in TFLOP/s) for transformer_layer_norm (1941x4x14336): 402.8456731177924
+Elapsed time for transformer_layer_norm (1942x4x14336): 0.0005526304244995117
+Throughput (in TFLOP/s) for transformer_layer_norm (1942x4x14336): 403.0253965870762
+Elapsed time for transformer_layer_norm (1943x4x14336): 0.0005532622337341309
+Throughput (in TFLOP/s) for transformer_layer_norm (1943x4x14336): 402.7724475173282
+Elapsed time for transformer_layer_norm (1944x4x14336): 0.0005544137954711914
+Throughput (in TFLOP/s) for transformer_layer_norm (1944x4x14336): 402.14272051169615
+Elapsed time for transformer_layer_norm (1945x4x14336): 0.0005544209480285644
+Throughput (in TFLOP/s) for transformer_layer_norm (1945x4x14336): 402.3443933588658
+Elapsed time for transformer_layer_norm (1946x4x14336): 0.0005546259880065918
+Throughput (in TFLOP/s) for transformer_layer_norm (1946x4x14336): 402.40243484109413
+Elapsed time for transformer_layer_norm (1947x4x14336): 0.0005553817749023438
+Throughput (in TFLOP/s) for transformer_layer_norm (1947x4x14336): 402.0613316655265
+Elapsed time for transformer_layer_norm (1948x4x14336): 0.0005551910400390625
+Throughput (in TFLOP/s) for transformer_layer_norm (1948x4x14336): 402.4060330373506
+Elapsed time for transformer_layer_norm (1949x4x14336): 0.0005556321144104003
+Throughput (in TFLOP/s) for transformer_layer_norm (1949x4x14336): 402.2930032350485
+Elapsed time for transformer_layer_norm (1950x4x14336): 0.00055647611618042
+Throughput (in TFLOP/s) for transformer_layer_norm (1950x4x14336): 401.8889463487616
+Elapsed time for transformer_layer_norm (1951x4x14336): 0.0005565929412841797
+Throughput (in TFLOP/s) for transformer_layer_norm (1951x4x14336): 402.01064620716556
+Elapsed time for transformer_layer_norm (1952x4x14336): 0.0005569744110107422
+Throughput (in TFLOP/s) for transformer_layer_norm (1952x4x14336): 401.9412231052789
+Elapsed time for transformer_layer_norm (1953x4x14336): 0.0005574440956115723
+Throughput (in TFLOP/s) for transformer_layer_norm (1953x4x14336): 401.8082992775539
+Elapsed time for transformer_layer_norm (1954x4x14336): 0.0005579280853271484
+Throughput (in TFLOP/s) for transformer_layer_norm (1954x4x14336): 401.6653004098115
+Elapsed time for transformer_layer_norm (1955x4x14336): 0.000557713508605957
+Throughput (in TFLOP/s) for transformer_layer_norm (1955x4x14336): 402.0254782073341
+Elapsed time for transformer_layer_norm (1956x4x14336): 0.000558009147644043
+Throughput (in TFLOP/s) for transformer_layer_norm (1956x4x14336): 402.0180116170804
+Elapsed time for transformer_layer_norm (1957x4x14336): 0.0005582928657531738
+Throughput (in TFLOP/s) for transformer_layer_norm (1957x4x14336): 402.0191368507095
+Elapsed time for transformer_layer_norm (1958x4x14336): 0.0005586791038513184
+Throughput (in TFLOP/s) for transformer_layer_norm (1958x4x14336): 401.9464885154575
+Elapsed time for transformer_layer_norm (1959x4x14336): 0.0005588483810424805
+Throughput (in TFLOP/s) for transformer_layer_norm (1959x4x14336): 402.0299595051016
+Elapsed time for transformer_layer_norm (1960x4x14336): 0.0005591535568237305
+Throughput (in TFLOP/s) for transformer_layer_norm (1960x4x14336): 402.0156489335596
+Elapsed time for transformer_layer_norm (1961x4x14336): 0.0005594968795776367
+Throughput (in TFLOP/s) for transformer_layer_norm (1961x4x14336): 401.9739451804969
+Elapsed time for transformer_layer_norm (1962x4x14336): 0.0005596137046813965
+Throughput (in TFLOP/s) for transformer_layer_norm (1962x4x14336): 402.09497036551113
+Elapsed time for transformer_layer_norm (1963x4x14336): 0.0005594968795776367
+Throughput (in TFLOP/s) for transformer_layer_norm (1963x4x14336): 402.383913508065
+Elapsed time for transformer_layer_norm (1964x4x14336): 0.0005598759651184082
+Throughput (in TFLOP/s) for transformer_layer_norm (1964x4x14336): 402.31630938535193
+Elapsed time for transformer_layer_norm (1965x4x14336): 0.0005604338645935059
+Throughput (in TFLOP/s) for transformer_layer_norm (1965x4x14336): 402.1204538798875
+Elapsed time for transformer_layer_norm (1966x4x14336): 0.0005605673789978027
+Throughput (in TFLOP/s) for transformer_layer_norm (1966x4x14336): 402.22927064202895
+Elapsed time for transformer_layer_norm (1967x4x14336): 0.0005608224868774415
+Throughput (in TFLOP/s) for transformer_layer_norm (1967x4x14336): 402.25080355827333
+Elapsed time for transformer_layer_norm (1968x4x14336): 0.0005609655380249024
+Throughput (in TFLOP/s) for transformer_layer_norm (1968x4x14336): 402.35267356117066
+Elapsed time for transformer_layer_norm (1969x4x14336): 0.0005614066123962402
+Throughput (in TFLOP/s) for transformer_layer_norm (1969x4x14336): 402.24084827952834
+Elapsed time for transformer_layer_norm (1970x4x14336): 0.0005612492561340332
+Throughput (in TFLOP/s) for transformer_layer_norm (1970x4x14336): 402.5579678381682
+Elapsed time for transformer_layer_norm (1971x4x14336): 0.0005619478225708008
+Throughput (in TFLOP/s) for transformer_layer_norm (1971x4x14336): 402.2616316331034
+Elapsed time for transformer_layer_norm (1972x4x14336): 0.0005620193481445313
+Throughput (in TFLOP/s) for transformer_layer_norm (1972x4x14336): 402.4145018257245
+Elapsed time for transformer_layer_norm (1973x4x14336): 0.0005621671676635742
+Throughput (in TFLOP/s) for transformer_layer_norm (1973x4x14336): 402.5126990970338
+Elapsed time for transformer_layer_norm (1974x4x14336): 0.0005626606941223144
+Throughput (in TFLOP/s) for transformer_layer_norm (1974x4x14336): 402.36347476368263
+Elapsed time for transformer_layer_norm (1975x4x14336): 0.0005630111694335938
+Throughput (in TFLOP/s) for transformer_layer_norm (1975x4x14336): 402.31670754929195
+Elapsed time for transformer_layer_norm (1976x4x14336): 0.0005634021759033203
+Throughput (in TFLOP/s) for transformer_layer_norm (1976x4x14336): 402.24105921608754
+Elapsed time for transformer_layer_norm (1977x4x14336): 0.0005637431144714356
+Throughput (in TFLOP/s) for transformer_layer_norm (1977x4x14336): 402.20123346888107
+Elapsed time for transformer_layer_norm (1978x4x14336): 0.0005636787414550781
+Throughput (in TFLOP/s) for transformer_layer_norm (1978x4x14336): 402.45062890681834
+Elapsed time for transformer_layer_norm (1979x4x14336): 0.0005638861656188965
+Throughput (in TFLOP/s) for transformer_layer_norm (1979x4x14336): 402.5059769836532
+Elapsed time for transformer_layer_norm (1980x4x14336): 0.0005646324157714843
+Throughput (in TFLOP/s) for transformer_layer_norm (1980x4x14336): 402.1771220657366
+Elapsed time for transformer_layer_norm (1981x4x14336): 0.000564422607421875
+Throughput (in TFLOP/s) for transformer_layer_norm (1981x4x14336): 402.5298154476345
+Elapsed time for transformer_layer_norm (1982x4x14336): 0.0005644154548645019
+Throughput (in TFLOP/s) for transformer_layer_norm (1982x4x14336): 402.73811434623144
+Elapsed time for transformer_layer_norm (1983x4x14336): 0.0005645275115966797
+Throughput (in TFLOP/s) for transformer_layer_norm (1983x4x14336): 402.86132974593124
+Elapsed time for transformer_layer_norm (1984x4x14336): 0.0005645155906677246
+Throughput (in TFLOP/s) for transformer_layer_norm (1984x4x14336): 403.07299880036663
+Elapsed time for transformer_layer_norm (1985x4x14336): 0.0005650901794433593
+Throughput (in TFLOP/s) for transformer_layer_norm (1985x4x14336): 402.866105767847
+Elapsed time for transformer_layer_norm (1986x4x14336): 0.0005651283264160157
+Throughput (in TFLOP/s) for transformer_layer_norm (1986x4x14336): 403.04185324507745
+Elapsed time for transformer_layer_norm (1987x4x14336): 0.0005656361579895019
+Throughput (in TFLOP/s) for transformer_layer_norm (1987x4x14336): 402.8827591397181
+Elapsed time for transformer_layer_norm (1988x4x14336): 0.0005657029151916504
+Throughput (in TFLOP/s) for transformer_layer_norm (1988x4x14336): 403.0379513295554
+Elapsed time for transformer_layer_norm (1989x4x14336): 0.0005655932426452637
+Throughput (in TFLOP/s) for transformer_layer_norm (1989x4x14336): 403.3188779503716
+Elapsed time for transformer_layer_norm (1990x4x14336): 0.0005660486221313476
+Throughput (in TFLOP/s) for transformer_layer_norm (1990x4x14336): 403.19702420729686
+Elapsed time for transformer_layer_norm (1991x4x14336): 0.0005662345886230469
+Throughput (in TFLOP/s) for transformer_layer_norm (1991x4x14336): 403.26714861287434
+Elapsed time for transformer_layer_norm (1992x4x14336): 0.0005666279792785645
+Throughput (in TFLOP/s) for transformer_layer_norm (1992x4x14336): 403.1895782676939
+Elapsed time for transformer_layer_norm (1993x4x14336): 0.0005664873123168945
+Throughput (in TFLOP/s) for transformer_layer_norm (1993x4x14336): 403.49215071587616
+Elapsed time for transformer_layer_norm (1994x4x14336): 0.0005672669410705566
+Throughput (in TFLOP/s) for transformer_layer_norm (1994x4x14336): 403.1397838351307
+Elapsed time for transformer_layer_norm (1995x4x14336): 0.0005673956871032715
+Throughput (in TFLOP/s) for transformer_layer_norm (1995x4x14336): 403.2504391566793
+Elapsed time for transformer_layer_norm (1996x4x14336): 0.0005678820610046386
+Throughput (in TFLOP/s) for transformer_layer_norm (1996x4x14336): 403.10702471393995
+Elapsed time for transformer_layer_norm (1997x4x14336): 0.0005681014060974121
+Throughput (in TFLOP/s) for transformer_layer_norm (1997x4x14336): 403.15326373391866
+Elapsed time for transformer_layer_norm (1998x4x14336): 0.0005683445930480957
+Throughput (in TFLOP/s) for transformer_layer_norm (1998x4x14336): 403.1825529843805
+Elapsed time for transformer_layer_norm (1999x4x14336): 0.0005688238143920899
+Throughput (in TFLOP/s) for transformer_layer_norm (1999x4x14336): 403.04450376258393
+Elapsed time for transformer_layer_norm (2000x4x14336): 0.0005687952041625976
+Throughput (in TFLOP/s) for transformer_layer_norm (2000x4x14336): 403.2664099861677
+Elapsed time for transformer_layer_norm (2001x4x14336): 0.0005687808990478515
+Throughput (in TFLOP/s) for transformer_layer_norm (2001x4x14336): 403.47819060761566
+Elapsed time for transformer_layer_norm (2002x4x14336): 0.0005699753761291504
+Throughput (in TFLOP/s) for transformer_layer_norm (2002x4x14336): 402.83385145391594
+Elapsed time for transformer_layer_norm (2003x4x14336): 0.0005702161788940429
+Throughput (in TFLOP/s) for transformer_layer_norm (2003x4x14336): 402.8648651210691
+Elapsed time for transformer_layer_norm (2004x4x14336): 0.0005710601806640625
+Throughput (in TFLOP/s) for transformer_layer_norm (2004x4x14336): 402.4702820860922
+Elapsed time for transformer_layer_norm (2005x4x14336): 0.0005708026885986328
+Throughput (in TFLOP/s) for transformer_layer_norm (2005x4x14336): 402.8527625974304
+Elapsed time for transformer_layer_norm (2006x4x14336): 0.0005697989463806152
+Throughput (in TFLOP/s) for transformer_layer_norm (2006x4x14336): 403.7636950039592
+Elapsed time for transformer_layer_norm (2007x4x14336): 0.0005697369575500488
+Throughput (in TFLOP/s) for transformer_layer_norm (2007x4x14336): 404.0089254342954
+Elapsed time for transformer_layer_norm (2008x4x14336): 0.0005713677406311035
+Throughput (in TFLOP/s) for transformer_layer_norm (2008x4x14336): 403.0565389387046
+Elapsed time for transformer_layer_norm (2009x4x14336): 0.0005713510513305664
+Throughput (in TFLOP/s) for transformer_layer_norm (2009x4x14336): 403.2690435476119
+Elapsed time for transformer_layer_norm (2010x4x14336): 0.000570223331451416
+Throughput (in TFLOP/s) for transformer_layer_norm (2010x4x14336): 404.26770930827996
+Elapsed time for transformer_layer_norm (2011x4x14336): 0.0005713868141174317
+Throughput (in TFLOP/s) for transformer_layer_norm (2011x4x14336): 403.64524049482054
+Elapsed time for transformer_layer_norm (2012x4x14336): 0.0005707550048828125
+Throughput (in TFLOP/s) for transformer_layer_norm (2012x4x14336): 404.29300492490313
+Elapsed time for transformer_layer_norm (2013x4x14336): 0.0005710291862487793
+Throughput (in TFLOP/s) for transformer_layer_norm (2013x4x14336): 404.2997268083922
+Elapsed time for transformer_layer_norm (2014x4x14336): 0.0005712842941284179
+Throughput (in TFLOP/s) for transformer_layer_norm (2014x4x14336): 404.31994083155746
+Elapsed time for transformer_layer_norm (2015x4x14336): 0.0005716133117675781
+Throughput (in TFLOP/s) for transformer_layer_norm (2015x4x14336): 404.28785551790185
+Elapsed time for transformer_layer_norm (2016x4x14336): 0.0005717897415161133
+Throughput (in TFLOP/s) for transformer_layer_norm (2016x4x14336): 404.36368688066847
+Elapsed time for transformer_layer_norm (2017x4x14336): 0.0005725812911987305
+Throughput (in TFLOP/s) for transformer_layer_norm (2017x4x14336): 404.0049850663247
+Elapsed time for transformer_layer_norm (2018x4x14336): 0.000572807788848877
+Throughput (in TFLOP/s) for transformer_layer_norm (2018x4x14336): 404.0454555708924
+Elapsed time for transformer_layer_norm (2019x4x14336): 0.0005728507041931152
+Throughput (in TFLOP/s) for transformer_layer_norm (2019x4x14336): 404.21539208222714
+Elapsed time for transformer_layer_norm (2020x4x14336): 0.0005732846260070801
+Throughput (in TFLOP/s) for transformer_layer_norm (2020x4x14336): 404.10949376678184
+Elapsed time for transformer_layer_norm (2021x4x14336): 0.0005731821060180664
+Throughput (in TFLOP/s) for transformer_layer_norm (2021x4x14336): 404.38186322706713
+Elapsed time for transformer_layer_norm (2022x4x14336): 0.000573434829711914
+Throughput (in TFLOP/s) for transformer_layer_norm (2022x4x14336): 404.40364621120597
+Elapsed time for transformer_layer_norm (2023x4x14336): 0.0005737805366516114
+Throughput (in TFLOP/s) for transformer_layer_norm (2023x4x14336): 404.35987137861804
+Elapsed time for transformer_layer_norm (2024x4x14336): 0.0005742549896240234
+Throughput (in TFLOP/s) for transformer_layer_norm (2024x4x14336): 404.2255029459637
+Elapsed time for transformer_layer_norm (2025x4x14336): 0.0005742383003234864
+Throughput (in TFLOP/s) for transformer_layer_norm (2025x4x14336): 404.4369730635699
+Elapsed time for transformer_layer_norm (2026x4x14336): 0.0005745744705200195
+Throughput (in TFLOP/s) for transformer_layer_norm (2026x4x14336): 404.39995148009996
+Elapsed time for transformer_layer_norm (2027x4x14336): 0.0005749368667602539
+Throughput (in TFLOP/s) for transformer_layer_norm (2027x4x14336): 404.34452796525926
+Elapsed time for transformer_layer_norm (2028x4x14336): 0.0005750823020935059
+Throughput (in TFLOP/s) for transformer_layer_norm (2028x4x14336): 404.44170017630336
+Elapsed time for transformer_layer_norm (2029x4x14336): 0.0005752921104431152
+Throughput (in TFLOP/s) for transformer_layer_norm (2029x4x14336): 404.4935568832376
+Elapsed time for transformer_layer_norm (2030x4x14336): 0.0005759453773498535
+Throughput (in TFLOP/s) for transformer_layer_norm (2030x4x14336): 404.23388945541853
+Elapsed time for transformer_layer_norm (2031x4x14336): 0.0005762052536010743
+Throughput (in TFLOP/s) for transformer_layer_norm (2031x4x14336): 404.2506147666366
+Elapsed time for transformer_layer_norm (2032x4x14336): 0.0005762863159179687
+Throughput (in TFLOP/s) for transformer_layer_norm (2032x4x14336): 404.39276374067657
+Elapsed time for transformer_layer_norm (2033x4x14336): 0.0005766534805297851
+Throughput (in TFLOP/s) for transformer_layer_norm (2033x4x14336): 404.33416579015494
+Elapsed time for transformer_layer_norm (2034x4x14336): 0.0005769729614257812
+Throughput (in TFLOP/s) for transformer_layer_norm (2034x4x14336): 404.30905362279674
+Elapsed time for transformer_layer_norm (2035x4x14336): 0.0005775785446166992
+Throughput (in TFLOP/s) for transformer_layer_norm (2035x4x14336): 404.08370805201156
+Elapsed time for transformer_layer_norm (2036x4x14336): 0.0005773377418518067
+Throughput (in TFLOP/s) for transformer_layer_norm (2036x4x14336): 404.4508977553332
+Elapsed time for transformer_layer_norm (2037x4x14336): 0.0005777931213378906
+Throughput (in TFLOP/s) for transformer_layer_norm (2037x4x14336): 404.3306286842769
+Elapsed time for transformer_layer_norm (2038x4x14336): 0.0005778145790100098
+Throughput (in TFLOP/s) for transformer_layer_norm (2038x4x14336): 404.5140993161941
+Elapsed time for transformer_layer_norm (2039x4x14336): 0.0005784988403320313
+Throughput (in TFLOP/s) for transformer_layer_norm (2039x4x14336): 404.2338820692911
+Elapsed time for transformer_layer_norm (2040x4x14336): 0.0005782985687255859
+Throughput (in TFLOP/s) for transformer_layer_norm (2040x4x14336): 404.57219272666106
+Elapsed time for transformer_layer_norm (2041x4x14336): 0.0005792617797851562
+Throughput (in TFLOP/s) for transformer_layer_norm (2041x4x14336): 404.0974498383405
+Elapsed time for transformer_layer_norm (2042x4x14336): 0.0005789566040039063
+Throughput (in TFLOP/s) for transformer_layer_norm (2042x4x14336): 404.50854931161626
+Elapsed time for transformer_layer_norm (2043x4x14336): 0.0005795574188232422
+Throughput (in TFLOP/s) for transformer_layer_norm (2043x4x14336): 404.2870928574221
+Elapsed time for transformer_layer_norm (2044x4x14336): 0.0005793476104736328
+Throughput (in TFLOP/s) for transformer_layer_norm (2044x4x14336): 404.63146436101334
+Elapsed time for transformer_layer_norm (2045x4x14336): 0.0005799341201782227
+Throughput (in TFLOP/s) for transformer_layer_norm (2045x4x14336): 404.4200053756506
+Elapsed time for transformer_layer_norm (2046x4x14336): 0.0005806279182434082
+Throughput (in TFLOP/s) for transformer_layer_norm (2046x4x14336): 404.13428398327625
+Elapsed time for transformer_layer_norm (2047x4x14336): 0.0005804777145385742
+Throughput (in TFLOP/s) for transformer_layer_norm (2047x4x14336): 404.43643247633963
+Elapsed time for transformer_layer_norm (2048x4x14336): 0.0005806541442871094
+Throughput (in TFLOP/s) for transformer_layer_norm (2048x4x14336): 404.5110610350886
+Elapsed time for transformer_layer_norm (2049x4x14336): 0.0005811834335327148
+Throughput (in TFLOP/s) for transformer_layer_norm (2049x4x14336): 404.340004276416
+Elapsed time for transformer_layer_norm (2050x4x14336): 0.0005815911293029785
+Throughput (in TFLOP/s) for transformer_layer_norm (2050x4x14336): 404.2537586186598
+Elapsed time for transformer_layer_norm (2051x4x14336): 0.0005814838409423828
+Throughput (in TFLOP/s) for transformer_layer_norm (2051x4x14336): 404.525579969311
+Elapsed time for transformer_layer_norm (2052x4x14336): 0.0005818629264831543
+Throughput (in TFLOP/s) for transformer_layer_norm (2052x4x14336): 404.459135113523
+Elapsed time for transformer_layer_norm (2053x4x14336): 0.0005826210975646973
+Throughput (in TFLOP/s) for transformer_layer_norm (2053x4x14336): 404.1296564511276
+Elapsed time for transformer_layer_norm (2054x4x14336): 0.0005826067924499512
+Throughput (in TFLOP/s) for transformer_layer_norm (2054x4x14336): 404.33643248372624
+Elapsed time for transformer_layer_norm (2055x4x14336): 0.0005828166007995606
+Throughput (in TFLOP/s) for transformer_layer_norm (2055x4x14336): 404.38765758673924
+Elapsed time for transformer_layer_norm (2056x4x14336): 0.0005828285217285156
+Throughput (in TFLOP/s) for transformer_layer_norm (2056x4x14336): 404.5761647022417
+Elapsed time for transformer_layer_norm (2057x4x14336): 0.0005835151672363281
+Throughput (in TFLOP/s) for transformer_layer_norm (2057x4x14336): 404.2966305697643
+Elapsed time for transformer_layer_norm (2058x4x14336): 0.0005832338333129883
+Throughput (in TFLOP/s) for transformer_layer_norm (2058x4x14336): 404.68829227425374
+Elapsed time for transformer_layer_norm (2059x4x14336): 0.0005835700035095215
+Throughput (in TFLOP/s) for transformer_layer_norm (2059x4x14336): 404.6516965914392
+Elapsed time for transformer_layer_norm (2060x4x14336): 0.0005837631225585938
+Throughput (in TFLOP/s) for transformer_layer_norm (2060x4x14336): 404.71429398366337
+Elapsed time for transformer_layer_norm (2061x4x14336): 0.0005846023559570312
+Throughput (in TFLOP/s) for transformer_layer_norm (2061x4x14336): 404.32948241038827
+Elapsed time for transformer_layer_norm (2062x4x14336): 0.0005846405029296875
+Throughput (in TFLOP/s) for transformer_layer_norm (2062x4x14336): 404.49926889249645
+Elapsed time for transformer_layer_norm (2063x4x14336): 0.0005847907066345215
+Throughput (in TFLOP/s) for transformer_layer_norm (2063x4x14336): 404.59149113645117
+Elapsed time for transformer_layer_norm (2064x4x14336): 0.0005856752395629883
+Throughput (in TFLOP/s) for transformer_layer_norm (2064x4x14336): 404.17626699846454
+Elapsed time for transformer_layer_norm (2065x4x14336): 0.0005858564376831055
+Throughput (in TFLOP/s) for transformer_layer_norm (2065x4x14336): 404.2470215682834
+Elapsed time for transformer_layer_norm (2066x4x14336): 0.0005870270729064942
+Throughput (in TFLOP/s) for transformer_layer_norm (2066x4x14336): 403.6362527997791
+Elapsed time for transformer_layer_norm (2067x4x14336): 0.00058624267578125
+Throughput (in TFLOP/s) for transformer_layer_norm (2067x4x14336): 404.3719534475794
+Elapsed time for transformer_layer_norm (2068x4x14336): 0.0005860948562622071
+Throughput (in TFLOP/s) for transformer_layer_norm (2068x4x14336): 404.6696221027621
+Elapsed time for transformer_layer_norm (2069x4x14336): 0.0005866646766662598
+Throughput (in TFLOP/s) for transformer_layer_norm (2069x4x14336): 404.47206289699386
+Elapsed time for transformer_layer_norm (2070x4x14336): 0.0005866193771362305
+Throughput (in TFLOP/s) for transformer_layer_norm (2070x4x14336): 404.69880343701584
+Elapsed time for transformer_layer_norm (2071x4x14336): 0.000587158203125
+Throughput (in TFLOP/s) for transformer_layer_norm (2071x4x14336): 404.5227448681913
+Elapsed time for transformer_layer_norm (2072x4x14336): 0.0005871295928955078
+Throughput (in TFLOP/s) for transformer_layer_norm (2072x4x14336): 404.7377936241956
+Elapsed time for transformer_layer_norm (2073x4x14336): 0.0005873894691467285
+Throughput (in TFLOP/s) for transformer_layer_norm (2073x4x14336): 404.7539775361738
+Elapsed time for transformer_layer_norm (2074x4x14336): 0.000587766170501709
+Throughput (in TFLOP/s) for transformer_layer_norm (2074x4x14336): 404.6896945378186
+Elapsed time for transformer_layer_norm (2075x4x14336): 0.0005883359909057617
+Throughput (in TFLOP/s) for transformer_layer_norm (2075x4x14336): 404.49267710721904
+Elapsed time for transformer_layer_norm (2076x4x14336): 0.000588369369506836
+Throughput (in TFLOP/s) for transformer_layer_norm (2076x4x14336): 404.66465512908337
+Elapsed time for transformer_layer_norm (2077x4x14336): 0.0005886101722717285
+Throughput (in TFLOP/s) for transformer_layer_norm (2077x4x14336): 404.69395063399134
+Elapsed time for transformer_layer_norm (2078x4x14336): 0.0005888819694519043
+Throughput (in TFLOP/s) for transformer_layer_norm (2078x4x14336): 404.7019205254585
+Elapsed time for transformer_layer_norm (2079x4x14336): 0.0005892610549926758
+Throughput (in TFLOP/s) for transformer_layer_norm (2079x4x14336): 404.6361964358287
+Elapsed time for transformer_layer_norm (2080x4x14336): 0.000589299201965332
+Throughput (in TFLOP/s) for transformer_layer_norm (2080x4x14336): 404.8046208181252
+Elapsed time for transformer_layer_norm (2081x4x14336): 0.0005900120735168457
+Throughput (in TFLOP/s) for transformer_layer_norm (2081x4x14336): 404.50990532685387
+Elapsed time for transformer_layer_norm (2082x4x14336): 0.0005899572372436524
+Throughput (in TFLOP/s) for transformer_layer_norm (2082x4x14336): 404.7419048804442
+Elapsed time for transformer_layer_norm (2083x4x14336): 0.0005901288986206054
+Throughput (in TFLOP/s) for transformer_layer_norm (2083x4x14336): 404.8185143252677
+Elapsed time for transformer_layer_norm (2084x4x14336): 0.0005904960632324218
+Throughput (in TFLOP/s) for transformer_layer_norm (2084x4x14336): 404.76102531766537
+Elapsed time for transformer_layer_norm (2085x4x14336): 0.0005908989906311035
+Throughput (in TFLOP/s) for transformer_layer_norm (2085x4x14336): 404.6791140133877
+Elapsed time for transformer_layer_norm (2086x4x14336): 0.0005910754203796387
+Throughput (in TFLOP/s) for transformer_layer_norm (2086x4x14336): 404.7523543549491
+Elapsed time for transformer_layer_norm (2087x4x14336): 0.0005915164947509766
+Throughput (in TFLOP/s) for transformer_layer_norm (2087x4x14336): 404.6444319372124
+Elapsed time for transformer_layer_norm (2088x4x14336): 0.0005915355682373047
+Throughput (in TFLOP/s) for transformer_layer_norm (2088x4x14336): 404.8252664055073
+Elapsed time for transformer_layer_norm (2089x4x14336): 0.0005921745300292969
+Throughput (in TFLOP/s) for transformer_layer_norm (2089x4x14336): 404.5821288331111
+Elapsed time for transformer_layer_norm (2090x4x14336): 0.0005924010276794434
+Throughput (in TFLOP/s) for transformer_layer_norm (2090x4x14336): 404.6210401405717
+Elapsed time for transformer_layer_norm (2091x4x14336): 0.0005925273895263671
+Throughput (in TFLOP/s) for transformer_layer_norm (2091x4x14336): 404.72830832629126
+Elapsed time for transformer_layer_norm (2092x4x14336): 0.0005925869941711425
+Throughput (in TFLOP/s) for transformer_layer_norm (2092x4x14336): 404.88113704822155
+Elapsed time for transformer_layer_norm (2093x4x14336): 0.0005931377410888672
+Throughput (in TFLOP/s) for transformer_layer_norm (2093x4x14336): 404.6985503895554
+Elapsed time for transformer_layer_norm (2094x4x14336): 0.0005927562713623046
+Throughput (in TFLOP/s) for transformer_layer_norm (2094x4x14336): 405.1524776752828
+Elapsed time for transformer_layer_norm (2095x4x14336): 0.0005936980247497559
+Throughput (in TFLOP/s) for transformer_layer_norm (2095x4x14336): 404.7029802756621
+Elapsed time for transformer_layer_norm (2096x4x14336): 0.0005934309959411622
+Throughput (in TFLOP/s) for transformer_layer_norm (2096x4x14336): 405.07834886304784
+Elapsed time for transformer_layer_norm (2097x4x14336): 0.0005940127372741699
+Throughput (in TFLOP/s) for transformer_layer_norm (2097x4x14336): 404.87471212085404
+Elapsed time for transformer_layer_norm (2098x4x14336): 0.000594635009765625
+Throughput (in TFLOP/s) for transformer_layer_norm (2098x4x14336): 404.6438908715423
+Elapsed time for transformer_layer_norm (2099x4x14336): 0.0005947732925415039
+Throughput (in TFLOP/s) for transformer_layer_norm (2099x4x14336): 404.74263894961564
+Elapsed time for transformer_layer_norm (2100x4x14336): 0.000595088005065918
+Throughput (in TFLOP/s) for transformer_layer_norm (2100x4x14336): 404.7213150823324
+Elapsed time for transformer_layer_norm (2101x4x14336): 0.0005955910682678223
+Throughput (in TFLOP/s) for transformer_layer_norm (2101x4x14336): 404.5720307740522
+Elapsed time for transformer_layer_norm (2102x4x14336): 0.0005956816673278808
+Throughput (in TFLOP/s) for transformer_layer_norm (2102x4x14336): 404.7030305320873
+Elapsed time for transformer_layer_norm (2103x4x14336): 0.0005958890914916993
+Throughput (in TFLOP/s) for transformer_layer_norm (2103x4x14336): 404.75462203247895
+Elapsed time for transformer_layer_norm (2104x4x14336): 0.0005963492393493652
+Throughput (in TFLOP/s) for transformer_layer_norm (2104x4x14336): 404.63462695662923
+Elapsed time for transformer_layer_norm (2105x4x14336): 0.0005964064598083497
+Throughput (in TFLOP/s) for transformer_layer_norm (2105x4x14336): 404.78810386724814
+Elapsed time for transformer_layer_norm (2106x4x14336): 0.0005964803695678711
+Throughput (in TFLOP/s) for transformer_layer_norm (2106x4x14336): 404.9302212157997
+Elapsed time for transformer_layer_norm (2107x4x14336): 0.0005967783927917481
+Throughput (in TFLOP/s) for transformer_layer_norm (2107x4x14336): 404.9201829670221
+Elapsed time for transformer_layer_norm (2108x4x14336): 0.0005969619750976563
+Throughput (in TFLOP/s) for transformer_layer_norm (2108x4x14336): 404.98777825916034
+Elapsed time for transformer_layer_norm (2109x4x14336): 0.0005974674224853516
+Throughput (in TFLOP/s) for transformer_layer_norm (2109x4x14336): 404.837122321812
+Elapsed time for transformer_layer_norm (2110x4x14336): 0.0005979537963867188
+Throughput (in TFLOP/s) for transformer_layer_norm (2110x4x14336): 404.69962974111644
+Elapsed time for transformer_layer_norm (2111x4x14336): 0.0005981159210205078
+Throughput (in TFLOP/s) for transformer_layer_norm (2111x4x14336): 404.7816810943891
+Elapsed time for transformer_layer_norm (2112x4x14336): 0.000597994327545166
+Throughput (in TFLOP/s) for transformer_layer_norm (2112x4x14336): 405.0557753521588
+Elapsed time for transformer_layer_norm (2113x4x14336): 0.000598447322845459
+Throughput (in TFLOP/s) for transformer_layer_norm (2113x4x14336): 404.9408105758708
+Elapsed time for transformer_layer_norm (2114x4x14336): 0.0005991005897521973
+Throughput (in TFLOP/s) for transformer_layer_norm (2114x4x14336): 404.69069159201376
+Elapsed time for transformer_layer_norm (2115x4x14336): 0.0005998730659484864
+Throughput (in TFLOP/s) for transformer_layer_norm (2115x4x14336): 404.36074524611195
+Elapsed time for transformer_layer_norm (2116x4x14336): 0.0005994892120361328
+Throughput (in TFLOP/s) for transformer_layer_norm (2116x4x14336): 404.8109676164999
+Elapsed time for transformer_layer_norm (2117x4x14336): 0.0005992603302001953
+Throughput (in TFLOP/s) for transformer_layer_norm (2117x4x14336): 405.15696395069153
+Elapsed time for transformer_layer_norm (2118x4x14336): 0.0005998849868774414
+Throughput (in TFLOP/s) for transformer_layer_norm (2118x4x14336): 404.92625972256116
+Elapsed time for transformer_layer_norm (2119x4x14336): 0.0006000065803527832
+Throughput (in TFLOP/s) for transformer_layer_norm (2119x4x14336): 405.0353445409054
+Elapsed time for transformer_layer_norm (2120x4x14336): 0.0006003022193908691
+Throughput (in TFLOP/s) for transformer_layer_norm (2120x4x14336): 405.02692168407174
+Elapsed time for transformer_layer_norm (2121x4x14336): 0.0006005716323852539
+Throughput (in TFLOP/s) for transformer_layer_norm (2121x4x14336): 405.036193657509
+Elapsed time for transformer_layer_norm (2122x4x14336): 0.0006006908416748047
+Throughput (in TFLOP/s) for transformer_layer_norm (2122x4x14336): 405.1467395798117
+Elapsed time for transformer_layer_norm (2123x4x14336): 0.000601198673248291
+Throughput (in TFLOP/s) for transformer_layer_norm (2123x4x14336): 404.9952783236488
+Elapsed time for transformer_layer_norm (2124x4x14336): 0.0006016016006469727
+Throughput (in TFLOP/s) for transformer_layer_norm (2124x4x14336): 404.91466734468673
+Elapsed time for transformer_layer_norm (2125x4x14336): 0.0006020045280456542
+Throughput (in TFLOP/s) for transformer_layer_norm (2125x4x14336): 404.8341642731259
+Elapsed time for transformer_layer_norm (2126x4x14336): 0.0006017684936523438
+Throughput (in TFLOP/s) for transformer_layer_norm (2126x4x14336): 405.18353913833283
+Elapsed time for transformer_layer_norm (2127x4x14336): 0.0006027865409851074
+Throughput (in TFLOP/s) for transformer_layer_norm (2127x4x14336): 404.68948693070917
+Elapsed time for transformer_layer_norm (2128x4x14336): 0.0006027030944824219
+Throughput (in TFLOP/s) for transformer_layer_norm (2128x4x14336): 404.9358070901991
+Elapsed time for transformer_layer_norm (2129x4x14336): 0.0006034183502197266
+Throughput (in TFLOP/s) for transformer_layer_norm (2129x4x14336): 404.64588442013496
+Elapsed time for transformer_layer_norm (2130x4x14336): 0.0006029009819030762
+Throughput (in TFLOP/s) for transformer_layer_norm (2130x4x14336): 405.1833507202215
+Elapsed time for transformer_layer_norm (2131x4x14336): 0.0006035876274108887
+Throughput (in TFLOP/s) for transformer_layer_norm (2131x4x14336): 404.9124218274045
+Elapsed time for transformer_layer_norm (2132x4x14336): 0.0006036067008972168
+Throughput (in TFLOP/s) for transformer_layer_norm (2132x4x14336): 405.0896314380652
+Elapsed time for transformer_layer_norm (2133x4x14336): 0.0006036996841430664
+Throughput (in TFLOP/s) for transformer_layer_norm (2133x4x14336): 405.21721383247746
+Elapsed time for transformer_layer_norm (2134x4x14336): 0.0006041312217712402
+Throughput (in TFLOP/s) for transformer_layer_norm (2134x4x14336): 405.11760223621525
+Elapsed time for transformer_layer_norm (2135x4x14336): 0.0006045389175415039
+Throughput (in TFLOP/s) for transformer_layer_norm (2135x4x14336): 405.0341059857235
+Elapsed time for transformer_layer_norm (2136x4x14336): 0.0006045103073120117
+Throughput (in TFLOP/s) for transformer_layer_norm (2136x4x14336): 405.24299592059634
+Elapsed time for transformer_layer_norm (2137x4x14336): 0.0006050300598144531
+Throughput (in TFLOP/s) for transformer_layer_norm (2137x4x14336): 405.08442849130864
+Elapsed time for transformer_layer_norm (2138x4x14336): 0.0006048965454101562
+Throughput (in TFLOP/s) for transformer_layer_norm (2138x4x14336): 405.36343918733684
+Elapsed time for transformer_layer_norm (2139x4x14336): 0.0006057929992675782
+Throughput (in TFLOP/s) for transformer_layer_norm (2139x4x14336): 404.95290024248607
+Elapsed time for transformer_layer_norm (2140x4x14336): 0.0006061148643493652
+Throughput (in TFLOP/s) for transformer_layer_norm (2140x4x14336): 404.92707642710536
+Elapsed time for transformer_layer_norm (2141x4x14336): 0.0006059694290161133
+Throughput (in TFLOP/s) for transformer_layer_norm (2141x4x14336): 405.21352438304393
+Elapsed time for transformer_layer_norm (2142x4x14336): 0.000605928897857666
+Throughput (in TFLOP/s) for transformer_layer_norm (2142x4x14336): 405.42990583312053
+Elapsed time for transformer_layer_norm (2143x4x14336): 0.0006066393852233886
+Throughput (in TFLOP/s) for transformer_layer_norm (2143x4x14336): 405.1441267854632
+Elapsed time for transformer_layer_norm (2144x4x14336): 0.000606842041015625
+Throughput (in TFLOP/s) for transformer_layer_norm (2144x4x14336): 405.1978198288157
+Elapsed time for transformer_layer_norm (2145x4x14336): 0.0006071043014526367
+Throughput (in TFLOP/s) for transformer_layer_norm (2145x4x14336): 405.21169000347163
+Elapsed time for transformer_layer_norm (2146x4x14336): 0.0006070446968078614
+Throughput (in TFLOP/s) for transformer_layer_norm (2146x4x14336): 405.440405449915
+Elapsed time for transformer_layer_norm (2147x4x14336): 0.0006073379516601563
+Throughput (in TFLOP/s) for transformer_layer_norm (2147x4x14336): 405.43347460325356
+Elapsed time for transformer_layer_norm (2148x4x14336): 0.0006076550483703613
+Throughput (in TFLOP/s) for transformer_layer_norm (2148x4x14336): 405.4106431941492
+Elapsed time for transformer_layer_norm (2149x4x14336): 0.0006076240539550781
+Throughput (in TFLOP/s) for transformer_layer_norm (2149x4x14336): 405.62007115376844
+Elapsed time for transformer_layer_norm (2150x4x14336): 0.000608220100402832
+Throughput (in TFLOP/s) for transformer_layer_norm (2150x4x14336): 405.4111329709219
+Elapsed time for transformer_layer_norm (2151x4x14336): 0.0006087374687194824
+Throughput (in TFLOP/s) for transformer_layer_norm (2151x4x14336): 405.2549755462501
+Elapsed time for transformer_layer_norm (2152x4x14336): 0.0006087636947631836
+Throughput (in TFLOP/s) for transformer_layer_norm (2152x4x14336): 405.42591176698124
+Elapsed time for transformer_layer_norm (2153x4x14336): 0.000608673095703125
+Throughput (in TFLOP/s) for transformer_layer_norm (2153x4x14336): 405.6746811106543
+Elapsed time for transformer_layer_norm (2154x4x14336): 0.0006092977523803711
+Throughput (in TFLOP/s) for transformer_layer_norm (2154x4x14336): 405.4470101602799
+Elapsed time for transformer_layer_norm (2155x4x14336): 0.0006096982955932618
+Throughput (in TFLOP/s) for transformer_layer_norm (2155x4x14336): 405.36875662332335
+Elapsed time for transformer_layer_norm (2156x4x14336): 0.0006097769737243653
+Throughput (in TFLOP/s) for transformer_layer_norm (2156x4x14336): 405.5045346985686
+Elapsed time for transformer_layer_norm (2157x4x14336): 0.0006099367141723633
+Throughput (in TFLOP/s) for transformer_layer_norm (2157x4x14336): 405.5863669982191
+Elapsed time for transformer_layer_norm (2158x4x14336): 0.0006099152565002442
+Throughput (in TFLOP/s) for transformer_layer_norm (2158x4x14336): 405.78867533198184
+Elapsed time for transformer_layer_norm (2159x4x14336): 0.0006107783317565918
+Throughput (in TFLOP/s) for transformer_layer_norm (2159x4x14336): 405.4030392464519
+Elapsed time for transformer_layer_norm (2160x4x14336): 0.0006107568740844726
+Throughput (in TFLOP/s) for transformer_layer_norm (2160x4x14336): 405.6050623602764
+Elapsed time for transformer_layer_norm (2161x4x14336): 0.0006111407279968262
+Throughput (in TFLOP/s) for transformer_layer_norm (2161x4x14336): 405.53796637374023
+Elapsed time for transformer_layer_norm (2162x4x14336): 0.0006112909317016602
+Throughput (in TFLOP/s) for transformer_layer_norm (2162x4x14336): 405.62593544413056
+Elapsed time for transformer_layer_norm (2163x4x14336): 0.0006112122535705567
+Throughput (in TFLOP/s) for transformer_layer_norm (2163x4x14336): 405.8657897495235
+Elapsed time for transformer_layer_norm (2164x4x14336): 0.0006118583679199219
+Throughput (in TFLOP/s) for transformer_layer_norm (2164x4x14336): 405.62464291161194
+Elapsed time for transformer_layer_norm (2165x4x14336): 0.0006123995780944825
+Throughput (in TFLOP/s) for transformer_layer_norm (2165x4x14336): 405.4534471963529
+Elapsed time for transformer_layer_norm (2166x4x14336): 0.0006121540069580078
+Throughput (in TFLOP/s) for transformer_layer_norm (2166x4x14336): 405.80345007370113
+Elapsed time for transformer_layer_norm (2167x4x14336): 0.0006125569343566895
+Throughput (in TFLOP/s) for transformer_layer_norm (2167x4x14336): 405.72374919076935
+Elapsed time for transformer_layer_norm (2168x4x14336): 0.0006126308441162109
+Throughput (in TFLOP/s) for transformer_layer_norm (2168x4x14336): 405.86200709286265
+Elapsed time for transformer_layer_norm (2169x4x14336): 0.0006128263473510742
+Throughput (in TFLOP/s) for transformer_layer_norm (2169x4x14336): 405.9196754109073
+Elapsed time for transformer_layer_norm (2170x4x14336): 0.0006133890151977539
+Throughput (in TFLOP/s) for transformer_layer_norm (2170x4x14336): 405.7342955836346
+Elapsed time for transformer_layer_norm (2171x4x14336): 0.0006135773658752442
+Throughput (in TFLOP/s) for transformer_layer_norm (2171x4x14336): 405.79666370976514
+Elapsed time for transformer_layer_norm (2172x4x14336): 0.0006139898300170899
+Throughput (in TFLOP/s) for transformer_layer_norm (2172x4x14336): 405.71085028080427
+Elapsed time for transformer_layer_norm (2173x4x14336): 0.0006137657165527344
+Throughput (in TFLOP/s) for transformer_layer_norm (2173x4x14336): 406.0458531306504
+Elapsed time for transformer_layer_norm (2174x4x14336): 0.0006138348579406739
+Throughput (in TFLOP/s) for transformer_layer_norm (2174x4x14336): 406.18695529359707
+Elapsed time for transformer_layer_norm (2175x4x14336): 0.0006151008605957031
+Throughput (in TFLOP/s) for transformer_layer_norm (2175x4x14336): 405.5373939136097
+Elapsed time for transformer_layer_norm (2176x4x14336): 0.0006152486801147461
+Throughput (in TFLOP/s) for transformer_layer_norm (2176x4x14336): 405.62636876109343

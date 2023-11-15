@@ -1,0 +1,21 @@
+num_attention_heads: 96, hidden_size: 24576, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1, vocab_size: 51200
+
+
+Actual
+------
+LN1: 0.0010917186737060547
+QKV Transform: 0.11887812614440918
+Attention Score: 0.023419618606567383
+Attention Softmax: 0.011411190032958984
+Attention Dropout: 0.00010395050048828125
+Attention Over Value: 0.003491640090942383
+Attention linproj: 0.037988901138305664
+Post-attention Dropout: 0.002753019332885742
+Post-attention residual: 0.0008921623229980469
+LN2: 0.0010318756103515625
+MLP_h_4h: 0.15665650367736816
+MLP_4h_h: 0.16549348831176758
+Post-MLP residual: 0.0027718544006347656
+Attention layer time: 0.5328459739685059
+
+

@@ -98,7 +98,7 @@ def initialize_megatron(configuration):
 
 
 def get_megatron_args(configuration, override_tensor_mp_size=False):
-    (microbatch_size, hidden_size, (tensor_mp_size, pipeline_mp_size, dp_size), num_attention_heads) = configuration
+    (microbatch_size, hidden_size, (tensor_mp_size, pipeline_mp_size, dp_size), num_attention_heads,vocab_size) = configuration
     args = Arguments()
     args.params_dtype = torch.half
     if not override_tensor_mp_size:
@@ -108,6 +108,7 @@ def get_megatron_args(configuration, override_tensor_mp_size=False):
     args.ffn_hidden_size = 4 * args.hidden_size
     args.num_attention_heads = num_attention_heads
     args.kv_channels = args.hidden_size // args.num_attention_heads
+    args.padded_vocab_size=vocab_size
     #megatron.global_vars._GLOBAL_ARGS = args
     neox_args = megatron.NeoXArgs.from_dict(asdict(args))
     return neox_args

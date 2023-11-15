@@ -1,0 +1,80 @@
+1.13.1 
+
+[2023-10-26 18:23:45,349] [INFO] [distributed.py:36:init_distributed] Not using the DeepSpeed or torch.distributed launchers, attempting to detect MPI environment...
+[2023-10-26 18:23:46,150] [INFO] [distributed.py:83:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=26.0.155.181, master_port=6000
+[2023-10-26 18:23:46,150] [INFO] [distributed.py:46:init_distributed] Initializing torch distributed with backend: nccl
+[2023-10-26 18:23:48,829] [INFO] [checkpointing.py:223:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+num_attention_heads: 8, hidden_size: 2048, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x2048x6144, b=2048): 0.0009
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x2048x6144, b=2048): 218.798
+Elapsed time for attention_key_query_prob (32x2048x256x2048): 0.0005
+Throughput (in TFLOP/s) for attention_key_query_prob (32x2048x256x2048): 127.479
+Elapsed time for attention_prob_times_values (32x2048x2048x256): 0.0003
+Throughput (in TFLOP/s) for attention_prob_times_values (32x2048x2048x256): 209.622
+Elapsed time for attention_linear_projection (4x2048x2048, b=2048): 0.0003
+Throughput (in TFLOP/s) for attention_linear_projection (4x2048x2048, b=2048): 197.825
+Elapsed time for mlp_h_to_4h (4x2048x8192, b=2048): 0.0013
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x2048x8192, b=2048): 217.902
+Elapsed time for mlp_4h_to_h (4x8192x2048, b=2048): 0.0011
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x8192x2048, b=2048): 241.247
+
+Attention duration (in seconds): 0.0022
+Attention throughput (in TFLOP/s): 191.198
+MLP duration (in seconds): 0.0024
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 0.0046
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+
+
+Actual
+------
+Attention duration (in seconds): 0.0031
+Attention throughput (in TFLOP/s): 131.472
+MLP duration (in seconds): 0.0026
+MLP throughput (in TFLOP/s): 213.642
+Transformer duration (in seconds): 0.0062
+Transformer throughput (in TFLOP/s): 155.291
+Transformer - MLP - Attention (in seconds): 0.0005
+========================================================================================================================
+num_attention_heads: 16, hidden_size: 2048, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x2048x6144, b=2048): 0.0009
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x2048x6144, b=2048): 217.259
+Elapsed time for attention_key_query_prob (64x2048x128x2048): 0.0007
+Throughput (in TFLOP/s) for attention_key_query_prob (64x2048x128x2048): 92.441
+Elapsed time for attention_prob_times_values (64x2048x2048x128): 0.0005
+Throughput (in TFLOP/s) for attention_prob_times_values (64x2048x2048x128): 134.436
+Elapsed time for attention_linear_projection (4x2048x2048, b=2048): 0.0003
+Throughput (in TFLOP/s) for attention_linear_projection (4x2048x2048, b=2048): 196.879
+Elapsed time for mlp_h_to_4h (4x2048x8192, b=2048): 0.0013
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x2048x8192, b=2048): 218.274
+Elapsed time for mlp_4h_to_h (4x8192x2048, b=2048): 0.0011
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x8192x2048, b=2048): 244.522
+
+Attention duration (in seconds): 0.0026
+Attention throughput (in TFLOP/s): 161.534
+MLP duration (in seconds): 0.0024
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 0.0049
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+
+
+Actual
+------
+Attention duration (in seconds): 0.0044
+Attention throughput (in TFLOP/s): 94.316
+MLP duration (in seconds): 0.0026
+MLP throughput (in TFLOP/s): 212.071
+Transformer duration (in seconds): 0.0074
+Transformer throughput (in TFLOP/s): 129.662
+Transformer - MLP - Attention (in seconds): 0.0005
+========================================================================================================================

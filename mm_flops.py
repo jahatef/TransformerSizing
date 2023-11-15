@@ -1,6 +1,7 @@
 import time
 import torch
 
+
 def benchmark_mm(m, n, k, num_iterations=100):
     A = torch.randn(m, n).half().to("cuda:0")
     B = torch.randn(n, k).half().to("cuda:0")
@@ -135,7 +136,7 @@ if __name__ == '__main__':
     v=51200
     h=14336
     for h in range(14336-64, 14336 + 65): 
-        benchmark_mm_b(b*s,v,h)
-
+        benchmark_mm_b(b*s,h,v)
+    h = 14336
     for v in range(51200-64, 51200 + 65): 
-        benchmark_mm_b(b*s,v,h)
+        benchmark_mm_b(b*s,h,v)

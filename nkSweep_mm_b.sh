@@ -55,4 +55,4 @@ export DLTS_HOSTFILE=/fsx/home-jacob/hostfiles/hosts_$SLURM_JOBID
 #sudo mkdir -p /home/quentin/.cache/torch_extensions
 #sudo chmod -R 777 /home/quentin
 
-python mm_flops.py > results/vocab.out
+python mm_flops.py >> results/vocab.out
