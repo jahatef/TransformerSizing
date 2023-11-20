@@ -389,11 +389,13 @@ def benchmark_transformer(configuration, seq_length, global_batch_size, num_iter
      (tensor_mp_size, pipeline_mp_size, dp_size), num_attention_heads,vocab_size) = configuration
     print("\n\nActual")
     print("------")
+
     args = megatron_wrapper.get_megatron_args(configuration)
     fn_args = [megatron.model.init_functions.init_method_normal(args.init_method_std),
                megatron.model.init_functions.init_method_normal(args.init_method_std)]
     init_method = megatron.model.init_functions.init_method_normal(args.init_method_std)
     #embedding_layer = Embedding(args,hidden_size,vocab_size,seq_length,0.0,init_method=init_method,use_pos_emb=False)
+    args.attention_config=["flash","global"]
     attention_layer = ParallelSelfAttention(args,attention_mask_func=attention_mask_func, init_method=init_method,output_layer_init_method=init_method, layer_number=0).half().to("cuda:0")
     mlp_layer = ParallelMLP(args,init_method=init_method,output_layer_init_method=init_method).half().to("cuda:0")
     transformer_layer = ParallelTransformerLayer(args,attention_mask_func=attention_mask_func,init_method=init_method,output_layer_init_method=init_method,layer_number=0).half().to("cuda:0")
@@ -415,19 +417,12 @@ def benchmark_transformer(configuration, seq_length, global_batch_size, num_iter
 
     num_warmup_iterations = 50
     allTimes = []
-    """
     for layer, label, need_attention_mask, num_floating_point_operations in \
         zip([ attention_layer, mlp_layer, transformer_layer],
             [ "Attention", "MLP", "Transformer"],
             [ True, False, True],
             [num_attention_floating_point_operations, num_mlp_floating_point_operations,
              num_total_floating_point_operations]):
-    """
-    for layer, label, need_attention_mask, num_floating_point_operations in \
-        zip([  transformer_layer],
-            [  "Transformer"],
-            [  True],
-            [num_total_floating_point_operations]):
         layer.train()
 
         times = np.zeros(num_iterations+num_warmup_iterations)
@@ -438,10 +433,7 @@ def benchmark_transformer(configuration, seq_length, global_batch_size, num_iter
                     out = layer(inp, attention_mask)
                     torch.cuda.empty_cache()
                 else:
-                    if label == "Embedding":
-                        out = layer(inp, None)
-                    else:
-                        out = layer(inp)
+                    out = layer(inp)
 
             torch.cuda.synchronize()
             times[i] = time.time()
@@ -466,8 +458,7 @@ def benchmark_transformer(configuration, seq_length, global_batch_size, num_iter
         throughput = num_floating_point_operations / (median_time * 10**12)
         print(f"{label} duration (in seconds): {median_time:.4f}")
         print(f"{label} throughput (in TFLOP/s): {throughput:.3f}")
-    print("Transformer - MLP - Attention (in seconds): "
-          f"{(allTimes[-1] - allTimes[0] - allTimes[1]):.4f}")
+    #print("Transformer - MLP - Attention (in seconds): "f"{(allTimes[-1] - allTimes[0] - allTimes[1]):.4f}")
 
 
 if __name__ == '__main__':
@@ -477,8 +468,8 @@ if __name__ == '__main__':
     train_batch_size = 2048
     configurations = []
     for tensor_mp_size in [1]:
-        for num_attention_heads in [20,24,32,40,64,80,96,128,256,512]:# [32,128]: #[32, 64, 96, 128]:
-            for hidden_size in range(num_attention_heads,2**15 + num_attention_heads,num_attention_heads): #[32768]: #range(8192,2**15, num_attention_heads):
+        for num_attention_heads in [128]: # [32,128]: #[32, 64, 96, 128]:
+            for hidden_size in [16384]: # range(num_attention_heads*8,2**15 + num_attention_heads,num_attention_heads*8): #[32768]: #range(8192,2**15, num_attention_heads):
                 for microbatch_size in [4]:
                     for vocab_size in [51200]:
                         configurations.append((microbatch_size, hidden_size,
@@ -495,6 +486,6 @@ if __name__ == '__main__':
                  'dp_size': dp_size}
         label_str = ", ".join([f"{k}: {v}" for (k, v) in label.items()])
         print(label_str)
-        benchmark_transformer_from_mm_and_bmm(configuration, seq_length, train_batch_size)
-        #benchmark_transformer(configuration, seq_length, train_batch_size)
+        #benchmark_transformer_from_mm_and_bmm(configuration, seq_length, train_batch_size)
+        benchmark_transformer(configuration, seq_length, train_batch_size)
         print("=" * 120)

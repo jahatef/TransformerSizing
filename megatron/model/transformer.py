@@ -437,7 +437,7 @@ class ParallelSelfAttention(nn.Module):
         attention_scores = matmul_result.view(*output_size)
 
         torch.cuda.synchronize()
-        print(f"Attention Score: {time.time()-st}")
+        #print(f"Attention Score: {time.time()-st}")
         
 
         # ==================================================
@@ -467,7 +467,7 @@ class ParallelSelfAttention(nn.Module):
         st=time.time()
         attention_probs = self.scale_mask_softmax(attention_scores, attention_mask)
         torch.cuda.synchronize()
-        print(f"Attention Softmax: {time.time()-st}")
+        #print(f"Attention Softmax: {time.time()-st}")
 
         # This is actually dropping out entire tokens to attend to, which might
         # seem a bit unusual, but is taken from the original Transformer paper.
@@ -476,7 +476,7 @@ class ParallelSelfAttention(nn.Module):
         with mpu.get_cuda_rng_tracker().fork():
             attention_probs = self.attention_dropout(attention_probs)
         torch.cuda.synchronize()
-        print(f"Attention Dropout: {time.time()-st:.20f}")
+        #print(f"Attention Dropout: {time.time()-st:.20f}")
 
         
         
@@ -510,7 +510,7 @@ class ParallelSelfAttention(nn.Module):
         context_layer = torch.bmm(attention_probs, value_layer.transpose(0, 1))
 
         torch.cuda.synchronize()
-        print(f"Attention Over Value: {time.time()-st}")
+        #print(f"Attention Over Value: {time.time()-st}")
 
         # change view [b, np, sq, hn]
         context_layer = context_layer.view(*output_size)
@@ -717,11 +717,14 @@ class ParallelSelfAttention(nn.Module):
                 (past_value.type_as(value_layer), value_layer), dim=0
             )
 
+        torch.cuda.synchronize()
+        st = time.time()
         if self.use_cache:
             present = torch.stack((key_layer, value_layer))
 
         if self.use_flash_attention:
             context_layer = self.flash_attention(query_layer, key_layer, value_layer)
+            #print("using-flash")
         elif not self.sparse:
             context_layer = self.attention(
                 query_layer, key_layer, value_layer, layer_past, attention_mask
@@ -730,6 +733,8 @@ class ParallelSelfAttention(nn.Module):
             context_layer = self.sparse_attention(
                 query_layer, key_layer, value_layer, attention_mask
             )
+        torch.cuda.synchronize()
+        print(f"Flash: {time.time()-st}")
 
         # [b, np, sq, hn] --> [sq, b, np, hn]
         context_layer = context_layer.permute(2, 0, 1, 3).contiguous()
