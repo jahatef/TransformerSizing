@@ -39,12 +39,13 @@ export DLTS_HOSTFILE=/fsx/home-jacob/hostfiles/hosts_$SLURM_JOBID
 #sudo mkdir -p /home/quentin/.cache/torch_extensions
 #sudo chmod -R 777 /home/quentin
 
-python torch_transformer_flops.py | tee -a results/flash_attn_proportion-large.out &
-#python torch_transformer_flops_copy_2.py | tee -a results/3d_plot2.out &
-#python torch_transformer_flops_copy_3.py | tee -a results/3d_plot3.out &
-#python torch_transformer_flops_copy_4.py | tee -a results/3d_plot4.out &
-#python torch_transformer_flops_copy_5.py | tee -a results/3d_plot5.out &
-#python torch_transformer_flops_copy_6.py | tee -a results/3d_plot6.out &
-#python torch_transformer_flops_copy_7.py | tee -a results/3d_plot7.out &
-#python torch_transformer_flops_copy_8.py | tee -a results/3d_plot8.out &
-wait
+#spawn one process 
+python torch_transformer_flops.py | tee -a results/flash_attn_proportion-large.out 
+
+
+#to spawn a process for each of 8 gpus:
+#for i in {1..8}
+#do 
+#    CUDA_VISIBLE_DEVICES=$i python torch_transformer_flops_copy_${i}.py | tee -a results/3d_plot${i}.out &
+#end
+#wait
