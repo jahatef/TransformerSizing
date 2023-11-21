@@ -46,6 +46,6 @@ python torch_transformer_flops.py | tee -a results/flash_attn_proportion-large.o
 #to spawn a process for each of 8 gpus:
 #for i in {1..8}
 #do 
-#    CUDA_VISIBLE_DEVICES=$i python torch_transformer_flops_copy_${i}.py | tee -a results/3d_plot${i}.out &
+#    CUDA_VISIBLE_DEVICES=$i python multi_process_scripts/torch_transformer_flops_copy_${i}.py | tee -a results/3d_plot${i}.out &
 #end
 #wait
