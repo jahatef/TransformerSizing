@@ -11,10 +11,7 @@
 #
 # To adapt for your situation please modify the search parameters below
 
-import time
 import torch
-import numpy as np
-import tqdm
 from tqdm import trange
 
 ### Modify the Search Parameters Begin ###
