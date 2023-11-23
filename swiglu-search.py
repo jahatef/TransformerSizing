@@ -60,6 +60,7 @@ def benchmark_bmm(b, m, n, k, num_iterations=100, num_matmuls=1):
     return flops_per_sec
 
 
+print(f"Wanted the closest to {d_ff_base} d_ff value that leads to the highest TFLOPS\n")
 print(f"Searching {int(distance/2)} steps in the range of {d_ff_base-distance} .. {d_ff_base+distance}")
 results = {}
 for d in trange(-distance, distance, 4):
@@ -70,7 +71,6 @@ for d in trange(-distance, distance, 4):
     results[d_ff] = benchmark_bmm(batch_size, m=d_hidden, n=d_ff, k=d_hidden, num_iterations=num_iterations, num_matmuls=1)
 
 starting_tflops_per_sec = benchmark_bmm(batch_size, m=d_hidden, n=d_ff_base, k=d_hidden, num_iterations=num_iterations, num_matmuls=1)
-print(f"Wanted the closest to {d_ff_base} d_ff value that leads to the highest TFLOPS\n")
 print("Results: baseline, followed by near-by best performing d_ff results:\n")
 print("size  tflops mlp_params")
 print(f"{d_ff_base} {starting_tflops_per_sec:7.2f} {3*d_ff_base*d_hidden}")
