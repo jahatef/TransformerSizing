@@ -30,7 +30,7 @@ batch_size = 2**2
 # add more profiler iterations for small matrices
 num_iterations = 100
 
-# searching range: (d_ff_base-distance) < d_ff_base < d_ff_base+distance
+# searching range: d_ff_base-distance < d_ff_base < d_ff_base+distance
 distance = 100
 
 ### Modify the Search Parameters End ###
@@ -70,10 +70,10 @@ for d in trange(-distance, distance, 4):
     results[d_ff] = benchmark_bmm(batch_size, m=d_hidden, n=d_ff, k=d_hidden, num_iterations=num_iterations, num_matmuls=1)
 
 starting_tflops_per_sec = benchmark_bmm(batch_size, m=d_hidden, n=d_ff_base, k=d_hidden, num_iterations=num_iterations, num_matmuls=1)
-print(f"Wanted the closest to {d_ff_base} d_ff value that leads to the highest TFLOPS")
-print(f"The starting value gives the following TFLOPS:")
-print(f"{d_ff_base} {starting_tflops_per_sec:.2f}")
-print("Near-by best performing d_ff results (best first)")
-cut_off = 5 # how many results do you want to see
-for k in list(reversed(sorted(results, key=lambda x: results[x])))[:cut_off]:
-    print(f"{k} {results[k]:.2f}")
+print(f"Wanted the closest to {d_ff_base} d_ff value that leads to the highest TFLOPS\n")
+print("Results: baseline, followed by near-by best performing d_ff results:\n")
+print("size  tflops mlp_params")
+print(f"{d_ff_base} {starting_tflops_per_sec:7.2f} {3*d_ff_base*d_hidden}")
+cut_off = 5  # how many results do you want to see
+for d_ff in list(reversed(sorted(results, key=lambda x: results[x])))[:cut_off]:
+    print(f"{d_ff} {results[d_ff]:7.2f} {3*d_ff*d_hidden}")
