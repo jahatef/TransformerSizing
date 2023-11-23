@@ -72,7 +72,7 @@ for d in trange(-distance, distance, 4):
 
 starting_tflops_per_sec = benchmark_bmm(batch_size, m=d_hidden, n=d_ff_base, k=d_hidden, num_iterations=num_iterations, num_matmuls=1)
 print("Results: baseline, followed by near-by best performing d_ff results:\n")
-print("size  tflops mlp_params")
+print(" d_ff  tflops mlp_params")
 print(f"{d_ff_base} {starting_tflops_per_sec:7.2f} {3*d_ff_base*d_hidden}")
 cut_off = 5  # how many results do you want to see
 for d_ff in list(reversed(sorted(results, key=lambda x: results[x])))[:cut_off]:
