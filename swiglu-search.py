@@ -19,7 +19,7 @@ from tqdm import trange
 # this is the hidden_size of the model
 d_hidden = 4096
 
-# Now either let the 8/3 ratio give be the starting dimension size or choose you own - the 8/3 is
+# Now either let the 8/3 ratio give the starting dimension size or choose you own - the 8/3 is
 # only a suggestion to compensate for the 3rd additional matrix
 d_ff_base = int(8/3*d_hidden)
 #d_ff_base = 11008
