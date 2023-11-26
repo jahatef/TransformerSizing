@@ -1655,3 +1655,55 @@ Attention layer time: 0.23435521125793457
 Transformer duration (in seconds): 0.2416
 Transformer throughput (in TFLOP/s): 222.954
 ========================================================================================================================
+[2023-11-26 21:55:50,795] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-26 22:00:34,059] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2.1.0a0+32f93b1 
+
+[2023-11-26 22:00:36,174] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-11-26 22:00:36,174] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-26 22:07:39,514] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2.1.0a0+32f93b1 
+
+[2023-11-26 22:07:41,299] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-11-26 22:07:41,299] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-26 22:07:42,664] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=172.17.0.3, master_port=6000
+[2023-11-26 22:07:42,665] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-26 22:07:42,671] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+num_attention_heads: 128, hidden_size: 16384, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+[2023-11-26 22:09:57,553] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2.1.0a0+32f93b1 
+
+[2023-11-26 22:09:59,141] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-11-26 22:09:59,141] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-26 22:09:59,603] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=172.17.0.3, master_port=6000
+[2023-11-26 22:09:59,604] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-26 22:09:59,608] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+num_attention_heads: 128, hidden_size: 16384, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+[2023-11-26 22:10:55,805] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2.1.0a0+32f93b1 
+
+[2023-11-26 22:10:57,645] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-11-26 22:10:57,645] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-26 22:10:58,128] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=172.17.0.3, master_port=6000
+[2023-11-26 22:10:58,128] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-26 22:10:58,134] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+num_attention_heads: 128, hidden_size: 16384, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.2639
+Attention throughput (in TFLOP/s): 70.830
+MLP duration (in seconds): 0.4627
+MLP throughput (in TFLOP/s): 76.048
+Transformer duration (in seconds): 0.7594
+Transformer throughput (in TFLOP/s): 70.946
+========================================================================================================================
