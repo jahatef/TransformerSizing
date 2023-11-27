@@ -1,4 +1,0 @@
-  File "/fsx/home-jacob/TransformerSizing/torch_transformer_flops.py", line 6
-    import gpt_neox/megatron
-                   ^
-SyntaxError: invalid syntax

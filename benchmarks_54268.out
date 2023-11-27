@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/fsx/home-jacob/TransformerSizing/torch_transformer_flops.py", line 7, in <module>
-    from megatron.model import LayerNorm
-ImportError: cannot import name 'LayerNorm' from 'megatron.model' (/fsx/home-jacob/TransformerSizing/megatron/model/__init__.py)
