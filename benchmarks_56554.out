@@ -1,0 +1,21 @@
+1.13.1 
+
+[2023-12-01 16:05:49,873] [INFO] [distributed.py:36:init_distributed] Not using the DeepSpeed or torch.distributed launchers, attempting to detect MPI environment...
+[2023-12-01 16:05:50,644] [INFO] [distributed.py:83:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=26.0.154.86, master_port=6000
+[2023-12-01 16:05:50,644] [INFO] [distributed.py:46:init_distributed] Initializing torch distributed with backend: nccl
+[2023-12-01 16:05:53,853] [INFO] [checkpointing.py:223:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+num_attention_heads: 128, hidden_size: 16384, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Traceback (most recent call last):
+  File "/fsx/home-jacob/TransformerSizing/torch_transformer_flops.py", line 490, in <module>
+    benchmark_transformer(configuration, seq_length, train_batch_size)
+  File "/fsx/home-jacob/TransformerSizing/torch_transformer_flops.py", line 399, in benchmark_transformer
+    attention_layer = ParallelSelfAttention(args,attention_mask_func=attention_mask_func, init_method=init_method,output_layer_init_method=init_method, layer_number=0).half().to("cuda:0")
+  File "/fsx/home-jacob/TransformerSizing/megatron/model/transformer.py", line 359, in __init__
+    from megatron.model.flash_attention import (
+  File "/fsx/home-jacob/TransformerSizing/megatron/model/flash_attention.py", line 483
+    out, q, k, v, out_padded, softmax_lse, S_dmask, rng_state = flash_attn_cuda.varlen_fwd(
+IndentationError: unexpected indent

@@ -469,7 +469,7 @@ if __name__ == '__main__':
     configurations = []
     for tensor_mp_size in [1]:
         for num_attention_heads in [128]: # [32,128]: #[32, 64, 96, 128]:
-            for hidden_size in range(128,2**15,128): # range(num_attention_heads*8,2**15 + num_attention_heads,num_attention_heads*8): #[32768]: #range(8192,2**15, num_attention_heads):
+            for hidden_size in [16384]:#range(128,2**15,128): # range(num_attention_heads*8,2**15 + num_attention_heads,num_attention_heads*8): #[32768]: #range(8192,2**15, num_attention_heads):
                 for microbatch_size in [4]:
                     for vocab_size in [51200]:
                         configurations.append((microbatch_size, hidden_size,

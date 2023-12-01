@@ -40,7 +40,7 @@ export DLTS_HOSTFILE=/fsx/home-jacob/hostfiles/hosts_$SLURM_JOBID
 #sudo chmod -R 777 /home/quentin
 
 #spawn one process 
-python torch_transformer_flops.py | tee -a results/flash_attn_hsweep.out 
+python torch_transformer_flops.py | tee -a results/flash_attn_proportion-large.out 
 
 
 #to spawn a process for each of 8 gpus:

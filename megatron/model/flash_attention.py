@@ -493,6 +493,8 @@ def _flash_attn_varlen_forward(
         softmax_scale,
         False,
         causal,
+        -1,
+        -1,
         return_softmax,
         None,
     )
