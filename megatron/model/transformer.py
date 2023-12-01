@@ -118,8 +118,8 @@ class ParallelMLP(nn.Module):
         )
 
     def forward(self, hidden_states):
-        #torch.cuda.synchronize()
-        #st = time.time()
+        torch.cuda.synchronize()
+        st = time.time()
         # [s, b, 4hp]
         intermediate_parallel, bias_parallel = self.dense_h_to_4h(hidden_states)
 
@@ -133,16 +133,16 @@ class ParallelMLP(nn.Module):
             intermediate_parallel = self.activation_func(
                 intermediate_parallel + bias_parallel
             )
-        #torch.cuda.synchronize()
-        #print(f"MLP_h_4h: {time.time()-st}")
+        torch.cuda.synchronize()
+        print(f"MLP_h_4h: {time.time()-st}")
 
-        #torch.cuda.synchronize()
-        #st=time.time()
+        torch.cuda.synchronize()
+        st=time.time()
 
         # [s, b, h]
         output, output_bias = self.dense_4h_to_h(intermediate_parallel)
-        #torch.cuda.synchronize()
-        #print(f"MLP_4h_h: {time.time()-st}")
+        torch.cuda.synchronize()
+        print(f"MLP_4h_h: {time.time()-st}")
         return output, output_bias
 
 
@@ -357,17 +357,14 @@ class ParallelSelfAttention(nn.Module):
         else:
             if self.use_flash_attention:
                 from megatron.model.flash_attention import (
-                    # flash_attn_unpadded_qkvpacked_func_cuda,
-                    # flash_attn_unpadded_kvpacked_func_cuda,
-                    # Change of function names going from flash attention 1 -> flash attention 2
-                    flash_attn_varlen_qkvpacked_func,
-                    flash_attn_varlen_kvpacked_func,
-                    flash_attn_unpadded_unpacked_func_triton
+                    flash_attn_unpadded_qkvpacked_func_cuda,
+                    flash_attn_unpadded_kvpacked_func_cuda,
+                    flash_attn_unpadded_unpacked_func_triton,
                 )
 
                 self.flash_triton_fn = flash_attn_unpadded_unpacked_func_triton
-                self.flash_qkv_fn = flash_attn_varlen_qkvpacked_func
-                self.flash_kv_fn = flash_attn_varlen_kvpacked_func
+                self.flash_qkv_fn = flash_attn_unpadded_qkvpacked_func_cuda
+                self.flash_kv_fn = flash_attn_unpadded_kvpacked_func_cuda
             else:
                 self.scale_mask_softmax = FusedScaleMaskSoftmax(
                     input_in_fp16=self.fp16,
@@ -425,8 +422,8 @@ class ParallelSelfAttention(nn.Module):
             dtype=query_layer.dtype,
             device=torch.cuda.current_device(),
         )
-        #torch.cuda.synchronize()
-        #st = time.time()
+        torch.cuda.synchronize()
+        st = time.time()
         # Raw attention scores. [b * np, sq, sk]
         matmul_result = torch.baddbmm(
             matmul_result,
@@ -439,7 +436,7 @@ class ParallelSelfAttention(nn.Module):
         # change view to [b, np, sq, sk]
         attention_scores = matmul_result.view(*output_size)
 
-        #torch.cuda.synchronize()
+        torch.cuda.synchronize()
         #print(f"Attention Score: {time.time()-st}")
         
 
@@ -466,19 +463,19 @@ class ParallelSelfAttention(nn.Module):
             attention_scores = self.alibi_embed(attention_scores)
 
         # attention scores and attention mask [b, np, sq, sk]
-        #torch.cuda.synchronize()
-        #st=time.time()
+        torch.cuda.synchronize()
+        st=time.time()
         attention_probs = self.scale_mask_softmax(attention_scores, attention_mask)
-        #torch.cuda.synchronize()
+        torch.cuda.synchronize()
         #print(f"Attention Softmax: {time.time()-st}")
 
         # This is actually dropping out entire tokens to attend to, which might
         # seem a bit unusual, but is taken from the original Transformer paper.
-        #torch.cuda.synchronize()
-        #st=time.time()
+        torch.cuda.synchronize()
+        st=time.time()
         with mpu.get_cuda_rng_tracker().fork():
             attention_probs = self.attention_dropout(attention_probs)
-        #torch.cuda.synchronize()
+        torch.cuda.synchronize()
         #print(f"Attention Dropout: {time.time()-st:.20f}")
 
         
@@ -507,12 +504,12 @@ class ParallelSelfAttention(nn.Module):
         attention_probs = attention_probs.view(
             output_size[0] * output_size[1], output_size[2], -1
         )
-        #torch.cuda.synchronize()
-        #st=time.time()
+        torch.cuda.synchronize()
+        st=time.time()
         # matmul: [b * np, sq, hn]
         context_layer = torch.bmm(attention_probs, value_layer.transpose(0, 1))
 
-        #torch.cuda.synchronize()
+        torch.cuda.synchronize()
         #print(f"Attention Over Value: {time.time()-st}")
 
         # change view [b, np, sq, hn]
@@ -568,6 +565,7 @@ class ParallelSelfAttention(nn.Module):
 
                 # Combined k/v into [b * sk, 2, np, hn].
                 kv = torch.concat([key_layer, value_layer], dim=1)
+
                 output = self.flash_kv_fn(
                     query_layer,
                     kv,
@@ -589,6 +587,7 @@ class ParallelSelfAttention(nn.Module):
 
                 # Combined q/k/v into [b * s, 3, np, hn].
                 qkv = torch.concat([query_layer, key_layer, value_layer], dim=1)
+
                 output = self.flash_qkv_fn(
                     qkv,
                     cu_seqlens_q,
@@ -652,12 +651,12 @@ class ParallelSelfAttention(nn.Module):
         # =====================
 
         # Attention heads [sq, b, h] --> [sq, b, (np * 3 * hn)]
-        #torch.cuda.synchronize()
-        #st = time.time()
+        torch.cuda.synchronize()
+        st = time.time()
         mixed_x_layer, _ = self.query_key_value(hidden_states)
 
-        #torch.cuda.synchronize()
-        #print(f"QKV Transform: {time.time()-st}")
+        torch.cuda.synchronize()
+        print(f"QKV Transform: {time.time()-st}")
 
         # [sq, b, (np * 3 * hn)] --> [sq, b, np, 3 * hn]
         new_tensor_shape = mixed_x_layer.size()[:-1] + (
@@ -718,12 +717,14 @@ class ParallelSelfAttention(nn.Module):
                 (past_value.type_as(value_layer), value_layer), dim=0
             )
 
+        torch.cuda.synchronize()
+        st = time.time()
         if self.use_cache:
             present = torch.stack((key_layer, value_layer))
 
         if self.use_flash_attention:
             context_layer = self.flash_attention(query_layer, key_layer, value_layer)
-            #print("using flash")
+            #print("using-flash")
         elif not self.sparse:
             context_layer = self.attention(
                 query_layer, key_layer, value_layer, layer_past, attention_mask
@@ -732,6 +733,8 @@ class ParallelSelfAttention(nn.Module):
             context_layer = self.sparse_attention(
                 query_layer, key_layer, value_layer, attention_mask
             )
+        torch.cuda.synchronize()
+        print(f"Flash: {time.time()-st}")
 
         # [b, np, sq, hn] --> [sq, b, np, hn]
         context_layer = context_layer.permute(2, 0, 1, 3).contiguous()
@@ -746,14 +749,14 @@ class ParallelSelfAttention(nn.Module):
         # Output. [sq, b, h]
         # =================
 
-        #torch.cuda.synchronize()
-        #st=time.time()
+        torch.cuda.synchronize()
+        st=time.time()
         output, bias = self.dense(context_layer)
 
         if self.use_cache:
             output = [output, present]
-        #torch.cuda.synchronize()
-        #print(f"Attention linproj: {time.time()-st}")
+        torch.cuda.synchronize()
+        print(f"Attention linproj: {time.time()-st}")
 
         
 
@@ -847,8 +850,8 @@ class ParallelTransformerLayer(nn.Module):
         return fn
 
     def forward(self, x, attention_mask, layer_past=None):
-        #torch.cuda.synchronize()
-        #total_st = time.time()
+        torch.cuda.synchronize()
+        total_st = time.time()
         layer_past = layer_past if layer_past is not None else self.layer_past
         bias_dropout_fn = self._get_bias_dropout()
         # x: [b, s, h]
@@ -904,11 +907,11 @@ class ParallelTransformerLayer(nn.Module):
             residual = x
 
             # x = x + attn(ln1(x))
-            #torch.cuda.synchronize()
-            #st = time.time()
+            torch.cuda.synchronize()
+            st = time.time()
             ln_input = self.input_layernorm(x)
-            #torch.cuda.synchronize()
-            #print(f"LN1: {time.time()-st}")
+            torch.cuda.synchronize()
+            print(f"LN1: {time.time()-st}")
 
             attention_output, attention_bias = self.attention(
                 ln_input, attention_mask, layer_past=layer_past
@@ -916,8 +919,8 @@ class ParallelTransformerLayer(nn.Module):
             if self.use_cache:
                 attention_output, presents = attention_output
                 self.layer_past = presents
-            #torch.cuda.synchronize()
-            #st=time.time()
+            torch.cuda.synchronize()
+            st=time.time()
             with torch.enable_grad():
                 if attention_bias is not None:
                     # Use special bias_dropout_fn if we have a bias term from the above attention layer
@@ -938,24 +941,24 @@ class ParallelTransformerLayer(nn.Module):
                         )
                         
                     )
-            #torch.cuda.synchronize()
-            #print(f"Post-attention Dropout: {time.time()-st}")
-            #torch.cuda.synchronize()
-            #st=time.time()
+            torch.cuda.synchronize()
+            print(f"Post-attention Dropout: {time.time()-st}")
+            torch.cuda.synchronize()
+            st=time.time()
             attention_output += residual
-            #torch.cuda.synchronize()
-            #print(f"Post-attention residual: {time.time()-st}")
+            torch.cuda.synchronize()
+            print(f"Post-attention residual: {time.time()-st}")
             # output = x + mlp(ln2(x))
-            #torch.cuda.synchronize()
-            #st=time.time()
+            torch.cuda.synchronize()
+            st=time.time()
             ln2_output = self.post_attention_layernorm(attention_output)
-            #torch.cuda.synchronize()
-            #print(f"LN2: {time.time()-st}")
+            torch.cuda.synchronize()
+            print(f"LN2: {time.time()-st}")
             mlp_output, mlp_bias = self.mlp(
                 ln2_output
             )
-            #torch.cuda.synchronize()
-            #st=time.time()
+            torch.cuda.synchronize()
+            st=time.time()
             with torch.enable_grad():
                 if self.mlp_type == "llama":
                     # No dropout either
@@ -968,10 +971,10 @@ class ParallelTransformerLayer(nn.Module):
                         residual=attention_output,
                         prob=self.hidden_dropout,
                     )
-            #torch.cuda.synchronize()
-            #print(f"Post-MLP residual: {time.time()-st}")
-            #torch.cuda.synchronize()
-            #print(f"Attention layer time: {time.time()-total_st}")
+            torch.cuda.synchronize()
+            print(f"Post-MLP residual: {time.time()-st}")
+            torch.cuda.synchronize()
+            print(f"Attention layer time: {time.time()-total_st}")
         return output
 
 
