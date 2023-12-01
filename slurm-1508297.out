@@ -1,0 +1,26 @@
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/12.2.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23     2) darshan-runtime/3.4.0
+
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/bmm_flops.py", line 81, in <module>
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/mm_flops.py", line 71, in <module>
+    torch.cuda.set_device("cuda:0")
+    torch.cuda.set_device("cuda:0")
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/cuda/__init__.py", line 404, in set_device
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/cuda/__init__.py", line 404, in set_device
+    torch._C._cuda_setDevice(device)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/cuda/__init__.py", line 298, in _lazy_init
+    torch._C._cuda_setDevice(device)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/cuda/__init__.py", line 298, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No HIP GPUs are available
+    torch._C._cuda_init()
+RuntimeError: No HIP GPUs are available

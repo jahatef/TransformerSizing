@@ -1,0 +1,2226 @@
+0
+2
+4
+6
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops0.py", line 481
+    for hidden_size in range(num_attention_heads,(2**15)//4),num_attention_heads): #[32768]: #range(8192,2**15, num_attention_heads):
+                                                                                ^
+SyntaxError: unmatched ')'
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+[2023-11-17 12:02:37,301] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-17 12:02:37,301] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-17 12:02:37,301] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2.1.1+rocm5.6 
+
+[2023-11-17 12:02:55,311] [INFO] [comm.py:637:init_distributed] cdb=None
+2.1.1+rocm5.6 
+
+[2023-11-17 12:02:55,311] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-11-17 12:02:55,311] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-17 12:02:55,311] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+2.1.1+rocm5.6 
+
+[2023-11-17 12:02:55,429] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-11-17 12:02:55,429] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-17 12:02:55,560] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.185.94, master_port=6000
+[2023-11-17 12:02:55,560] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.185.94, master_port=6000
+[2023-11-17 12:02:55,560] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-17 12:02:55,560] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-17 12:02:55,560] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.185.94, master_port=6000
+[2023-11-17 12:02:55,560] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:663] [c10d] The client socket cannot be initialized to connect to [frontier07390.hostmgmt2410.cm.frontier.olcf.ornl.gov]:6000 (errno: 97 - Address family not supported by protocol).
+[2023-11-17 12:02:55,601] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops6.py", line 486, in <module>
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops4.py", line 486, in <module>
+    megatron_wrapper.initialize_megatron(configurations[0])
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 95, in initialize_megatron
+    megatron_wrapper.initialize_megatron(configurations[0])
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 95, in initialize_megatron
+    megatron.initialize._initialize_distributed(neox_args=neox_args)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/initialize.py", line 149, in _initialize_distributed
+    megatron.initialize._initialize_distributed(neox_args=neox_args)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/initialize.py", line 149, in _initialize_distributed
+    deepspeed.init_distributed(
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/comm.py", line 670, in init_distributed
+    deepspeed.init_distributed(
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/comm.py", line 670, in init_distributed
+    cdb = TorchBackend(dist_backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 120, in __init__
+    cdb = TorchBackend(dist_backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 120, in __init__
+    self.init_process_group(backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 146, in init_process_group
+    self.init_process_group(backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 146, in init_process_group
+    torch.distributed.init_process_group(backend,
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 74, in wrapper
+    torch.distributed.init_process_group(backend,
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 74, in wrapper
+    func_return = func(*args, **kwargs)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1141, in init_process_group
+    func_return = func(*args, **kwargs)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1141, in init_process_group
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 241, in _env_rendezvous_handler
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 241, in _env_rendezvous_handler
+    store = _create_c10d_store(master_addr, master_port, rank, world_size, timeout)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 172, in _create_c10d_store
+    store = _create_c10d_store(master_addr, master_port, rank, world_size, timeout)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 172, in _create_c10d_store
+    return TCPStore(
+RuntimeError: The server socket has failed to listen on any local network address. The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol). The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+    return TCPStore(
+RuntimeError: The server socket has failed to listen on any local network address. The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol). The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+num_attention_heads: 128, hidden_size: 8192, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x8192x24576, b=2048): 0.0388
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x8192x24576, b=2048): 85.016
+Elapsed time for attention_key_query_prob (512x2048x64x2048): 0.0048
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x64x2048): 57.140
+Elapsed time for attention_prob_times_values (512x2048x2048x64): 0.0054
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x64): 51.166
+Elapsed time for attention_linear_projection (4x8192x8192, b=2048): 0.0108
+Throughput (in TFLOP/s) for attention_linear_projection (4x8192x8192, b=2048): 102.101
+Elapsed time for mlp_h_to_4h (4x8192x32768, b=2048): 0.0509
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x8192x32768, b=2048): 86.334
+Elapsed time for mlp_4h_to_h (4x32768x8192, b=2048): 0.0816
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x32768x8192, b=2048): 53.895
+
+Attention duration (in seconds): 0.0598
+Attention throughput (in TFLOP/s): 82.807
+MLP duration (in seconds): 0.1325
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 0.1923
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+
+
+Actual
+------
+LN1: 0.09540557861328125
+QKV Transform: 0.13164806365966797
+Attention Score: 0.018259048461914062
+Attention Softmax: 0.11459779739379883
+Attention Dropout: 0.00102996826171875000
+Attention Over Value: 0.006200075149536133
+Attention linproj: 0.011307239532470703
+Post-attention Dropout: 0.2416374683380127
+Post-attention residual: 0.0008814334869384766
+LN2: 0.0004107952117919922
+MLP_h_4h: 0.549323320388794
+MLP_4h_h: 0.08067679405212402
+Post-MLP residual: 0.0027234554290771484
+Attention layer time: 1.2610526084899902
+LN1: 0.0004246234893798828
+QKV Transform: 0.04313063621520996
+Attention Score: 0.013024330139160156
+Attention Softmax: 0.01097559928894043
+Attention Dropout: 0.00008821487426757812
+Attention Over Value: 0.006444454193115234
+Attention linproj: 0.010666608810424805
+Post-attention Dropout: 0.001088857650756836
+Post-attention residual: 0.00038051605224609375
+LN2: 0.0003981590270996094
+MLP_h_4h: 0.04471588134765625
+MLP_4h_h: 0.08643126487731934
+Post-MLP residual: 0.0011038780212402344
+Attention layer time: 0.2205522060394287
+LN1: 0.0004031658172607422
+QKV Transform: 0.04220438003540039
+Attention Score: 0.012986183166503906
+Attention Softmax: 0.010945796966552734
+Attention Dropout: 0.00006198883056640625
+Attention Over Value: 0.006419181823730469
+Attention linproj: 0.010672330856323242
+Post-attention Dropout: 0.0010831356048583984
+Post-attention residual: 0.00037550926208496094
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.04487442970275879
+MLP_4h_h: 0.08787727355957031
+Post-MLP residual: 0.0011069774627685547
+Attention layer time: 0.22103595733642578
+LN1: 0.00039958953857421875
+QKV Transform: 0.044484853744506836
+Attention Score: 0.013007640838623047
+Attention Softmax: 0.010947227478027344
+Attention Dropout: 0.00006103515625000000
+Attention Over Value: 0.006436824798583984
+Attention linproj: 0.010672807693481445
+Post-attention Dropout: 0.0010883808135986328
+Post-attention residual: 0.00037407875061035156
+LN2: 0.00039958953857421875
+MLP_h_4h: 0.04700493812561035
+MLP_4h_h: 0.08704161643981934
+Post-MLP residual: 0.001104593276977539
+Attention layer time: 0.22464656829833984
+LN1: 0.0004024505615234375
+QKV Transform: 0.04175138473510742
+Attention Score: 0.01298666000366211
+Attention Softmax: 0.010946273803710938
+Attention Dropout: 0.00006413459777832031
+Attention Over Value: 0.006442070007324219
+Attention linproj: 0.010684967041015625
+Post-attention Dropout: 0.0010881423950195312
+Post-attention residual: 0.0003764629364013672
+LN2: 0.00040149688720703125
+MLP_h_4h: 0.04480171203613281
+MLP_4h_h: 0.08681154251098633
+Post-MLP residual: 0.0011126995086669922
+Attention layer time: 0.21949315071105957
+LN1: 0.0004012584686279297
+QKV Transform: 0.042214155197143555
+Attention Score: 0.013014554977416992
+Attention Softmax: 0.010946512222290039
+Attention Dropout: 0.00006413459777832031
+Attention Over Value: 0.006435394287109375
+Attention linproj: 0.010682821273803711
+Post-attention Dropout: 0.0010838508605957031
+Post-attention residual: 0.00037550926208496094
+LN2: 0.000400543212890625
+MLP_h_4h: 0.04476475715637207
+MLP_4h_h: 0.087615966796875
+Post-MLP residual: 0.0010955333709716797
+Attention layer time: 0.2207026481628418
+LN1: 0.00040221214294433594
+QKV Transform: 0.04445981979370117
+Attention Score: 0.012996673583984375
+Attention Softmax: 0.010979890823364258
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.006453514099121094
+Attention linproj: 0.010692596435546875
+Post-attention Dropout: 0.0010836124420166016
+Post-attention residual: 0.00037288665771484375
+LN2: 0.000400543212890625
+MLP_h_4h: 0.04477119445800781
+MLP_4h_h: 0.08572578430175781
+Post-MLP residual: 0.0011067390441894531
+Attention layer time: 0.22110772132873535
+LN1: 0.000400543212890625
+QKV Transform: 0.041713714599609375
+Attention Score: 0.01300668716430664
+Attention Softmax: 0.010948657989501953
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.006441354751586914
+Attention linproj: 0.010689735412597656
+Post-attention Dropout: 0.0010864734649658203
+Post-attention residual: 0.00037479400634765625
+LN2: 0.00039577484130859375
+MLP_h_4h: 0.04480099678039551
+MLP_4h_h: 0.08855605125427246
+Post-MLP residual: 0.0010974407196044922
+Attention layer time: 0.2211747169494629
+LN1: 0.0004017353057861328
+QKV Transform: 0.0426173210144043
+Attention Score: 0.01294708251953125
+Attention Softmax: 0.011026382446289062
+Attention Dropout: 0.00005602836608886719
+Attention Over Value: 0.006447553634643555
+Attention linproj: 0.010696649551391602
+Post-attention Dropout: 0.0010833740234375
+Post-attention residual: 0.00037360191345214844
+LN2: 0.0003972053527832031
+MLP_h_4h: 0.04565310478210449
+MLP_4h_h: 0.08174824714660645
+Post-MLP residual: 0.0011057853698730469
+Attention layer time: 0.2161574363708496
+LN1: 0.00040221214294433594
+QKV Transform: 0.04267382621765137
+Attention Score: 0.013024330139160156
+Attention Softmax: 0.010902166366577148
+Attention Dropout: 0.00005769729614257812
+Attention Over Value: 0.006377696990966797
+Attention linproj: 0.010698318481445312
+Post-attention Dropout: 0.0010716915130615234
+Post-attention residual: 0.00037217140197753906
+LN2: 0.0003960132598876953
+MLP_h_4h: 0.04477334022521973
+MLP_4h_h: 0.08948850631713867
+Post-MLP residual: 0.0011057853698730469
+Attention layer time: 0.222914457321167
+LN1: 0.0003979206085205078
+QKV Transform: 0.04342293739318848
+Attention Score: 0.012985944747924805
+Attention Softmax: 0.010952949523925781
+Attention Dropout: 0.00005888938903808594
+Attention Over Value: 0.006356477737426758
+Attention linproj: 0.010705709457397461
+Post-attention Dropout: 0.0010805130004882812
+Post-attention residual: 0.0003752708435058594
+LN2: 0.0004012584686279297
+MLP_h_4h: 0.044801950454711914
+MLP_4h_h: 0.08092713356018066
+Post-MLP residual: 0.0011019706726074219
+Attention layer time: 0.21517276763916016
+LN1: 0.0004012584686279297
+QKV Transform: 0.04198598861694336
+Attention Score: 0.013012170791625977
+Attention Softmax: 0.010934591293334961
+Attention Dropout: 0.00005674362182617188
+Attention Over Value: 0.006463766098022461
+Attention linproj: 0.010703325271606445
+Post-attention Dropout: 0.0010852813720703125
+Post-attention residual: 0.0003705024719238281
+LN2: 0.0003955364227294922
+MLP_h_4h: 0.05722332000732422
+MLP_4h_h: 0.08619093894958496
+Post-MLP residual: 0.001092672348022461
+Attention layer time: 0.23151421546936035
+LN1: 0.0004031658172607422
+QKV Transform: 0.04180431365966797
+Attention Score: 0.012924671173095703
+Attention Softmax: 0.011013507843017578
+Attention Dropout: 0.00005626678466796875
+Attention Over Value: 0.00645899772644043
+Attention linproj: 0.010701417922973633
+Post-attention Dropout: 0.0010800361633300781
+Post-attention residual: 0.0003764629364013672
+LN2: 0.0004112720489501953
+MLP_h_4h: 0.04481387138366699
+MLP_4h_h: 0.08037781715393066
+Post-MLP residual: 0.0011019706726074219
+Attention layer time: 0.21312952041625977
+LN1: 0.0004038810729980469
+QKV Transform: 0.044164419174194336
+Attention Score: 0.012973308563232422
+Attention Softmax: 0.011013031005859375
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006437540054321289
+Attention linproj: 0.010711908340454102
+Post-attention Dropout: 0.0010867118835449219
+Post-attention residual: 0.00037670135498046875
+LN2: 0.00040078163146972656
+MLP_h_4h: 0.044847965240478516
+MLP_4h_h: 0.08078885078430176
+Post-MLP residual: 0.001104593276977539
+Attention layer time: 0.21596074104309082
+LN1: 0.00039958953857421875
+QKV Transform: 0.04299116134643555
+Attention Score: 0.012949943542480469
+Attention Softmax: 0.010913372039794922
+Attention Dropout: 0.00005698204040527344
+Attention Over Value: 0.006356000900268555
+Attention linproj: 0.01070857048034668
+Post-attention Dropout: 0.0010776519775390625
+Post-attention residual: 0.00036978721618652344
+LN2: 0.0004172325134277344
+MLP_h_4h: 0.04506325721740723
+MLP_4h_h: 0.08830022811889648
+Post-MLP residual: 0.0011138916015625
+Attention layer time: 0.22230052947998047
+LN1: 0.00042748451232910156
+QKV Transform: 0.04168128967285156
+Attention Score: 0.012952089309692383
+Attention Softmax: 0.010990619659423828
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.006360292434692383
+Attention linproj: 0.010702371597290039
+Post-attention Dropout: 0.00107574462890625
+Post-attention residual: 0.0003745555877685547
+LN2: 0.0003981590270996094
+MLP_h_4h: 0.044817209243774414
+MLP_4h_h: 0.08118653297424316
+Post-MLP residual: 0.001107931137084961
+Attention layer time: 0.21371722221374512
+LN1: 0.0004029273986816406
+QKV Transform: 0.042066097259521484
+Attention Score: 0.012964010238647461
+Attention Softmax: 0.010972738265991211
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.006375312805175781
+Attention linproj: 0.010708332061767578
+Post-attention Dropout: 0.00107574462890625
+Post-attention residual: 0.0003724098205566406
+LN2: 0.0004055500030517578
+MLP_h_4h: 0.04487872123718262
+MLP_4h_h: 0.08045315742492676
+Post-MLP residual: 0.0011019706726074219
+Attention layer time: 0.21344494819641113
+LN1: 0.00040340423583984375
+QKV Transform: 0.04220914840698242
+Attention Score: 0.012997627258300781
+Attention Softmax: 0.010936975479125977
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006350278854370117
+Attention linproj: 0.010709762573242188
+Post-attention Dropout: 0.0010762214660644531
+Post-attention residual: 0.00037407875061035156
+LN2: 0.0004000663757324219
+MLP_h_4h: 0.04483485221862793
+MLP_4h_h: 0.08801388740539551
+Post-MLP residual: 0.0011124610900878906
+Attention layer time: 0.22106432914733887
+LN1: 0.00040268898010253906
+QKV Transform: 0.04314589500427246
+Attention Score: 0.012940406799316406
+Attention Softmax: 0.010970830917358398
+Attention Dropout: 0.00005888938903808594
+Attention Over Value: 0.00633692741394043
+Attention linproj: 0.01070713996887207
+Post-attention Dropout: 0.0010759830474853516
+Post-attention residual: 0.00037217140197753906
+LN2: 0.0003993511199951172
+MLP_h_4h: 0.044846534729003906
+MLP_4h_h: 0.07777667045593262
+Post-MLP residual: 0.0011067390441894531
+Attention layer time: 0.2117292881011963
+LN1: 0.00040411949157714844
+QKV Transform: 0.04143691062927246
+Attention Score: 0.013026714324951172
+Attention Softmax: 0.010949850082397461
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006307840347290039
+Attention linproj: 0.010710000991821289
+Post-attention Dropout: 0.001085519790649414
+Post-attention residual: 0.0003750324249267578
+LN2: 0.0003998279571533203
+MLP_h_4h: 0.04488706588745117
+MLP_4h_h: 0.0814824104309082
+Post-MLP residual: 0.0011081695556640625
+Attention layer time: 0.21384429931640625
+LN1: 0.00040459632873535156
+QKV Transform: 0.042394161224365234
+Attention Score: 0.012932777404785156
+Attention Softmax: 0.010995626449584961
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.006427288055419922
+Attention linproj: 0.010715961456298828
+Post-attention Dropout: 0.0010902881622314453
+Post-attention residual: 0.0003750324249267578
+LN2: 0.000415802001953125
+MLP_h_4h: 0.04500150680541992
+MLP_4h_h: 0.08192276954650879
+Post-MLP residual: 0.001108407974243164
+Attention layer time: 0.2154703140258789
+LN1: 0.0004038810729980469
+QKV Transform: 0.04271864891052246
+Attention Score: 0.012969970703125
+Attention Softmax: 0.010896921157836914
+Attention Dropout: 0.00005698204040527344
+Attention Over Value: 0.006378889083862305
+Attention linproj: 0.010712862014770508
+Post-attention Dropout: 0.0010750293731689453
+Post-attention residual: 0.00037288665771484375
+LN2: 0.00039696693420410156
+MLP_h_4h: 0.04486370086669922
+MLP_4h_h: 0.08763408660888672
+Post-MLP residual: 0.0010912418365478516
+Attention layer time: 0.2211594581604004
+LN1: 0.0004017353057861328
+QKV Transform: 0.04353165626525879
+Attention Score: 0.012929677963256836
+Attention Softmax: 0.010988950729370117
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.0063703060150146484
+Attention linproj: 0.010703086853027344
+Post-attention Dropout: 0.0010824203491210938
+Post-attention residual: 0.0003724098205566406
+LN2: 0.00039768218994140625
+MLP_h_4h: 0.05599355697631836
+MLP_4h_h: 0.08192229270935059
+Post-MLP residual: 0.0011067390441894531
+Attention layer time: 0.22745513916015625
+LN1: 0.0004031658172607422
+QKV Transform: 0.04144144058227539
+Attention Score: 1.8079802989959717
+Attention Softmax: 0.01082301139831543
+Attention Dropout: 0.00007557868957519531
+Attention Over Value: 0.0058290958404541016
+Attention linproj: 0.010658979415893555
+Post-attention Dropout: 0.0010838508605957031
+Post-attention residual: 0.00035834312438964844
+LN2: 0.00039076805114746094
+MLP_h_4h: 0.045145273208618164
+MLP_4h_h: 0.07863187789916992
+Post-MLP residual: 0.0010874271392822266
+Attention layer time: 2.005415678024292
+LN1: 0.0003991127014160156
+QKV Transform: 0.0440983772277832
+Attention Score: 0.012964963912963867
+Attention Softmax: 0.010960817337036133
+Attention Dropout: 0.00005722045898437500
+Attention Over Value: 0.006394624710083008
+Attention linproj: 0.010668039321899414
+Post-attention Dropout: 0.0010800361633300781
+Post-attention residual: 0.00037550926208496094
+LN2: 0.0003991127014160156
+MLP_h_4h: 0.05410432815551758
+MLP_4h_h: 0.0882871150970459
+Post-MLP residual: 0.0011022090911865234
+Attention layer time: 0.23250746726989746
+LN1: 0.000400543212890625
+QKV Transform: 0.04151010513305664
+Attention Score: 0.013023853302001953
+Attention Softmax: 0.010968923568725586
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006439208984375
+Attention linproj: 0.010673761367797852
+Post-attention Dropout: 0.0010833740234375
+Post-attention residual: 0.0003745555877685547
+LN2: 0.00039649009704589844
+MLP_h_4h: 0.05638384819030762
+MLP_4h_h: 0.08032107353210449
+Post-MLP residual: 0.0010902881622314453
+Attention layer time: 0.2243204116821289
+LN1: 0.0003986358642578125
+QKV Transform: 0.04252147674560547
+Attention Score: 0.01295328140258789
+Attention Softmax: 0.010993480682373047
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.0064449310302734375
+Attention linproj: 0.010678291320800781
+Post-attention Dropout: 0.0011363029479980469
+Post-attention residual: 0.0003743171691894531
+LN2: 0.00040078163146972656
+MLP_h_4h: 0.04496169090270996
+MLP_4h_h: 0.08914065361022949
+Post-MLP residual: 0.0010988712310791016
+Attention layer time: 0.22276735305786133
+LN1: 0.00040149688720703125
+QKV Transform: 0.04044795036315918
+Attention Score: 0.013003110885620117
+Attention Softmax: 0.010976076126098633
+Attention Dropout: 0.00005722045898437500
+Attention Over Value: 0.006365776062011719
+Attention linproj: 0.010686874389648438
+Post-attention Dropout: 0.0010819435119628906
+Post-attention residual: 0.0003705024719238281
+LN2: 0.0003962516784667969
+MLP_h_4h: 0.04474925994873047
+MLP_4h_h: 0.08178257942199707
+Post-MLP residual: 0.0011048316955566406
+Attention layer time: 0.21301651000976562
+LN1: 0.00039958953857421875
+QKV Transform: 0.043877601623535156
+Attention Score: 0.012943267822265625
+Attention Softmax: 0.010890007019042969
+Attention Dropout: 0.00005578994750976562
+Attention Over Value: 0.00635218620300293
+Attention linproj: 0.010696172714233398
+Post-attention Dropout: 0.0010793209075927734
+Post-attention residual: 0.0003743171691894531
+LN2: 0.0004019737243652344
+MLP_h_4h: 0.04472851753234863
+MLP_4h_h: 0.09050846099853516
+Post-MLP residual: 0.0011012554168701172
+Attention layer time: 0.22501492500305176
+LN1: 0.00039958953857421875
+QKV Transform: 0.040207862854003906
+Attention Score: 0.012991905212402344
+Attention Softmax: 0.010978460311889648
+Attention Dropout: 0.00005578994750976562
+Attention Over Value: 0.006360054016113281
+Attention linproj: 0.01069784164428711
+Post-attention Dropout: 0.0010764598846435547
+Post-attention residual: 0.0003726482391357422
+LN2: 0.000415802001953125
+MLP_h_4h: 0.044792890548706055
+MLP_4h_h: 0.07955598831176758
+Post-MLP residual: 0.001104593276977539
+Attention layer time: 0.21057605743408203
+LN1: 0.0004012584686279297
+QKV Transform: 0.04301118850708008
+Attention Score: 0.012975454330444336
+Attention Softmax: 0.010909795761108398
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.006376743316650391
+Attention linproj: 0.010694026947021484
+Post-attention Dropout: 0.001071929931640625
+Post-attention residual: 0.00037384033203125
+LN2: 0.0003974437713623047
+MLP_h_4h: 0.044798851013183594
+MLP_4h_h: 0.08844518661499023
+Post-MLP residual: 0.0011124610900878906
+Attention layer time: 0.22220325469970703
+LN1: 0.0004019737243652344
+QKV Transform: 0.0432283878326416
+Attention Score: 0.013015270233154297
+Attention Softmax: 0.0109710693359375
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.006359100341796875
+Attention linproj: 0.010699748992919922
+Post-attention Dropout: 0.0010838508605957031
+Post-attention residual: 0.0003752708435058594
+LN2: 0.00039958953857421875
+MLP_h_4h: 0.044806480407714844
+MLP_4h_h: 0.08017516136169434
+Post-MLP residual: 0.0010962486267089844
+Attention layer time: 0.21425867080688477
+LN1: 0.00040078163146972656
+QKV Transform: 0.042322397232055664
+Attention Score: 0.012977361679077148
+Attention Softmax: 0.010957479476928711
+Attention Dropout: 0.00005602836608886719
+Attention Over Value: 0.006423473358154297
+Attention linproj: 0.01071023941040039
+Post-attention Dropout: 0.0010898113250732422
+Post-attention residual: 0.00037407875061035156
+LN2: 0.0003993511199951172
+MLP_h_4h: 0.04481768608093262
+MLP_4h_h: 0.08847665786743164
+Post-MLP residual: 0.0010967254638671875
+Attention layer time: 0.22170376777648926
+LN1: 0.00040030479431152344
+QKV Transform: 0.04177284240722656
+Attention Score: 0.012989997863769531
+Attention Softmax: 0.010997533798217773
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.006446123123168945
+Attention linproj: 0.010712862014770508
+Post-attention Dropout: 0.0010852813720703125
+Post-attention residual: 0.0003724098205566406
+LN2: 0.0003991127014160156
+MLP_h_4h: 0.04482221603393555
+MLP_4h_h: 0.08075141906738281
+Post-MLP residual: 0.0011081695556640625
+Attention layer time: 0.21350383758544922
+LN1: 0.00040340423583984375
+QKV Transform: 0.042702436447143555
+Attention Score: 0.012984752655029297
+Attention Softmax: 0.010963678359985352
+Attention Dropout: 0.00007390975952148438
+Attention Over Value: 0.006455659866333008
+Attention linproj: 0.010705232620239258
+Post-attention Dropout: 0.0010874271392822266
+Post-attention residual: 0.0003745555877685547
+LN2: 0.0003991127014160156
+MLP_h_4h: 0.044904232025146484
+MLP_4h_h: 0.08621954917907715
+Post-MLP residual: 0.0011093616485595703
+Attention layer time: 0.219987154006958
+LN1: 0.00040459632873535156
+QKV Transform: 0.041578054428100586
+Attention Score: 0.013001680374145508
+Attention Softmax: 0.011028528213500977
+Attention Dropout: 0.00005698204040527344
+Attention Over Value: 0.0064411163330078125
+Attention linproj: 0.010713577270507812
+Post-attention Dropout: 0.0010814666748046875
+Post-attention residual: 0.0003726482391357422
+LN2: 0.00040078163146972656
+MLP_h_4h: 0.049635887145996094
+MLP_4h_h: 0.07809901237487793
+Post-MLP residual: 0.0011043548583984375
+Attention layer time: 0.21550917625427246
+LN1: 0.00039577484130859375
+QKV Transform: 0.04399681091308594
+Attention Score: 0.01293492317199707
+Attention Softmax: 0.010996818542480469
+Attention Dropout: 0.00005698204040527344
+Attention Over Value: 0.006473064422607422
+Attention linproj: 0.01071310043334961
+Post-attention Dropout: 0.0010793209075927734
+Post-attention residual: 0.0003724098205566406
+LN2: 0.00039577484130859375
+MLP_h_4h: 0.04483532905578613
+MLP_4h_h: 0.08010458946228027
+Post-MLP residual: 0.0011081695556640625
+Attention layer time: 0.21506881713867188
+LN1: 0.0004203319549560547
+QKV Transform: 0.0434114933013916
+Attention Score: 0.01297140121459961
+Attention Softmax: 0.010983705520629883
+Attention Dropout: 0.00005698204040527344
+Attention Over Value: 0.0063610076904296875
+Attention linproj: 0.010708332061767578
+Post-attention Dropout: 0.001077413558959961
+Post-attention residual: 0.0003762245178222656
+LN2: 0.00039649009704589844
+MLP_h_4h: 0.04486560821533203
+MLP_4h_h: 0.07827568054199219
+Post-MLP residual: 0.0010976791381835938
+Attention layer time: 0.21256613731384277
+LN1: 0.0003998279571533203
+QKV Transform: 0.04246354103088379
+Attention Score: 0.012964248657226562
+Attention Softmax: 0.011001110076904297
+Attention Dropout: 0.00005507469177246094
+Attention Over Value: 0.0064351558685302734
+Attention linproj: 0.01071786880493164
+Post-attention Dropout: 0.0010912418365478516
+Post-attention residual: 0.00037789344787597656
+LN2: 0.00040149688720703125
+MLP_h_4h: 0.044846534729003906
+MLP_4h_h: 0.07955098152160645
+Post-MLP residual: 0.0010917186737060547
+Attention layer time: 0.2130110263824463
+LN1: 0.00039696693420410156
+QKV Transform: 0.04232072830200195
+Attention Score: 0.01297307014465332
+Attention Softmax: 0.01101541519165039
+Attention Dropout: 0.00006270408630371094
+Attention Over Value: 0.006433963775634766
+Attention linproj: 0.010713815689086914
+Post-attention Dropout: 0.0010907649993896484
+Post-attention residual: 0.0003752708435058594
+LN2: 0.0003998279571533203
+MLP_h_4h: 0.044877052307128906
+MLP_4h_h: 0.08237242698669434
+Post-MLP residual: 0.001092672348022461
+Attention layer time: 0.2157132625579834
+LN1: 0.0004012584686279297
+QKV Transform: 0.04124712944030762
+Attention Score: 0.012953519821166992
+Attention Softmax: 0.010932207107543945
+Attention Dropout: 0.00006413459777832031
+Attention Over Value: 0.006345033645629883
+Attention linproj: 0.010709285736083984
+Post-attention Dropout: 0.0010788440704345703
+Post-attention residual: 0.0003731250762939453
+LN2: 0.0003993511199951172
+MLP_h_4h: 0.04484081268310547
+MLP_4h_h: 0.08680939674377441
+Post-MLP residual: 0.0011096000671386719
+Attention layer time: 0.21884751319885254
+LN1: 0.0004024505615234375
+QKV Transform: 0.04156088829040527
+Attention Score: 0.01298666000366211
+Attention Softmax: 0.011001825332641602
+Attention Dropout: 0.00005602836608886719
+Attention Over Value: 0.006371498107910156
+Attention linproj: 0.010709047317504883
+Post-attention Dropout: 0.0010731220245361328
+Post-attention residual: 0.0003733634948730469
+LN2: 0.00040078163146972656
+MLP_h_4h: 0.044814348220825195
+MLP_4h_h: 0.07999086380004883
+Post-MLP residual: 0.0011081695556640625
+Attention layer time: 0.21242642402648926
+LN1: 0.0004017353057861328
+QKV Transform: 0.0434114933013916
+Attention Score: 0.01298666000366211
+Attention Softmax: 0.010998010635375977
+Attention Dropout: 0.00006532669067382812
+Attention Over Value: 0.006449460983276367
+Attention linproj: 0.01071310043334961
+Post-attention Dropout: 0.0010848045349121094
+Post-attention residual: 0.0003752708435058594
+LN2: 0.000400543212890625
+MLP_h_4h: 0.044846296310424805
+MLP_4h_h: 0.08149909973144531
+Post-MLP residual: 0.00110626220703125
+Attention layer time: 0.2159416675567627
+LN1: 0.0004000663757324219
+QKV Transform: 0.04162287712097168
+Attention Score: 0.012942075729370117
+Attention Softmax: 0.010976076126098633
+Attention Dropout: 0.00005674362182617188
+Attention Over Value: 0.006440401077270508
+Attention linproj: 0.010723590850830078
+Post-attention Dropout: 0.0010790824890136719
+Post-attention residual: 0.0003724098205566406
+LN2: 0.00039696693420410156
+MLP_h_4h: 0.044873714447021484
+MLP_4h_h: 0.08053874969482422
+Post-MLP residual: 0.0010912418365478516
+Attention layer time: 0.21310830116271973
+LN1: 0.0004029273986816406
+QKV Transform: 0.04320526123046875
+Attention Score: 0.012960195541381836
+Attention Softmax: 0.010957002639770508
+Attention Dropout: 0.00005936622619628906
+Attention Over Value: 0.006377696990966797
+Attention linproj: 0.010711431503295898
+Post-attention Dropout: 0.001077413558959961
+Post-attention residual: 0.00037407875061035156
+LN2: 0.00039768218994140625
+MLP_h_4h: 0.052867889404296875
+MLP_4h_h: 0.07921981811523438
+Post-MLP residual: 0.0011131763458251953
+Attention layer time: 0.22130703926086426
+LN1: 0.0004012584686279297
+QKV Transform: 0.04233121871948242
+Attention Score: 1.7666337490081787
+Attention Softmax: 0.01083517074584961
+Attention Dropout: 0.00007462501525878906
+Attention Over Value: 0.005739688873291016
+Attention linproj: 0.010659217834472656
+Post-attention Dropout: 0.0010933876037597656
+Post-attention residual: 0.00035834312438964844
+LN2: 0.00038623809814453125
+MLP_h_4h: 0.044657230377197266
+MLP_4h_h: 0.07865333557128906
+Post-MLP residual: 0.00109100341796875
+Attention layer time: 1.9644238948822021
+LN1: 0.0003952980041503906
+QKV Transform: 0.04210686683654785
+Attention Score: 0.012952089309692383
+Attention Softmax: 0.010969400405883789
+Attention Dropout: 0.00005602836608886719
+Attention Over Value: 0.006367206573486328
+Attention linproj: 0.010667085647583008
+Post-attention Dropout: 0.0010883808135986328
+Post-attention residual: 0.00037980079650878906
+LN2: 0.0003974437713623047
+MLP_h_4h: 0.04474067687988281
+MLP_4h_h: 0.08051204681396484
+Post-MLP residual: 0.001093149185180664
+Attention layer time: 0.21335220336914062
+LN1: 0.000400543212890625
+QKV Transform: 0.04143166542053223
+Attention Score: 0.012987613677978516
+Attention Softmax: 0.010942935943603516
+Attention Dropout: 0.00005578994750976562
+Attention Over Value: 0.006350994110107422
+Attention linproj: 0.010679483413696289
+Post-attention Dropout: 0.00107574462890625
+Post-attention residual: 0.0003743171691894531
+LN2: 0.0004169940948486328
+MLP_h_4h: 0.044666290283203125
+MLP_4h_h: 0.08664083480834961
+Post-MLP residual: 0.0011022090911865234
+Attention layer time: 0.21870994567871094
+LN1: 0.00040531158447265625
+QKV Transform: 0.04352211952209473
+Attention Score: 0.012949705123901367
+Attention Softmax: 0.01098942756652832
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006356477737426758
+Attention linproj: 0.010682344436645508
+Post-attention Dropout: 0.0010764598846435547
+Post-attention residual: 0.0003733634948730469
+LN2: 0.0003972053527832031
+MLP_h_4h: 0.04468226432800293
+MLP_4h_h: 0.07954645156860352
+Post-MLP residual: 0.001108407974243164
+Attention layer time: 0.2137317657470703
+LN1: 0.0004010200500488281
+QKV Transform: 0.040144920349121094
+Attention Score: 0.013019323348999023
+Attention Softmax: 0.010984420776367188
+Attention Dropout: 0.00005865097045898438
+Attention Over Value: 0.006346464157104492
+Attention linproj: 0.010685205459594727
+Post-attention Dropout: 0.0010819435119628906
+Post-attention residual: 0.0003719329833984375
+LN2: 0.00039768218994140625
+MLP_h_4h: 0.044812679290771484
+MLP_4h_h: 0.08222031593322754
+Post-MLP residual: 0.0011014938354492188
+Attention layer time: 0.2131972312927246
+LN1: 0.00040602684020996094
+QKV Transform: 0.04041576385498047
+Attention Score: 0.012964010238647461
+Attention Softmax: 0.010915040969848633
+Attention Dropout: 0.00005769729614257812
+Attention Over Value: 0.006338357925415039
+Attention linproj: 0.010687589645385742
+Post-attention Dropout: 0.001071929931640625
+Post-attention residual: 0.0003745555877685547
+LN2: 0.0003962516784667969
+MLP_h_4h: 0.04483985900878906
+MLP_4h_h: 0.08662199974060059
+Post-MLP residual: 0.001104593276977539
+Attention layer time: 0.21777081489562988
+LN1: 0.0003991127014160156
+QKV Transform: 0.043007850646972656
+Attention Score: 0.013011932373046875
+Attention Softmax: 0.011011123657226562
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006363868713378906
+Attention linproj: 0.01069498062133789
+Post-attention Dropout: 0.0010690689086914062
+Post-attention residual: 0.0003743171691894531
+LN2: 0.00041675567626953125
+MLP_h_4h: 0.04472780227661133
+MLP_4h_h: 0.07953333854675293
+Post-MLP residual: 0.0010983943939208984
+Attention layer time: 0.21335506439208984
+LN1: 0.0004019737243652344
+QKV Transform: 0.04215645790100098
+Attention Score: 0.012970447540283203
+Attention Softmax: 0.011007308959960938
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.0064487457275390625
+Attention linproj: 0.010696887969970703
+Post-attention Dropout: 0.0010843276977539062
+Post-attention residual: 0.00037097930908203125
+LN2: 0.0003974437713623047
+MLP_h_4h: 0.044740915298461914
+MLP_4h_h: 0.08147335052490234
+Post-MLP residual: 0.0011107921600341797
+Attention layer time: 0.2145214080810547
+LN1: 0.00042819976806640625
+QKV Transform: 0.042696237564086914
+Attention Score: 0.01297903060913086
+Attention Softmax: 0.010969161987304688
+Attention Dropout: 0.00005674362182617188
+Attention Over Value: 0.006345510482788086
+Attention linproj: 0.010706186294555664
+Post-attention Dropout: 0.0010707378387451172
+Post-attention residual: 0.0003750324249267578
+LN2: 0.0003955364227294922
+MLP_h_4h: 0.0448756217956543
+MLP_4h_h: 0.07884979248046875
+Post-MLP residual: 0.0011072158813476562
+Attention layer time: 0.2124309539794922
+LN1: 0.00040984153747558594
+QKV Transform: 0.04245901107788086
+Attention Score: 0.012930154800415039
+Attention Softmax: 0.01091146469116211
+Attention Dropout: 0.00005602836608886719
+Attention Over Value: 0.006364107131958008
+Attention linproj: 0.010701894760131836
+Post-attention Dropout: 0.00107574462890625
+Post-attention residual: 0.00037360191345214844
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.04481649398803711
+MLP_4h_h: 0.08530163764953613
+Post-MLP residual: 0.001104116439819336
+Attention layer time: 0.21848678588867188
+LN1: 0.0004067420959472656
+QKV Transform: 0.04247617721557617
+Attention Score: 0.012993097305297852
+Attention Softmax: 0.010989189147949219
+Attention Dropout: 0.00005817413330078125
+Attention Over Value: 0.006374359130859375
+Attention linproj: 0.010704278945922852
+Post-attention Dropout: 0.0010766983032226562
+Post-attention residual: 0.00037169456481933594
+LN2: 0.0003972053527832031
+MLP_h_4h: 0.04477524757385254
+MLP_4h_h: 0.08094358444213867
+Post-MLP residual: 0.0011026859283447266
+Attention layer time: 0.21425104141235352
+LN1: 0.00040221214294433594
+QKV Transform: 0.04247927665710449
+Attention Score: 0.012972354888916016
+Attention Softmax: 0.010982990264892578
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.00635981559753418
+Attention linproj: 0.010704755783081055
+Post-attention Dropout: 0.0010833740234375
+Post-attention residual: 0.00037479400634765625
+LN2: 0.00041675567626953125
+MLP_h_4h: 0.044829368591308594
+MLP_4h_h: 0.0794222354888916
+Post-MLP residual: 0.0010988712310791016
+Attention layer time: 0.21278905868530273
+LN1: 0.0003993511199951172
+QKV Transform: 0.04202914237976074
+Attention Score: 0.013019561767578125
+Attention Softmax: 0.011002302169799805
+Attention Dropout: 0.00005578994750976562
+Attention Over Value: 0.006446361541748047
+Attention linproj: 0.010709285736083984
+Post-attention Dropout: 0.0010769367218017578
+Post-attention residual: 0.00037479400634765625
+LN2: 0.00039768218994140625
+MLP_h_4h: 0.044873714447021484
+MLP_4h_h: 0.0867924690246582
+Post-MLP residual: 0.0010983943939208984
+Attention layer time: 0.21987652778625488
+LN1: 0.0004029273986816406
+QKV Transform: 0.04101061820983887
+Attention Score: 0.012935876846313477
+Attention Softmax: 0.01101231575012207
+Attention Dropout: 0.00005555152893066406
+Attention Over Value: 0.0064487457275390625
+Attention linproj: 0.01070857048034668
+Post-attention Dropout: 0.001087188720703125
+Post-attention residual: 0.00037360191345214844
+LN2: 0.00039958953857421875
+MLP_h_4h: 0.044936180114746094
+MLP_4h_h: 0.0828390121459961
+Post-MLP residual: 0.0011014938354492188
+Attention layer time: 0.21490788459777832
+LN1: 0.00039958953857421875
+QKV Transform: 0.042246103286743164
+Attention Score: 0.013001680374145508
+Attention Softmax: 0.011001110076904297
+Attention Dropout: 0.00005698204040527344
+Attention Over Value: 0.006438493728637695
+Attention linproj: 0.010715007781982422
+Post-attention Dropout: 0.0010824203491210938
+Post-attention residual: 0.0003745555877685547
+LN2: 0.00039958953857421875
+MLP_h_4h: 0.045388221740722656
+MLP_4h_h: 0.0813896656036377
+Post-MLP residual: 0.0011031627655029297
+Attention layer time: 0.2152106761932373
+LN1: 0.00039958953857421875
+QKV Transform: 0.042368412017822266
+Attention Score: 0.013001203536987305
+Attention Softmax: 0.010965585708618164
+Attention Dropout: 0.00006318092346191406
+Attention Over Value: 0.006433010101318359
+Attention linproj: 0.010712623596191406
+Post-attention Dropout: 0.0010793209075927734
+Post-attention residual: 0.00037550926208496094
+LN2: 0.00039958953857421875
+MLP_h_4h: 0.04484081268310547
+MLP_4h_h: 0.08784651756286621
+Post-MLP residual: 0.0011043548583984375
+Attention layer time: 0.22119688987731934
+LN1: 0.0004222393035888672
+QKV Transform: 0.041489601135253906
+Attention Score: 0.012979984283447266
+Attention Softmax: 0.010981559753417969
+Attention Dropout: 0.00005698204040527344
+Attention Over Value: 0.00634765625
+Attention linproj: 0.010715007781982422
+Post-attention Dropout: 0.0010814666748046875
+Post-attention residual: 0.00037217140197753906
+LN2: 0.00039839744567871094
+MLP_h_4h: 0.04491281509399414
+MLP_4h_h: 0.08022737503051758
+Post-MLP residual: 0.0010941028594970703
+Attention layer time: 0.2126779556274414
+LN1: 0.0004012584686279297
+QKV Transform: 0.04178452491760254
+Attention Score: 0.012933492660522461
+Attention Softmax: 0.011000633239746094
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.006430625915527344
+Attention linproj: 0.010715961456298828
+Post-attention Dropout: 0.0010814666748046875
+Post-attention residual: 0.0003724098205566406
+LN2: 0.00040078163146972656
+MLP_h_4h: 0.046883344650268555
+MLP_4h_h: 0.08077073097229004
+Post-MLP residual: 0.0011141300201416016
+Attention layer time: 0.21554803848266602
+LN1: 0.00040340423583984375
+QKV Transform: 0.04275059700012207
+Attention Score: 0.013013839721679688
+Attention Softmax: 0.01096343994140625
+Attention Dropout: 0.00005841255187988281
+Attention Over Value: 0.00635981559753418
+Attention linproj: 0.010722875595092773
+Post-attention Dropout: 0.001087188720703125
+Post-attention residual: 0.00037479400634765625
+LN2: 0.00039958953857421875
+MLP_h_4h: 0.04760932922363281
+MLP_4h_h: 0.07911920547485352
+Post-MLP residual: 0.0010979175567626953
+Attention layer time: 0.2155601978302002
+LN1: 0.0004010200500488281
+QKV Transform: 0.04173541069030762
+Attention Score: 0.012946128845214844
+Attention Softmax: 0.011013507843017578
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006447792053222656
+Attention linproj: 0.010715007781982422
+Post-attention Dropout: 0.001087188720703125
+Post-attention residual: 0.00037288665771484375
+LN2: 0.00039887428283691406
+MLP_h_4h: 0.04498696327209473
+MLP_4h_h: 0.08077502250671387
+Post-MLP residual: 0.0010981559753417969
+Attention layer time: 0.21363282203674316
+LN1: 0.0004012584686279297
+QKV Transform: 0.04238438606262207
+Attention Score: 0.012960195541381836
+Attention Softmax: 0.010962724685668945
+Attention Dropout: 0.00005578994750976562
+Attention Over Value: 0.006342649459838867
+Attention linproj: 0.010710716247558594
+Post-attention Dropout: 0.0010797977447509766
+Post-attention residual: 0.00037169456481933594
+LN2: 0.00039696693420410156
+MLP_h_4h: 0.044938087463378906
+MLP_4h_h: 0.0816202163696289
+Post-MLP residual: 0.0011065006256103516
+Attention layer time: 0.2149512767791748
+LN1: 0.0004210472106933594
+QKV Transform: 0.04215121269226074
+Attention Score: 1.7502543926239014
+Attention Softmax: 0.010811805725097656
+Attention Dropout: 0.00007557868957519531
+Attention Over Value: 0.005734443664550781
+Attention linproj: 0.01065969467163086
+Post-attention Dropout: 0.0010917186737060547
+Post-attention residual: 0.00036072731018066406
+LN2: 0.0004057884216308594
+MLP_h_4h: 0.044634342193603516
+MLP_4h_h: 0.07908892631530762
+Post-MLP residual: 0.001092672348022461
+Attention layer time: 1.948293685913086
+LN1: 0.0003960132598876953
+QKV Transform: 0.04352283477783203
+Attention Score: 0.012997627258300781
+Attention Softmax: 0.010964155197143555
+Attention Dropout: 0.00005722045898437500
+Attention Over Value: 0.006313800811767578
+Attention linproj: 0.010675668716430664
+Post-attention Dropout: 0.001079559326171875
+Post-attention residual: 0.0003705024719238281
+LN2: 0.0003981590270996094
+MLP_h_4h: 0.04481363296508789
+MLP_4h_h: 0.07945418357849121
+Post-MLP residual: 0.0010976791381835938
+Attention layer time: 0.21373248100280762
+LN1: 0.00039839744567871094
+QKV Transform: 0.04076695442199707
+Attention Score: 0.012934446334838867
+Attention Softmax: 0.010985136032104492
+Attention Dropout: 0.00005626678466796875
+Attention Over Value: 0.006335735321044922
+Attention linproj: 0.010672330856323242
+Post-attention Dropout: 0.0010714530944824219
+Post-attention residual: 0.00037288665771484375
+LN2: 0.0003974437713623047
+MLP_h_4h: 0.044716596603393555
+MLP_4h_h: 0.07924199104309082
+Post-MLP residual: 0.0010938644409179688
+Attention layer time: 0.2106173038482666
+LN1: 0.000400543212890625
+QKV Transform: 0.04326176643371582
+Attention Score: 0.01295924186706543
+Attention Softmax: 0.010972023010253906
+Attention Dropout: 0.00005841255187988281
+Attention Over Value: 0.0063436031341552734
+Attention linproj: 0.01068568229675293
+Post-attention Dropout: 0.0010781288146972656
+Post-attention residual: 0.0003769397735595703
+LN2: 0.00040221214294433594
+MLP_h_4h: 0.04471325874328613
+MLP_4h_h: 0.07996988296508789
+Post-MLP residual: 0.0010983943939208984
+Attention layer time: 0.2139437198638916
+LN1: 0.00039768218994140625
+QKV Transform: 0.042534828186035156
+Attention Score: 0.012992620468139648
+Attention Softmax: 0.010951042175292969
+Attention Dropout: 0.00005626678466796875
+Attention Over Value: 0.006302595138549805
+Attention linproj: 0.010692358016967773
+Post-attention Dropout: 0.001077890396118164
+Post-attention residual: 0.0003764629364013672
+LN2: 0.00040793418884277344
+MLP_h_4h: 0.04475665092468262
+MLP_4h_h: 0.07961630821228027
+Post-MLP residual: 0.0010921955108642578
+Attention layer time: 0.21285772323608398
+LN1: 0.00040149688720703125
+QKV Transform: 0.03901529312133789
+Attention Score: 0.013033151626586914
+Attention Softmax: 0.010935306549072266
+Attention Dropout: 0.00005984306335449219
+Attention Over Value: 0.006349325180053711
+Attention linproj: 0.010694742202758789
+Post-attention Dropout: 0.0010755062103271484
+Post-attention residual: 0.0003719329833984375
+LN2: 0.0003955364227294922
+MLP_h_4h: 0.044788360595703125
+MLP_4h_h: 0.08931159973144531
+Post-MLP residual: 0.0011012554168701172
+Attention layer time: 0.2191009521484375
+LN1: 0.0004031658172607422
+QKV Transform: 0.04074883460998535
+Attention Score: 0.012954473495483398
+Attention Softmax: 0.010997533798217773
+Attention Dropout: 0.00005841255187988281
+Attention Over Value: 0.006354570388793945
+Attention linproj: 0.010703086853027344
+Post-attention Dropout: 0.0010738372802734375
+Post-attention residual: 0.00037288665771484375
+LN2: 0.0004048347473144531
+MLP_h_4h: 0.044783830642700195
+MLP_4h_h: 0.08180117607116699
+Post-MLP residual: 0.0011088848114013672
+Attention layer time: 0.21334600448608398
+LN1: 0.00040030479431152344
+QKV Transform: 0.0433197021484375
+Attention Score: 0.01295924186706543
+Attention Softmax: 0.010962486267089844
+Attention Dropout: 0.00005722045898437500
+Attention Over Value: 0.0063626766204833984
+Attention linproj: 0.010701656341552734
+Post-attention Dropout: 0.001071929931640625
+Post-attention residual: 0.0003726482391357422
+LN2: 0.0004184246063232422
+MLP_h_4h: 0.044742584228515625
+MLP_4h_h: 0.08016395568847656
+Post-MLP residual: 0.0011043548583984375
+Attention layer time: 0.2142181396484375
+LN1: 0.0004000663757324219
+QKV Transform: 0.04231119155883789
+Attention Score: 0.012936115264892578
+Attention Softmax: 0.011021137237548828
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.00637364387512207
+Attention linproj: 0.010701656341552734
+Post-attention Dropout: 0.001079559326171875
+Post-attention residual: 0.00037384033203125
+LN2: 0.0004153251647949219
+MLP_h_4h: 0.04481196403503418
+MLP_4h_h: 0.08246231079101562
+Post-MLP residual: 0.0011055469512939453
+Attention layer time: 0.21563291549682617
+LN1: 0.0004029273986816406
+QKV Transform: 0.04270339012145996
+Attention Score: 0.012977123260498047
+Attention Softmax: 0.010921001434326172
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.006361246109008789
+Attention linproj: 0.010700702667236328
+Post-attention Dropout: 0.0010714530944824219
+Post-attention residual: 0.00037288665771484375
+LN2: 0.0003986358642578125
+MLP_h_4h: 0.04476499557495117
+MLP_4h_h: 0.0875394344329834
+Post-MLP residual: 0.0010967254638671875
+Attention layer time: 0.220933198928833
+LN1: 0.0004031658172607422
+QKV Transform: 0.04176139831542969
+Attention Score: 0.012942075729370117
+Attention Softmax: 0.011013031005859375
+Attention Dropout: 0.00005769729614257812
+Attention Over Value: 0.0063762664794921875
+Attention linproj: 0.010703802108764648
+Post-attention Dropout: 0.001071929931640625
+Post-attention residual: 0.0003731250762939453
+LN2: 0.00041961669921875
+MLP_h_4h: 0.04478263854980469
+MLP_4h_h: 0.07931232452392578
+Post-MLP residual: 0.0010957717895507812
+Attention layer time: 0.2118837833404541
+LN1: 0.0003998279571533203
+QKV Transform: 0.043465614318847656
+Attention Score: 0.012985944747924805
+Attention Softmax: 0.010926961898803711
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006279706954956055
+Attention linproj: 0.010716915130615234
+Post-attention Dropout: 0.0010826587677001953
+Post-attention residual: 0.00037360191345214844
+LN2: 0.00039577484130859375
+MLP_h_4h: 0.04777789115905762
+MLP_4h_h: 0.08015155792236328
+Post-MLP residual: 0.0010981559753417969
+Attention layer time: 0.21730899810791016
+LN1: 0.00040030479431152344
+QKV Transform: 0.04258012771606445
+Attention Score: 0.012942790985107422
+Attention Softmax: 0.010962247848510742
+Attention Dropout: 0.00005769729614257812
+Attention Over Value: 0.006354570388793945
+Attention linproj: 0.010710954666137695
+Post-attention Dropout: 0.0010826587677001953
+Post-attention residual: 0.0003726482391357422
+LN2: 0.0003991127014160156
+MLP_h_4h: 0.04480624198913574
+MLP_4h_h: 0.07987070083618164
+Post-MLP residual: 0.0011043548583984375
+Attention layer time: 0.21321725845336914
+LN1: 0.0004000663757324219
+QKV Transform: 0.04228019714355469
+Attention Score: 0.012994527816772461
+Attention Softmax: 0.010975360870361328
+Attention Dropout: 0.00005769729614257812
+Attention Over Value: 0.006301403045654297
+Attention linproj: 0.010713815689086914
+Post-attention Dropout: 0.0010988712310791016
+Post-attention residual: 0.00037360191345214844
+LN2: 0.00041675567626953125
+MLP_h_4h: 0.04479622840881348
+MLP_4h_h: 0.08026695251464844
+Post-MLP residual: 0.0011057853698730469
+Attention layer time: 0.2133800983428955
+LN1: 0.00040459632873535156
+QKV Transform: 0.04120230674743652
+Attention Score: 0.012983560562133789
+Attention Softmax: 0.010976314544677734
+Attention Dropout: 0.00005626678466796875
+Attention Over Value: 0.006360530853271484
+Attention linproj: 0.01072382926940918
+Post-attention Dropout: 0.0010890960693359375
+Post-attention residual: 0.00037407875061035156
+LN2: 0.00042438507080078125
+MLP_h_4h: 0.04483604431152344
+MLP_4h_h: 0.0799722671508789
+Post-MLP residual: 0.0010924339294433594
+Attention layer time: 0.2120952606201172
+LN1: 0.00039839744567871094
+QKV Transform: 0.040477752685546875
+Attention Score: 0.012980222702026367
+Attention Softmax: 0.010902881622314453
+Attention Dropout: 0.00005888938903808594
+Attention Over Value: 0.006354331970214844
+Attention linproj: 0.01071786880493164
+Post-attention Dropout: 0.001073598861694336
+Post-attention residual: 0.00037360191345214844
+LN2: 0.0003972053527832031
+MLP_h_4h: 0.044838905334472656
+MLP_4h_h: 0.08735847473144531
+Post-MLP residual: 0.0010979175567626953
+Attention layer time: 0.21859478950500488
+LN1: 0.0004010200500488281
+QKV Transform: 0.042376041412353516
+Attention Score: 0.012970209121704102
+Attention Softmax: 0.010979652404785156
+Attention Dropout: 0.00005626678466796875
+Attention Over Value: 0.006347179412841797
+Attention linproj: 0.010723352432250977
+Post-attention Dropout: 0.0010793209075927734
+Post-attention residual: 0.00037384033203125
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.04480457305908203
+MLP_4h_h: 0.07992053031921387
+Post-MLP residual: 0.0011076927185058594
+Attention layer time: 0.21311593055725098
+LN1: 0.00040221214294433594
+QKV Transform: 0.042173147201538086
+Attention Score: 0.013042449951171875
+Attention Softmax: 0.011011123657226562
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.0063478946685791016
+Attention linproj: 0.010710477828979492
+Post-attention Dropout: 0.0010824203491210938
+Post-attention residual: 0.0003719329833984375
+LN2: 0.00039649009704589844
+MLP_h_4h: 0.044885873794555664
+MLP_4h_h: 0.07960772514343262
+Post-MLP residual: 0.0011050701141357422
+Attention layer time: 0.21277666091918945
+LN1: 0.00040030479431152344
+QKV Transform: 0.04181528091430664
+Attention Score: 0.012942075729370117
+Attention Softmax: 0.010977745056152344
+Attention Dropout: 0.00005602836608886719
+Attention Over Value: 0.0063610076904296875
+Attention linproj: 0.010712385177612305
+Post-attention Dropout: 0.001087188720703125
+Post-attention residual: 0.00037479400634765625
+LN2: 0.0004048347473144531
+MLP_h_4h: 0.051880598068237305
+MLP_4h_h: 0.08128690719604492
+Post-MLP residual: 0.0010976791381835938
+Attention layer time: 0.22100138664245605
+LN1: 0.00039649009704589844
+QKV Transform: 0.041900634765625
+Attention Score: 0.012997627258300781
+Attention Softmax: 0.010933637619018555
+Attention Dropout: 0.00005769729614257812
+Attention Over Value: 0.0063707828521728516
+Attention linproj: 0.010715246200561523
+Post-attention Dropout: 0.0010788440704345703
+Post-attention residual: 0.0003724098205566406
+LN2: 0.0003952980041503906
+MLP_h_4h: 0.05155372619628906
+MLP_4h_h: 0.08127236366271973
+Post-MLP residual: 0.0010962486267089844
+Attention layer time: 0.22072649002075195
+LN1: 0.000400543212890625
+QKV Transform: 0.041841983795166016
+Attention Score: 0.012949228286743164
+Attention Softmax: 0.010963678359985352
+Attention Dropout: 0.00005841255187988281
+Attention Over Value: 0.006379127502441406
+Attention linproj: 0.010724782943725586
+Post-attention Dropout: 0.0010883808135986328
+Post-attention residual: 0.00037407875061035156
+LN2: 0.00039696693420410156
+MLP_h_4h: 0.04489398002624512
+MLP_4h_h: 0.08086109161376953
+Post-MLP residual: 0.001096963882446289
+Attention layer time: 0.2136240005493164
+LN1: 0.0003993511199951172
+QKV Transform: 0.04008674621582031
+Attention Score: 0.01630425453186035
+Attention Softmax: 0.010947465896606445
+Attention Dropout: 0.00005602836608886719
+Attention Over Value: 0.006356954574584961
+Attention linproj: 0.01071929931640625
+Post-attention Dropout: 0.0010838508605957031
+Post-attention residual: 0.00037407875061035156
+LN2: 0.0003998279571533203
+MLP_h_4h: 0.04553937911987305
+MLP_4h_h: 0.0870516300201416
+Post-MLP residual: 0.0011031627655029297
+Attention layer time: 0.2220144271850586
+LN1: 0.00040411949157714844
+QKV Transform: 0.041942596435546875
+Attention Score: 0.08171892166137695
+Attention Softmax: 0.010894060134887695
+Attention Dropout: 0.00005817413330078125
+Attention Over Value: 0.0063495635986328125
+Attention linproj: 0.010716676712036133
+Post-attention Dropout: 0.00107574462890625
+Post-attention residual: 0.0003695487976074219
+LN2: 0.00039577484130859375
+MLP_h_4h: 0.05168271064758301
+MLP_4h_h: 0.08616995811462402
+Post-MLP residual: 0.0011048316955566406
+Attention layer time: 0.2944645881652832
+LN1: 0.0004012584686279297
+QKV Transform: 0.04154515266418457
+Attention Score: 0.07719922065734863
+Attention Softmax: 0.010993003845214844
+Attention Dropout: 0.00006961822509765625
+Attention Over Value: 0.006374835968017578
+Attention linproj: 0.010716915130615234
+Post-attention Dropout: 0.001079559326171875
+Post-attention residual: 0.0003769397735595703
+LN2: 0.0003986358642578125
+MLP_h_4h: 0.0489041805267334
+MLP_4h_h: 0.08979392051696777
+Post-MLP residual: 0.001088857650756836
+Attention layer time: 0.29051709175109863
+LN1: 0.0004012584686279297
+QKV Transform: 0.04175138473510742
+Attention Score: 0.07597470283508301
+Attention Softmax: 0.010978937149047852
+Attention Dropout: 0.00005888938903808594
+Attention Over Value: 0.006360769271850586
+Attention linproj: 0.010719776153564453
+Post-attention Dropout: 0.0010731220245361328
+Post-attention residual: 0.0003724098205566406
+LN2: 0.0004165172576904297
+MLP_h_4h: 0.05010724067687988
+MLP_4h_h: 0.08076715469360352
+Post-MLP residual: 0.0011031627655029297
+Attention layer time: 0.281691312789917
+LN1: 0.00039958953857421875
+QKV Transform: 0.04001450538635254
+Attention Score: 0.0855417251586914
+Attention Softmax: 0.010998010635375977
+Attention Dropout: 0.00005674362182617188
+Attention Over Value: 0.006364107131958008
+Attention linproj: 0.010716915130615234
+Post-attention Dropout: 0.0010652542114257812
+Post-attention residual: 0.0003731250762939453
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.0455629825592041
+MLP_4h_h: 0.08844304084777832
+Post-MLP residual: 0.0011005401611328125
+Attention layer time: 0.29260754585266113
+LN1: 0.00039958953857421875
+QKV Transform: 0.043121337890625
+Attention Score: 0.07935500144958496
+Attention Softmax: 0.01094961166381836
+Attention Dropout: 0.00005841255187988281
+Attention Over Value: 0.006334066390991211
+Attention linproj: 0.010712862014770508
+Post-attention Dropout: 0.0010809898376464844
+Post-attention residual: 0.0003726482391357422
+LN2: 0.0003993511199951172
+MLP_h_4h: 0.04478120803833008
+MLP_4h_h: 0.08783793449401855
+Post-MLP residual: 0.0011029243469238281
+Attention layer time: 0.28809309005737305
+LN1: 0.00039887428283691406
+QKV Transform: 0.043715476989746094
+Attention Score: 0.08017396926879883
+Attention Softmax: 0.010934591293334961
+Attention Dropout: 0.00005674362182617188
+Attention Over Value: 0.0063054561614990234
+Attention linproj: 0.010718107223510742
+Post-attention Dropout: 0.0010876655578613281
+Post-attention residual: 0.0003757476806640625
+LN2: 0.0003948211669921875
+MLP_h_4h: 0.044858694076538086
+MLP_4h_h: 0.08566164970397949
+Post-MLP residual: 0.001100301742553711
+Attention layer time: 0.28740596771240234
+LN1: 0.0004000663757324219
+QKV Transform: 0.04247021675109863
+Attention Score: 0.08344006538391113
+Attention Softmax: 0.010941743850708008
+Attention Dropout: 0.00005578994750976562
+Attention Over Value: 0.006371736526489258
+Attention linproj: 0.010706186294555664
+Post-attention Dropout: 0.0010838508605957031
+Post-attention residual: 0.0003731250762939453
+LN2: 0.0003981590270996094
+MLP_h_4h: 0.04492545127868652
+MLP_4h_h: 0.0878915786743164
+Post-MLP residual: 0.0011138916015625
+Attention layer time: 0.2917778491973877
+LN1: 0.0004019737243652344
+QKV Transform: 0.04231524467468262
+Attention Score: 0.08144497871398926
+Attention Softmax: 0.010938405990600586
+Attention Dropout: 0.00005912780761718750
+Attention Over Value: 0.0064544677734375
+Attention linproj: 0.010709047317504883
+Post-attention Dropout: 0.001079559326171875
+Post-attention residual: 0.0003764629364013672
+LN2: 0.0004012584686279297
+MLP_h_4h: 0.04482626914978027
+MLP_4h_h: 0.08776617050170898
+Post-MLP residual: 0.0010993480682373047
+Attention layer time: 0.2894775867462158
+LN1: 0.00040078163146972656
+QKV Transform: 0.04073810577392578
+Attention Score: 0.0830073356628418
+Attention Softmax: 0.010985374450683594
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.006336212158203125
+Attention linproj: 0.010704755783081055
+Post-attention Dropout: 0.0010762214660644531
+Post-attention residual: 0.00037479400634765625
+LN2: 0.0003991127014160156
+MLP_h_4h: 0.044774770736694336
+MLP_4h_h: 0.08059477806091309
+Post-MLP residual: 0.001107931137084961
+Attention layer time: 0.28214430809020996
+LN1: 0.00040149688720703125
+QKV Transform: 0.04046821594238281
+Attention Score: 0.09053659439086914
+Attention Softmax: 0.010952949523925781
+Attention Dropout: 0.00005817413330078125
+Attention Over Value: 0.0063190460205078125
+Attention linproj: 0.010695695877075195
+Post-attention Dropout: 0.0010783672332763672
+Post-attention residual: 0.00037407875061035156
+LN2: 0.00039696693420410156
+MLP_h_4h: 0.04487895965576172
+MLP_4h_h: 0.08667111396789551
+Post-MLP residual: 0.0010957717895507812
+Attention layer time: 0.2955160140991211
+LN1: 0.00040078163146972656
+QKV Transform: 0.04236412048339844
+Attention Score: 0.08257818222045898
+Attention Softmax: 0.010977029800415039
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.006346225738525391
+Attention linproj: 0.010707855224609375
+Post-attention Dropout: 0.0010831356048583984
+Post-attention residual: 0.0003743171691894531
+LN2: 0.0003981590270996094
+MLP_h_4h: 0.04486823081970215
+MLP_4h_h: 0.0810246467590332
+Post-MLP residual: 0.001107931137084961
+Attention layer time: 0.2838890552520752
+LN1: 0.0004036426544189453
+QKV Transform: 0.04196000099182129
+Attention Score: 0.08861303329467773
+Attention Softmax: 0.01098322868347168
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.00644373893737793
+Attention linproj: 0.010719537734985352
+Post-attention Dropout: 0.0010874271392822266
+Post-attention residual: 0.00037288665771484375
+LN2: 0.0004146099090576172
+MLP_h_4h: 0.0494999885559082
+MLP_4h_h: 0.08826661109924316
+Post-MLP residual: 0.0011000633239746094
+Attention layer time: 0.30153536796569824
+LN1: 0.0003960132598876953
+QKV Transform: 0.03978705406188965
+Attention Score: 0.07870030403137207
+Attention Softmax: 0.01097416877746582
+Attention Dropout: 0.00005817413330078125
+Attention Over Value: 0.006350517272949219
+Attention linproj: 0.010706424713134766
+Post-attention Dropout: 0.0010797977447509766
+Post-attention residual: 0.0003731250762939453
+LN2: 0.0003974437713623047
+MLP_h_4h: 0.04482865333557129
+MLP_4h_h: 0.08164811134338379
+Post-MLP residual: 0.0011029243469238281
+Attention layer time: 0.2779989242553711
+LN1: 0.0004024505615234375
+QKV Transform: 0.04252433776855469
+Attention Score: 0.08751225471496582
+Attention Softmax: 0.010959863662719727
+Attention Dropout: 0.00005960464477539062
+Attention Over Value: 0.0063724517822265625
+Attention linproj: 0.010708332061767578
+Post-attention Dropout: 0.0010826587677001953
+Post-attention residual: 0.0003752708435058594
+LN2: 0.0004024505615234375
+MLP_h_4h: 0.044858455657958984
+MLP_4h_h: 0.08906435966491699
+Post-MLP residual: 0.0010995864868164062
+Attention layer time: 0.29701948165893555
+LN1: 0.00040078163146972656
+QKV Transform: 0.04350638389587402
+Attention Score: 0.07906985282897949
+Attention Softmax: 0.01089334487915039
+Attention Dropout: 0.00005769729614257812
+Attention Over Value: 0.00635981559753418
+Attention linproj: 0.010706663131713867
+Post-attention Dropout: 0.0010738372802734375
+Post-attention residual: 0.00037217140197753906
+LN2: 0.0003998279571533203
+MLP_h_4h: 0.04480099678039551
+MLP_4h_h: 0.08692812919616699
+Post-MLP residual: 0.0011010169982910156
+Attention layer time: 0.28725337982177734
+LN1: 0.0003986358642578125
+QKV Transform: 0.04372286796569824
+Attention Score: 0.08114361763000488
+Attention Softmax: 0.010944128036499023
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.0063114166259765625
+Attention linproj: 0.010715484619140625
+Post-attention Dropout: 0.0010783672332763672
+Post-attention residual: 0.0003750324249267578
+LN2: 0.00040984153747558594
+MLP_h_4h: 0.04484677314758301
+MLP_4h_h: 0.08467221260070801
+Post-MLP residual: 0.0010981559753417969
+Attention layer time: 0.287367582321167
+LN1: 0.0003991127014160156
+QKV Transform: 0.04273056983947754
+Attention Score: 0.2284550666809082
+Attention Softmax: 0.010976791381835938
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006363630294799805
+Attention linproj: 0.01069498062133789
+Post-attention Dropout: 0.0010900497436523438
+Post-attention residual: 0.0003733634948730469
+LN2: 0.000396728515625
+MLP_h_4h: 0.04476809501647949
+MLP_4h_h: 0.07935142517089844
+Post-MLP residual: 0.0011088848114013672
+Attention layer time: 0.42838501930236816
+LN1: 0.0004239082336425781
+QKV Transform: 0.04225492477416992
+Attention Score: 0.012976408004760742
+Attention Softmax: 0.010982275009155273
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.006353616714477539
+Attention linproj: 0.010699748992919922
+Post-attention Dropout: 0.001070261001586914
+Post-attention residual: 0.00037288665771484375
+LN2: 0.0003991127014160156
+MLP_h_4h: 0.04477810859680176
+MLP_4h_h: 0.08069205284118652
+Post-MLP residual: 0.0011017322540283203
+Attention layer time: 0.21373224258422852
+LN1: 0.0004010200500488281
+QKV Transform: 0.04359102249145508
+Attention Score: 0.020038366317749023
+Attention Softmax: 0.010962724685668945
+Attention Dropout: 0.00005698204040527344
+Attention Over Value: 0.006359577178955078
+Attention linproj: 0.01071476936340332
+Post-attention Dropout: 0.0010704994201660156
+Post-attention residual: 0.00037384033203125
+LN2: 0.00041675567626953125
+MLP_h_4h: 0.04479479789733887
+MLP_4h_h: 0.08396339416503906
+Post-MLP residual: 0.0011031627655029297
+Attention layer time: 0.22542428970336914
+LN1: 0.0004029273986816406
+QKV Transform: 0.04347634315490723
+Attention Score: 0.08419942855834961
+Attention Softmax: 0.010933637619018555
+Attention Dropout: 0.00005817413330078125
+Attention Over Value: 0.006307363510131836
+Attention linproj: 0.010703325271606445
+Post-attention Dropout: 0.0010833740234375
+Post-attention residual: 0.00037384033203125
+LN2: 0.00039649009704589844
+MLP_h_4h: 0.044831037521362305
+MLP_4h_h: 0.08577513694763184
+Post-MLP residual: 0.0011053085327148438
+Attention layer time: 0.2912464141845703
+LN1: 0.0004057884216308594
+QKV Transform: 0.042717695236206055
+Attention Score: 0.08313226699829102
+Attention Softmax: 0.010939598083496094
+Attention Dropout: 0.00005769729614257812
+Attention Over Value: 0.006381034851074219
+Attention linproj: 0.010717630386352539
+Post-attention Dropout: 0.0010845661163330078
+Post-attention residual: 0.00037217140197753906
+LN2: 0.0003974437713623047
+MLP_h_4h: 0.05585217475891113
+MLP_4h_h: 0.08636975288391113
+Post-MLP residual: 0.0011091232299804688
+Attention layer time: 0.3011338710784912
+LN1: 0.0004200935363769531
+QKV Transform: 0.041414737701416016
+Attention Score: 0.0727996826171875
+Attention Softmax: 0.010930538177490234
+Attention Dropout: 0.00005912780761718750
+Attention Over Value: 0.006461143493652344
+Attention linproj: 0.010708093643188477
+Post-attention Dropout: 0.0010859966278076172
+Post-attention residual: 0.0003707408905029297
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.0527653694152832
+MLP_4h_h: 0.08643150329589844
+Post-MLP residual: 0.0010912418365478516
+Attention layer time: 0.2865324020385742
+LN1: 0.0004010200500488281
+QKV Transform: 0.04292464256286621
+Attention Score: 0.07414746284484863
+Attention Softmax: 0.010975122451782227
+Attention Dropout: 0.00005912780761718750
+Attention Over Value: 0.006368160247802734
+Attention linproj: 0.010704994201660156
+Post-attention Dropout: 0.0010814666748046875
+Post-attention residual: 0.0003757476806640625
+LN2: 0.00039768218994140625
+MLP_h_4h: 0.044777870178222656
+MLP_4h_h: 0.08049583435058594
+Post-MLP residual: 0.0011157989501953125
+Attention layer time: 0.2754056453704834
+LN1: 0.00040531158447265625
+QKV Transform: 0.04104757308959961
+Attention Score: 0.09007096290588379
+Attention Softmax: 0.011014938354492188
+Attention Dropout: 0.00005841255187988281
+Attention Over Value: 0.00638270378112793
+Attention linproj: 0.010712862014770508
+Post-attention Dropout: 0.0010800361633300781
+Post-attention residual: 0.0003752708435058594
+LN2: 0.0004019737243652344
+MLP_h_4h: 0.0448603630065918
+MLP_4h_h: 0.08833193778991699
+Post-MLP residual: 0.001096963882446289
+Attention layer time: 0.29743432998657227
+LN1: 0.0004019737243652344
+QKV Transform: 0.043045759201049805
+Attention Score: 0.07987260818481445
+Attention Softmax: 0.010919809341430664
+Attention Dropout: 0.00007534027099609375
+Attention Over Value: 0.0063037872314453125
+Attention linproj: 0.010704755783081055
+Post-attention Dropout: 0.0010814666748046875
+Post-attention residual: 0.00037217140197753906
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.047644853591918945
+MLP_4h_h: 0.0887444019317627
+Post-MLP residual: 0.0011055469512939453
+Attention layer time: 0.292285680770874
+LN1: 0.0003998279571533203
+QKV Transform: 0.0438685417175293
+Attention Score: 0.07637619972229004
+Attention Softmax: 0.010968685150146484
+Attention Dropout: 0.00005650520324707031
+Attention Over Value: 0.00644683837890625
+Attention linproj: 0.010704994201660156
+Post-attention Dropout: 0.0010824203491210938
+Post-attention residual: 0.0003733634948730469
+LN2: 0.0003998279571533203
+MLP_h_4h: 0.047052621841430664
+MLP_4h_h: 0.08849096298217773
+Post-MLP residual: 0.001089334487915039
+Attention layer time: 0.288912296295166
+LN1: 0.00041961669921875
+QKV Transform: 0.04129910469055176
+Attention Score: 0.07943272590637207
+Attention Softmax: 0.010981559753417969
+Attention Dropout: 0.00005722045898437500
+Attention Over Value: 0.006374359130859375
+Attention linproj: 0.010702133178710938
+Post-attention Dropout: 0.0010859966278076172
+Post-attention residual: 0.00037741661071777344
+LN2: 0.00041961669921875
+MLP_h_4h: 0.04652690887451172
+MLP_4h_h: 0.08183050155639648
+Post-MLP residual: 0.0011022090911865234
+Attention layer time: 0.2822291851043701
+LN1: 0.0003962516784667969
+QKV Transform: 0.04316306114196777
+Attention Score: 0.08496642112731934
+Attention Softmax: 0.010937213897705078
+Attention Dropout: 0.00005841255187988281
+Attention Over Value: 0.006349086761474609
+Attention linproj: 0.010703563690185547
+Post-attention Dropout: 0.0010809898376464844
+Post-attention residual: 0.00037479400634765625
+LN2: 0.0003993511199951172
+MLP_h_4h: 0.0517120361328125
+MLP_4h_h: 0.08703255653381348
+Post-MLP residual: 0.0011055469512939453
+Attention layer time: 0.2998790740966797
+LN1: 0.00041937828063964844
+QKV Transform: 0.04316425323486328
+Attention Score: 0.07457756996154785
+Attention Softmax: 0.010896444320678711
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006351947784423828
+Attention linproj: 0.01070404052734375
+Post-attention Dropout: 0.0010781288146972656
+Post-attention residual: 0.00037360191345214844
+LN2: 0.0003986358642578125
+MLP_h_4h: 0.04490351676940918
+MLP_4h_h: 0.0868384838104248
+Post-MLP residual: 0.0011065006256103516
+Attention layer time: 0.2824575901031494
+LN1: 0.0004019737243652344
+QKV Transform: 0.04308176040649414
+Attention Score: 0.08187150955200195
+Attention Softmax: 0.010947465896606445
+Attention Dropout: 0.00006484985351562500
+Attention Over Value: 0.0062978267669677734
+Attention linproj: 0.010715246200561523
+Post-attention Dropout: 0.0010843276977539062
+Post-attention residual: 0.0003752708435058594
+LN2: 0.0003986358642578125
+MLP_h_4h: 0.04483914375305176
+MLP_4h_h: 0.08659577369689941
+Post-MLP residual: 0.001094818115234375
+Attention layer time: 0.28937387466430664
+LN1: 0.00040149688720703125
+QKV Transform: 0.04042315483093262
+Attention Score: 0.08446717262268066
+Attention Softmax: 0.010967731475830078
+Attention Dropout: 0.00005888938903808594
+Attention Over Value: 0.0063571929931640625
+Attention linproj: 0.010714530944824219
+Post-attention Dropout: 0.0010876655578613281
+Post-attention residual: 0.0003762245178222656
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.0448603630065918
+MLP_4h_h: 0.0803842544555664
+Post-MLP residual: 0.0011026859283447266
+Attention layer time: 0.2832002639770508
+LN1: 0.00039958953857421875
+QKV Transform: 0.04126882553100586
+Attention Score: 0.08990478515625
+Attention Softmax: 0.010976314544677734
+Attention Dropout: 0.00005960464477539062
+Attention Over Value: 0.006356239318847656
+Attention linproj: 0.010709762573242188
+Post-attention Dropout: 0.001085519790649414
+Post-attention residual: 0.0003693103790283203
+LN2: 0.00040030479431152344
+MLP_h_4h: 0.0448603630065918
+MLP_4h_h: 0.0811917781829834
+Post-MLP residual: 0.0011055469512939453
+Attention layer time: 0.2902858257293701
+LN1: 0.0004038810729980469
+QKV Transform: 0.04325580596923828
+Attention Score: 0.08704996109008789
+Attention Softmax: 0.01094198226928711
+Attention Dropout: 0.00005841255187988281
+Attention Over Value: 0.006337404251098633
+Attention linproj: 0.010710000991821289
+Post-attention Dropout: 0.0010728836059570312
+Post-attention residual: 0.0003745555877685547
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.044821977615356445
+MLP_4h_h: 0.08625078201293945
+Post-MLP residual: 0.0011126995086669922
+Attention layer time: 0.2943727970123291
+LN1: 0.00039839744567871094
+QKV Transform: 0.04043221473693848
+Attention Score: 0.0850367546081543
+Attention Softmax: 0.010938167572021484
+Attention Dropout: 0.00005698204040527344
+Attention Over Value: 0.006292581558227539
+Attention linproj: 0.010710716247558594
+Post-attention Dropout: 0.0010802745819091797
+Post-attention residual: 0.0003745555877685547
+LN2: 0.00039649009704589844
+MLP_h_4h: 0.04661273956298828
+MLP_4h_h: 0.08708047866821289
+Post-MLP residual: 0.0011036396026611328
+Attention layer time: 0.2921292781829834
+LN1: 0.0004029273986816406
+QKV Transform: 0.043508291244506836
+Attention Score: 0.07938599586486816
+Attention Softmax: 0.010942697525024414
+Attention Dropout: 0.00005769729614257812
+Attention Over Value: 0.0063893795013427734
+Attention linproj: 0.010720014572143555
+Post-attention Dropout: 0.0010783672332763672
+Post-attention residual: 0.0003731250762939453
+LN2: 0.00039839744567871094
+MLP_h_4h: 0.04486823081970215
+MLP_4h_h: 0.08814001083374023
+Post-MLP residual: 0.0011055469512939453
+Attention layer time: 0.2889859676361084
+LN1: 0.00040268898010253906
+QKV Transform: 0.044091224670410156
+Attention Score: 0.07942891120910645
+Attention Softmax: 0.010953664779663086
+Attention Dropout: 0.00005722045898437500
+Attention Over Value: 0.006438732147216797
+Attention linproj: 0.01071929931640625
+Post-attention Dropout: 0.0010807514190673828
+Post-attention residual: 0.0003762245178222656
+LN2: 0.0003981590270996094
+MLP_h_4h: 0.04485034942626953
+MLP_4h_h: 0.08522891998291016
+Post-MLP residual: 0.001088857650756836
+Attention layer time: 0.2867145538330078
+LN1: 0.0004010200500488281
+QKV Transform: 0.04066872596740723
+Attention Score: 0.0855410099029541
+Attention Softmax: 0.010955333709716797
+Attention Dropout: 0.00005698204040527344
+Attention Over Value: 0.006341457366943359
+Attention linproj: 0.01070404052734375
+Post-attention Dropout: 0.0010788440704345703
+Post-attention residual: 0.00037288665771484375
+LN2: 0.00039649009704589844
+MLP_h_4h: 0.04479408264160156
+MLP_4h_h: 0.07986092567443848
+Post-MLP residual: 0.0011074542999267578
+Attention layer time: 0.2838597297668457
+LN1: 0.00042366981506347656
+QKV Transform: 0.04429912567138672
+Attention Score: 0.08750486373901367
+Attention Softmax: 0.011002302169799805
+Attention Dropout: 0.00005936622619628906
+Attention Over Value: 0.006363391876220703
+Attention linproj: 0.010703563690185547
+Post-attention Dropout: 0.0010771751403808594
+Post-attention residual: 0.00037384033203125
+LN2: 0.00039839744567871094
+MLP_h_4h: 0.051645517349243164
+MLP_4h_h: 0.08633804321289062
+Post-MLP residual: 0.00110626220703125
+Attention layer time: 0.30287766456604004
+LN1: 0.00040030479431152344
+QKV Transform: 0.04380202293395996
+Attention Score: 0.07463359832763672
+Attention Softmax: 0.010943174362182617
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006322383880615234
+Attention linproj: 0.010703325271606445
+Post-attention Dropout: 0.0010805130004882812
+Post-attention residual: 0.00037360191345214844
+LN2: 0.0003960132598876953
+MLP_h_4h: 0.04489922523498535
+MLP_4h_h: 0.09041666984558105
+Post-MLP residual: 0.0011107921600341797
+Attention layer time: 0.28673577308654785
+LN1: 0.0004019737243652344
+QKV Transform: 0.04341554641723633
+Attention Score: 0.07789444923400879
+Attention Softmax: 0.01096653938293457
+Attention Dropout: 0.00006008148193359375
+Attention Over Value: 0.006454944610595703
+Attention linproj: 0.010708332061767578
+Post-attention Dropout: 0.0010845661163330078
+Post-attention residual: 0.00037169456481933594
+LN2: 0.0003998279571533203
+MLP_h_4h: 0.04482626914978027
+MLP_4h_h: 0.08659482002258301
+Post-MLP residual: 0.0010945796966552734
+Attention layer time: 0.285872220993042
+LN1: 0.0003991127014160156
+QKV Transform: 0.0378572940826416
+Attention Score: 0.08707857131958008
+Attention Softmax: 0.011002302169799805
+Attention Dropout: 0.00005888938903808594
+Attention Over Value: 0.006350040435791016
+Attention linproj: 0.010708093643188477
+Post-attention Dropout: 0.0010845661163330078
+Post-attention residual: 0.0003724098205566406
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.0448155403137207
+MLP_4h_h: 0.07815408706665039
+Post-MLP residual: 0.0011050701141357422
+Attention layer time: 0.2809779644012451
+LN1: 0.0004017353057861328
+QKV Transform: 0.042196035385131836
+Attention Score: 0.09119701385498047
+Attention Softmax: 0.010939836502075195
+Attention Dropout: 0.00005817413330078125
+Attention Over Value: 0.006370067596435547
+Attention linproj: 0.010714530944824219
+Post-attention Dropout: 0.0010919570922851562
+Post-attention residual: 0.0003724098205566406
+LN2: 0.00041937828063964844
+MLP_h_4h: 0.0448458194732666
+MLP_4h_h: 0.08838152885437012
+Post-MLP residual: 0.0011076927185058594
+Attention layer time: 0.29970812797546387
+LN1: 0.0003991127014160156
+QKV Transform: 0.041641950607299805
+Attention Score: 0.08158087730407715
+Attention Softmax: 0.010909318923950195
+Attention Dropout: 0.00005793571472167969
+Attention Over Value: 0.006345510482788086
+Attention linproj: 0.010700464248657227
+Post-attention Dropout: 0.0010709762573242188
+Post-attention residual: 0.00037407875061035156
+LN2: 0.0003974437713623047
+MLP_h_4h: 0.04477500915527344
+MLP_4h_h: 0.0888664722442627
+Post-MLP residual: 0.0011072158813476562
+Attention layer time: 0.28981518745422363
+LN1: 0.0004055500030517578
+QKV Transform: 0.043744802474975586
+Attention Score: 0.0792539119720459
+Attention Softmax: 0.01093745231628418
+Attention Dropout: 0.00005936622619628906
+Attention Over Value: 0.006281852722167969
+Attention linproj: 0.010710477828979492
+Post-attention Dropout: 0.0010881423950195312
+Post-attention residual: 0.0003733634948730469
+LN2: 0.0004184246063232422
+MLP_h_4h: 0.04482698440551758
+MLP_4h_h: 0.08739209175109863
+Post-MLP residual: 0.0010912418365478516
+Attention layer time: 0.2881796360015869
+LN1: 0.0004038810729980469
+QKV Transform: 0.04226970672607422
+Attention Score: 0.08200263977050781
+Attention Softmax: 0.010984659194946289
+Attention Dropout: 0.00005960464477539062
+Attention Over Value: 0.0063669681549072266
+Attention linproj: 0.010719060897827148
+Post-attention Dropout: 0.0010862350463867188
+Post-attention residual: 0.0003731250762939453
+LN2: 0.0004019737243652344
+MLP_h_4h: 0.04811692237854004
+MLP_4h_h: 0.07928776741027832
+Post-MLP residual: 0.0010945796966552734
+Attention layer time: 0.28478479385375977
+LN1: 0.00040149688720703125
+QKV Transform: 0.0409541130065918
+Attention Score: 0.08803009986877441
+Attention Softmax: 0.010970115661621094
+Attention Dropout: 0.00006437301635742188
+Attention Over Value: 0.006358146667480469
+Attention linproj: 0.010715723037719727
+Post-attention Dropout: 0.0010771751403808594
+Post-attention residual: 0.0003731250762939453
+LN2: 0.0003974437713623047
+MLP_h_4h: 0.044866085052490234
+MLP_4h_h: 0.08144783973693848
+Post-MLP residual: 0.0010974407196044922
+Attention layer time: 0.2883627414703369
+LN1: 0.00039887428283691406
+QKV Transform: 0.04229903221130371
+Attention Score: 0.08772611618041992
+Attention Softmax: 0.010952234268188477
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006348609924316406
+Attention linproj: 0.010704755783081055
+Post-attention Dropout: 0.0010809898376464844
+Post-attention residual: 0.00037384033203125
+LN2: 0.0003998279571533203
+MLP_h_4h: 0.044786691665649414
+MLP_4h_h: 0.08674097061157227
+Post-MLP residual: 0.001102447509765625
+Attention layer time: 0.29455065727233887
+LN1: 0.0004119873046875
+QKV Transform: 0.043259620666503906
+Attention Score: 0.08170509338378906
+Attention Softmax: 0.010965824127197266
+Attention Dropout: 0.00006604194641113281
+Attention Over Value: 0.006340503692626953
+Attention linproj: 0.010720491409301758
+Post-attention Dropout: 0.001077413558959961
+Post-attention residual: 0.00037407875061035156
+LN2: 0.0003981590270996094
+MLP_h_4h: 0.04493284225463867
+MLP_4h_h: 0.08537173271179199
+Post-MLP residual: 0.0011126995086669922
+Attention layer time: 0.28833937644958496
+LN1: 0.0004038810729980469
+QKV Transform: 0.04151773452758789
+Attention Score: 0.08457350730895996
+Attention Softmax: 0.010924577713012695
+Attention Dropout: 0.00005865097045898438
+Attention Over Value: 0.00638270378112793
+Attention linproj: 0.010708093643188477
+Post-attention Dropout: 0.0010840892791748047
+Post-attention residual: 0.0003757476806640625
+LN2: 0.00039768218994140625
+MLP_h_4h: 0.044846296310424805
+MLP_4h_h: 0.089935302734375
+Post-MLP residual: 0.001100778579711914
+Attention layer time: 0.29390549659729004
+LN1: 0.0004010200500488281
+QKV Transform: 0.04218792915344238
+Traceback (most recent call last):
+Attention Score: 0.0793004035949707
+Attention Softmax: 0.010944128036499023
+Attention Dropout: 0.00005936622619628906
+Attention Over Value: 0.00643157958984375
+Attention linproj: 0.010700464248657227
+Post-attention Dropout: 0.0010864734649658203
+Post-attention residual: 0.00037097930908203125
+LN2: 0.00039696693420410156
+MLP_h_4h: 0.04501461982727051
+MLP_4h_h: 0.0849294662475586
+Post-MLP residual: 0.0010981559753417969
+Attention layer time: 0.28455543518066406
+LN1: 0.00041985511779785156
+QKV Transform: 0.04289531707763672
+Attention Score: 0.08346939086914062
+Attention Softmax: 0.0110015869140625
+Attention Dropout: 0.00006079673767089844
+Attention Over Value: 0.0063555240631103516
+Attention linproj: 0.010706424713134766
+Post-attention Dropout: 0.0010759830474853516
+Post-attention residual: 0.00037288665771484375
+LN2: 0.00039768218994140625
+MLP_h_4h: 0.0447840690612793
+MLP_4h_h: 0.07869577407836914
+Post-MLP residual: 0.001111745834350586
+Attention layer time: 0.2829456329345703
+LN1: 0.00040149688720703125
+QKV Transform: 0.04325509071350098
+Attention Score: 0.08962368965148926
+Attention Softmax: 0.01098489761352539
+Attention Dropout: 0.00005888938903808594
+Attention Over Value: 0.00636744499206543
+Attention linproj: 0.010705232620239258
+Post-attention Dropout: 0.0010759830474853516
+Post-attention residual: 0.00037479400634765625
+LN2: 0.00040149688720703125
+MLP_h_4h: 0.04479861259460449
+MLP_4h_h: 0.08779025077819824
+Post-MLP residual: 0.0011036396026611328
+Attention layer time: 0.29853129386901855
+LN1: 0.00039958953857421875
+QKV Transform: 0.04154562950134277
+Attention Score: 0.08230018615722656
+Attention Softmax: 0.010951042175292969
+Attention Dropout: 0.00006699562072753906
+Attention Over Value: 0.006304025650024414
+Attention linproj: 0.010715246200561523
+Post-attention Dropout: 0.0010840892791748047
+Post-attention residual: 0.0003733634948730469
+LN2: 0.0004208087921142578
+MLP_h_4h: 0.053162336349487305
+MLP_4h_h: 0.08760547637939453
+Post-MLP residual: 0.0011148452758789062
+Attention layer time: 0.29765844345092773
+LN1: 0.0004088878631591797
+QKV Transform: 0.0419316291809082
+Attention Score: 0.07377004623413086
+Attention Softmax: 0.010972023010253906
+Attention Dropout: 0.00005984306335449219
+Attention Over Value: 0.006451129913330078
+Attention linproj: 0.01070713996887207
+Post-attention Dropout: 0.001081228256225586
+Post-attention residual: 0.0003726482391357422
+LN2: 0.00040030479431152344
+MLP_h_4h: 0.04483509063720703
+MLP_4h_h: 0.08715176582336426
+Post-MLP residual: 0.0010955333709716797
+Attention layer time: 0.28084826469421387
+LN1: 0.00040459632873535156
+QKV Transform: 0.03958010673522949
+Attention Score: 0.08472681045532227
+Attention Softmax: 0.010972738265991211
+Attention Dropout: 0.00005817413330078125
+Attention Over Value: 0.006360769271850586
+Attention linproj: 0.010709047317504883
+Post-attention Dropout: 0.0010845661163330078
+Post-attention residual: 0.00037288665771484375
+LN2: 0.0003960132598876953
+MLP_h_4h: 0.04484820365905762
+MLP_4h_h: 0.08231687545776367
+Post-MLP residual: 0.0011069774627685547
+Attention layer time: 0.28456878662109375
+LN1: 0.0004208087921142578
+QKV Transform: 0.043007612228393555
+Attention Score: 0.08619165420532227
+Attention Softmax: 0.010929584503173828
+Attention Dropout: 0.00005745887756347656
+Attention Over Value: 0.006371259689331055
+Attention linproj: 0.010710954666137695
+Post-attention Dropout: 0.0010876655578613281
+Post-attention residual: 0.00037169456481933594
+LN2: 0.0003972053527832031
+MLP_h_4h: 0.045068979263305664
+MLP_4h_h: 0.08634567260742188
+Post-MLP residual: 0.0011034011840820312
+Attention layer time: 0.2936689853668213
+LN1: 0.0003952980041503906
+QKV Transform: 0.043177127838134766
+Attention Score: 0.08190226554870605
+Attention Softmax: 0.010909318923950195
+Attention Dropout: 0.00005769729614257812
+Attention Over Value: 0.006360292434692383
+Attention linproj: 0.010705232620239258
+Post-attention Dropout: 0.0010776519775390625
+Post-attention residual: 0.0003762245178222656
+LN2: 0.00040078163146972656
+MLP_h_4h: 0.04477882385253906
+MLP_4h_h: 0.08845901489257812
+Post-MLP residual: 0.0011086463928222656
+Attention layer time: 0.29129481315612793
+LN1: 0.0004048347473144531
+QKV Transform: 0.040769100189208984
+Attention Score: 0.08253335952758789
+Attention Softmax: 0.010927200317382812
+Attention Dropout: 0.00005674362182617188
+Attention Over Value: 0.006289482116699219
+Attention linproj: 0.010706663131713867
+Post-attention Dropout: 0.0010869503021240234
+Post-attention residual: 0.0003771781921386719
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.044852256774902344
+MLP_4h_h: 0.08832979202270508
+Post-MLP residual: 0.0010943412780761719
+Attention layer time: 0.2894432544708252
+LN1: 0.0003991127014160156
+QKV Transform: 0.0417327880859375
+Attention Score: 0.08160877227783203
+Attention Softmax: 0.010973215103149414
+Attention Dropout: 0.00005984306335449219
+Attention Over Value: 0.006362438201904297
+Attention linproj: 0.010708332061767578
+Post-attention Dropout: 0.0010864734649658203
+Post-attention residual: 0.00037169456481933594
+LN2: 0.0003986358642578125
+MLP_h_4h: 0.045248985290527344
+MLP_4h_h: 0.07980632781982422
+Post-MLP residual: 0.0011012554168701172
+Attention layer time: 0.2814652919769287
+LN1: 0.0004024505615234375
+QKV Transform: 0.04247236251831055
+Attention Score: 0.08876490592956543
+Attention Softmax: 0.010952234268188477
+Attention Dropout: 0.00005912780761718750
+Attention Over Value: 0.006369352340698242
+Attention linproj: 0.010711193084716797
+Post-attention Dropout: 0.0010793209075927734
+Post-attention residual: 0.0003752708435058594
+LN2: 0.0003993511199951172
+MLP_h_4h: 0.04500555992126465
+MLP_4h_h: 0.07967591285705566
+Post-MLP residual: 0.0011112689971923828
+Attention layer time: 0.2889683246612549
+LN1: 0.00039958953857421875
+QKV Transform: 0.04438519477844238
+Attention Score: 0.08732390403747559
+Attention Softmax: 0.010939836502075195
+Attention Dropout: 0.00005960464477539062
+Attention Over Value: 0.00636744499206543
+Attention linproj: 0.010712862014770508
+Post-attention Dropout: 0.0010793209075927734
+Post-attention residual: 0.0003719329833984375
+LN2: 0.0003979206085205078
+MLP_h_4h: 0.0447995662689209
+MLP_4h_h: 0.08620405197143555
+Post-MLP residual: 0.0011119842529296875
+Attention layer time: 0.29575061798095703
+LN1: 0.0004036426544189453
+QKV Transform: 0.041188955307006836
+Attention Score: 0.08431386947631836
+Attention Softmax: 0.010940074920654297
+Attention Dropout: 0.00005865097045898438
+Attention Over Value: 0.0062906742095947266
+Attention linproj: 0.01071310043334961
+Post-attention Dropout: 0.0010843276977539062
+Post-attention residual: 0.0003743171691894531
+LN2: 0.00039958953857421875
+MLP_h_4h: 0.044861793518066406
+MLP_4h_h: 0.08744001388549805
+Post-MLP residual: 0.0011091232299804688
+Attention layer time: 0.2907755374908447
+Transformer duration (in seconds): 0.2841
+Transformer throughput (in TFLOP/s): 48.382
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops2.py", line 499, in <module>
+    benchmark_transformer(configuration, seq_length, train_batch_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops2.py", line 470, in benchmark_transformer
+    f"{(allTimes[-1] - allTimes[0] - allTimes[1]):.4f}")
+IndexError: list index out of range
+slurmstepd: error: *** JOB 1503736 ON frontier07390 CANCELLED AT 2023-11-17T12:09:10 ***

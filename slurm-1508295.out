@@ -1,0 +1,216 @@
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/12.2.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23     2) darshan-runtime/3.4.0
+
+6
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+[2023-11-24 17:23:22,977] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2.1.1+rocm5.6 
+
+[2023-11-24 17:23:48,333] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-11-24 17:23:48,334] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-24 17:23:48,558] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.143.126, master_port=6006
+[2023-11-24 17:23:48,559] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6006 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:663] [c10d] The client socket cannot be initialized to connect to [frontier02046.hostmgmt2103.cm.frontier.olcf.ornl.gov]:6006 (errno: 97 - Address family not supported by protocol).
+[2023-11-24 17:23:48,583] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+num_attention_heads: 128, hidden_size: 19968, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.4668
+Attention throughput (in TFLOP/s): 58.848
+MLP duration (in seconds): 1.0253
+MLP throughput (in TFLOP/s): 50.971
+Transformer duration (in seconds): 1.4629
+Transformer throughput (in TFLOP/s): 54.502
+Transformer - MLP - Attention (in seconds): -0.0292
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 20096, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.4747
+Attention throughput (in TFLOP/s): 58.592
+MLP duration (in seconds): 1.0284
+MLP throughput (in TFLOP/s): 51.470
+Transformer duration (in seconds): 1.4834
+Transformer throughput (in TFLOP/s): 54.435
+Transformer - MLP - Attention (in seconds): -0.0198
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 20224, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.4775
+Attention throughput (in TFLOP/s): 58.974
+MLP duration (in seconds): 1.0513
+MLP throughput (in TFLOP/s): 50.995
+Transformer duration (in seconds): 1.4784
+Transformer throughput (in TFLOP/s): 55.312
+Transformer - MLP - Attention (in seconds): -0.0504
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 20352, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.4897
+Attention throughput (in TFLOP/s): 58.219
+MLP duration (in seconds): 1.0430
+MLP throughput (in TFLOP/s): 52.054
+Transformer duration (in seconds): 1.5258
+Transformer throughput (in TFLOP/s): 54.266
+Transformer - MLP - Attention (in seconds): -0.0068
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 20480, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.4813
+Attention throughput (in TFLOP/s): 59.969
+MLP duration (in seconds): 0.8716
+MLP throughput (in TFLOP/s): 63.073
+Transformer duration (in seconds): 1.3440
+Transformer throughput (in TFLOP/s): 62.380
+Transformer - MLP - Attention (in seconds): -0.0089
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 20608, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.4986
+Attention throughput (in TFLOP/s): 58.599
+MLP duration (in seconds): 1.0631
+MLP throughput (in TFLOP/s): 52.360
+Transformer duration (in seconds): 1.5461
+Transformer throughput (in TFLOP/s): 54.901
+Transformer - MLP - Attention (in seconds): -0.0156
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 20736, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.4951
+Attention throughput (in TFLOP/s): 59.733
+MLP duration (in seconds): 1.0601
+MLP throughput (in TFLOP/s): 53.163
+Transformer duration (in seconds): 1.5896
+Transformer throughput (in TFLOP/s): 54.056
+Transformer - MLP - Attention (in seconds): 0.0345
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 20864, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.4980
+Attention throughput (in TFLOP/s): 60.097
+MLP duration (in seconds): 1.0591
+MLP throughput (in TFLOP/s): 53.870
+Transformer duration (in seconds): 1.6034
+Transformer throughput (in TFLOP/s): 54.251
+Transformer - MLP - Attention (in seconds): 0.0462
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 20992, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.4968
+Attention throughput (in TFLOP/s): 60.966
+MLP duration (in seconds): 1.0855
+MLP throughput (in TFLOP/s): 53.210
+Transformer duration (in seconds): 1.6252
+Transformer throughput (in TFLOP/s): 54.177
+Transformer - MLP - Attention (in seconds): 0.0429
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 21120, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.5130
+Attention throughput (in TFLOP/s): 59.750
+MLP duration (in seconds): 1.1033
+MLP throughput (in TFLOP/s): 52.990
+Transformer duration (in seconds): 1.6427
+Transformer throughput (in TFLOP/s): 54.248
+Transformer - MLP - Attention (in seconds): 0.0264
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 21248, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.5206
+Attention throughput (in TFLOP/s): 59.576
+MLP duration (in seconds): 1.1281
+MLP throughput (in TFLOP/s): 52.455
+Transformer duration (in seconds): 1.7000
+Transformer throughput (in TFLOP/s): 53.053
+Transformer - MLP - Attention (in seconds): 0.0513
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 21376, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.5190
+Attention throughput (in TFLOP/s): 60.462
+MLP duration (in seconds): 1.1226
+MLP throughput (in TFLOP/s): 53.350
+Transformer duration (in seconds): 1.6853
+Transformer throughput (in TFLOP/s): 54.156
+Transformer - MLP - Attention (in seconds): 0.0437
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 21504, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.5434
+Attention throughput (in TFLOP/s): 58.426
+MLP duration (in seconds): 1.1426
+MLP throughput (in TFLOP/s): 53.048
+Transformer duration (in seconds): 1.7475
+Transformer throughput (in TFLOP/s): 52.852
+Transformer - MLP - Attention (in seconds): 0.0615
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 21632, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.5541
+Attention throughput (in TFLOP/s): 57.965
+MLP duration (in seconds): 1.1704
+MLP throughput (in TFLOP/s): 52.405
+Transformer duration (in seconds): 1.7657
+Transformer throughput (in TFLOP/s): 52.928
+Transformer - MLP - Attention (in seconds): 0.0412
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 21760, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Actual
+------
+Attention duration (in seconds): 0.4851
+Attention throughput (in TFLOP/s): 66.972
+MLP duration (in seconds): 1.0808
+MLP throughput (in TFLOP/s): 57.421
+Transformer duration (in seconds): 1.6249
+slurmstepd: error: *** JOB 1508295 ON frontier02046 CANCELLED AT 2023-11-24T19:23:18 DUE TO TIME LIMIT ***

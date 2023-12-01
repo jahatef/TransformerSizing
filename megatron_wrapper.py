@@ -86,7 +86,7 @@ def initialize_megatron(configuration):
     with open("/dev/null", 'w') as f:
         with contextlib.redirect_stdout(f):
             os.environ["MASTER_ADDR"] = "localhost"
-            os.environ["MASTER_PORT"] = "6000"
+            #os.environ["MASTER_PORT"] = "6000"
             os.environ["RANK"] = "0"
             os.environ["WORLD_SIZE"] = "1"
             args = get_megatron_args(configuration, override_tensor_mp_size=True)

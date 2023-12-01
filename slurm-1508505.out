@@ -1,0 +1,24 @@
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/12.2.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23     2) darshan-runtime/3.4.0
+
+6
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+[2023-11-25 00:33:33,764] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2.1.1+rocm5.6 
+
+[2023-11-25 00:33:42,879] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-11-25 00:33:42,879] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-25 00:33:43,099] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.195.124, master_port=6006
+[2023-11-25 00:33:43,099] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6006 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:663] [c10d] The client socket cannot be initialized to connect to [frontier08700.hostmgmt2508.cm.frontier.olcf.ornl.gov]:6006 (errno: 97 - Address family not supported by protocol).
+[2023-11-25 00:33:43,125] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+slurmstepd: error: *** JOB 1508505 ON frontier08700 CANCELLED AT 2023-11-25T02:33:46 DUE TO TIME LIMIT ***

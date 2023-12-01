@@ -1,0 +1,72 @@
+0
+2
+4
+6
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops0.py", line 481
+    for hidden_size in range(num_attention_heads,(2**15 + num_attention_heads)//4),num_attention_heads): #[32768]: #range(8192,2**15, num_attention_heads):
+                                                                                                      ^
+SyntaxError: unmatched ')'
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+[2023-11-17 11:52:03,848] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-17 11:52:03,848] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-17 11:52:03,848] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+ERROR:root:NeoXArgs.validate_values() hidden_size must be divisible by num_attention_heads
+ERROR:root:NeoXArgs.validate_values() hidden_size must be divisible by num_attention_heads
+Traceback (most recent call last):
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops4.py", line 486, in <module>
+Traceback (most recent call last):
+2.1.1+rocm5.6 
+
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops6.py", line 486, in <module>
+2.1.1+rocm5.6 
+
+    megatron_wrapper.initialize_megatron(configurations[0])
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 92, in initialize_megatron
+    megatron_wrapper.initialize_megatron(configurations[0])
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 92, in initialize_megatron
+    args = get_megatron_args(configuration, override_tensor_mp_size=True)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 113, in get_megatron_args
+    args = get_megatron_args(configuration, override_tensor_mp_size=True)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 113, in get_megatron_args
+    neox_args = megatron.NeoXArgs.from_dict(asdict(args))
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/neox_arguments/arguments.py", line 234, in from_dict
+    neox_args = megatron.NeoXArgs.from_dict(asdict(args))
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/neox_arguments/arguments.py", line 234, in from_dict
+    return cls(**args_dict)
+  File "<string>", line 228, in __init__
+    return cls(**args_dict)
+  File "<string>", line 228, in __init__
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/neox_arguments/arguments.py", line 140, in __post_init__
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/neox_arguments/arguments.py", line 140, in __post_init__
+    if not self.validate_values():
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/neox_arguments/arguments.py", line 1112, in validate_values
+    if not self.validate_values():
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/neox_arguments/arguments.py", line 1112, in validate_values
+    raise ValueError(error_message)
+    raise ValueError(error_message)
+ValueError: NeoXArgs.validate_values() hidden_size must be divisible by num_attention_heads
+ValueError: NeoXArgs.validate_values() hidden_size must be divisible by num_attention_heads
+ERROR:root:NeoXArgs.validate_values() hidden_size must be divisible by num_attention_heads
+Traceback (most recent call last):
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops2.py", line 486, in <module>
+2.1.1+rocm5.6 
+
+    megatron_wrapper.initialize_megatron(configurations[0])
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 92, in initialize_megatron
+    args = get_megatron_args(configuration, override_tensor_mp_size=True)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 113, in get_megatron_args
+    neox_args = megatron.NeoXArgs.from_dict(asdict(args))
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/neox_arguments/arguments.py", line 234, in from_dict
+    return cls(**args_dict)
+  File "<string>", line 228, in __init__
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/neox_arguments/arguments.py", line 140, in __post_init__
+    if not self.validate_values():
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/neox_arguments/arguments.py", line 1112, in validate_values
+    raise ValueError(error_message)
+ValueError: NeoXArgs.validate_values() hidden_size must be divisible by num_attention_heads
+slurmstepd: error: *** JOB 1503725 ON frontier05666 CANCELLED AT 2023-11-17T11:58:05 ***

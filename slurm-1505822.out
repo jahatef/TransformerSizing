@@ -1,0 +1,293 @@
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/12.2.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23     2) darshan-runtime/3.4.0
+
+0
+2
+4
+6
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+[2023-11-20 15:37:41,616] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-20 15:37:41,616] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-20 15:37:41,616] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-20 15:37:41,616] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2.1.1+rocm5.6 
+
+[2023-11-20 15:38:03,106] [INFO] [comm.py:637:init_distributed] cdb=None
+2.1.1+rocm5.6 
+
+[2023-11-20 15:38:03,107] [INFO] [comm.py:637:init_distributed] cdb=None
+2.1.1+rocm5.6 
+
+[2023-11-20 15:38:03,107] [INFO] [comm.py:637:init_distributed] cdb=None
+2.1.1+rocm5.6 
+
+[2023-11-20 15:38:03,107] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-11-20 15:38:03,107] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-20 15:38:03,107] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-20 15:38:03,107] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-20 15:38:03,107] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-20 15:38:03,327] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.153.91, master_port=6000
+[2023-11-20 15:38:03,327] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.153.91, master_port=6000
+[2023-11-20 15:38:03,327] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.153.91, master_port=6000
+[2023-11-20 15:38:03,327] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.153.91, master_port=6000
+[2023-11-20 15:38:03,327] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-20 15:38:03,327] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-20 15:38:03,327] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-20 15:38:03,327] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:436] [c10d] The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:436] [c10d] The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:663] [c10d] The client socket cannot be initialized to connect to [frontier03291.hostmgmt2201.cm.frontier.olcf.ornl.gov]:6000 (errno: 97 - Address family not supported by protocol).
+[2023-11-20 15:38:03,374] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops0.py", line 479, in <module>
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops4.py", line 480, in <module>
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops2.py", line 479, in <module>
+    megatron_wrapper.initialize_megatron(configurations[0])
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 95, in initialize_megatron
+    megatron_wrapper.initialize_megatron(configurations[0])
+    megatron_wrapper.initialize_megatron(configurations[0])
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 95, in initialize_megatron
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 95, in initialize_megatron
+    megatron.initialize._initialize_distributed(neox_args=neox_args)
+    megatron.initialize._initialize_distributed(neox_args=neox_args)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/initialize.py", line 149, in _initialize_distributed
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/initialize.py", line 149, in _initialize_distributed
+    megatron.initialize._initialize_distributed(neox_args=neox_args)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/initialize.py", line 149, in _initialize_distributed
+    deepspeed.init_distributed(
+    deepspeed.init_distributed(
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/comm.py", line 670, in init_distributed
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/comm.py", line 670, in init_distributed
+    deepspeed.init_distributed(
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/comm.py", line 670, in init_distributed
+    cdb = TorchBackend(dist_backend, timeout, init_method, rank, world_size)
+    cdb = TorchBackend(dist_backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 120, in __init__
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 120, in __init__
+    cdb = TorchBackend(dist_backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 120, in __init__
+    self.init_process_group(backend, timeout, init_method, rank, world_size)
+    self.init_process_group(backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 146, in init_process_group
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 146, in init_process_group
+    self.init_process_group(backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 146, in init_process_group
+    torch.distributed.init_process_group(backend,
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 74, in wrapper
+    torch.distributed.init_process_group(backend,
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 74, in wrapper
+    torch.distributed.init_process_group(backend,
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 74, in wrapper
+    func_return = func(*args, **kwargs)
+    func_return = func(*args, **kwargs)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1141, in init_process_group
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1141, in init_process_group
+    func_return = func(*args, **kwargs)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1141, in init_process_group
+    store, rank, world_size = next(rendezvous_iterator)
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 241, in _env_rendezvous_handler
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 241, in _env_rendezvous_handler
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 241, in _env_rendezvous_handler
+    store = _create_c10d_store(master_addr, master_port, rank, world_size, timeout)
+    store = _create_c10d_store(master_addr, master_port, rank, world_size, timeout)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 172, in _create_c10d_store
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 172, in _create_c10d_store
+    store = _create_c10d_store(master_addr, master_port, rank, world_size, timeout)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 172, in _create_c10d_store
+    return TCPStore(
+RuntimeError: The server socket has failed to listen on any local network address. The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol). The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+    return TCPStore(
+RuntimeError: The server socket has failed to listen on any local network address. The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol). The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+    return TCPStore(
+RuntimeError: The server socket has failed to listen on any local network address. The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol). The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+num_attention_heads: 128, hidden_size: 24576, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24576x73728, b=2048): 0.4773
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24576x73728, b=2048): 62.200
+Elapsed time for attention_key_query_prob (512x2048x192x2048): 0.0104
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x192x2048): 79.508
+Elapsed time for attention_prob_times_values (512x2048x2048x192): 0.0123
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x192): 66.837
+Elapsed time for attention_linear_projection (4x24576x24576, b=2048): 0.1513
+Throughput (in TFLOP/s) for attention_linear_projection (4x24576x24576, b=2048): 65.390
+Elapsed time for mlp_h_to_4h (4x24576x98304, b=2048): 0.6463
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24576x98304, b=2048): 61.245
+Elapsed time for mlp_4h_to_h (4x98304x24576, b=2048): 1.2216
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x98304x24576, b=2048): 32.403
+
+Attention duration (in seconds): 0.6513
+Attention throughput (in TFLOP/s): 63.304
+MLP duration (in seconds): 1.8679
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.5192
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+
+
+Actual
+------
+Attention duration (in seconds): 0.6936
+Attention throughput (in TFLOP/s): 59.445
+MLP duration (in seconds): 1.7721
+MLP throughput (in TFLOP/s): 44.674
+Transformer duration (in seconds): 2.2874
+Transformer throughput (in TFLOP/s): 52.635
+Transformer - MLP - Attention (in seconds): -0.1783
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 24704, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24704x74112, b=2048): 0.4870
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24704x74112, b=2048): 61.592
+Elapsed time for attention_key_query_prob (512x2048x193x2048): 0.0122
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x193x2048): 67.690
+Elapsed time for attention_prob_times_values (512x2048x2048x193): 0.0155
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x193): 53.545
+Elapsed time for attention_linear_projection (4x24704x24704, b=2048): 0.1383
+Throughput (in TFLOP/s) for attention_linear_projection (4x24704x24704, b=2048): 72.291
+Elapsed time for mlp_h_to_4h (4x24704x98816, b=2048): 0.5755
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24704x98816, b=2048): 69.503
+Elapsed time for mlp_4h_to_h (4x98816x24704, b=2048): 1.0268
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x98816x24704, b=2048): 38.953
+
+Attention duration (in seconds): 0.6531
+Attention throughput (in TFLOP/s): 63.782
+MLP duration (in seconds): 1.6022
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.2553
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+
+
+Actual
+------
+Attention duration (in seconds): 0.7450
+Attention throughput (in TFLOP/s): 55.909
+MLP duration (in seconds): 1.6702
+MLP throughput (in TFLOP/s): 47.894
+Transformer duration (in seconds): 2.3557
+Transformer throughput (in TFLOP/s): 51.638
+Transformer - MLP - Attention (in seconds): -0.0595
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 24832, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24832x74496, b=2048): 0.4931
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24832x74496, b=2048): 61.469
+Elapsed time for attention_key_query_prob (512x2048x194x2048): 0.0121
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x194x2048): 68.864
+Elapsed time for attention_prob_times_values (512x2048x2048x194): 0.0149
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x194): 56.039
+Elapsed time for attention_linear_projection (4x24832x24832, b=2048): 0.1400
+Throughput (in TFLOP/s) for attention_linear_projection (4x24832x24832, b=2048): 72.187
+Elapsed time for mlp_h_to_4h (4x24832x99328, b=2048): 0.6067
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24832x99328, b=2048): 66.613
+Elapsed time for mlp_4h_to_h (4x99328x24832, b=2048): 1.0714
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x99328x24832, b=2048): 37.718
+
+Attention duration (in seconds): 0.6600
+Attention throughput (in TFLOP/s): 63.755
+MLP duration (in seconds): 1.6781
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.3381
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+
+
+Actual
+------
+Attention duration (in seconds): 0.7411
+Attention throughput (in TFLOP/s): 56.776
+MLP duration (in seconds): 1.7138
+MLP throughput (in TFLOP/s): 47.161
+Transformer duration (in seconds): 2.4190
+Transformer throughput (in TFLOP/s): 50.806
+Transformer - MLP - Attention (in seconds): -0.0359
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 24960, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24960x74880, b=2048): 0.4979
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24960x74880, b=2048): 61.503
+Elapsed time for attention_key_query_prob (512x2048x195x2048): 0.0123
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x195x2048): 67.983
+Elapsed time for attention_prob_times_values (512x2048x2048x195): 0.0155
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x195): 54.102
+Elapsed time for attention_linear_projection (4x24960x24960, b=2048): 0.1412
+Throughput (in TFLOP/s) for attention_linear_projection (4x24960x24960, b=2048): 72.272
+Elapsed time for mlp_h_to_4h (4x24960x99840, b=2048): 0.5813
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24960x99840, b=2048): 70.232
+Elapsed time for mlp_4h_to_h (4x99840x24960, b=2048): 1.1217
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x99840x24960, b=2048): 36.400
+
+Attention duration (in seconds): 0.6669
+Attention throughput (in TFLOP/s): 63.731
+MLP duration (in seconds): 1.7030
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.3699
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+
+
+Actual
+------
+Attention duration (in seconds): 0.7534
+Attention throughput (in TFLOP/s): 56.416
+MLP duration (in seconds): 1.6375
+MLP throughput (in TFLOP/s): 49.867
+Transformer duration (in seconds): 2.4174
+Transformer throughput (in TFLOP/s): 51.362
+Transformer - MLP - Attention (in seconds): 0.0265
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 25088, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x25088x75264, b=2048): 0.5091
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x25088x75264, b=2048): 60.771
+Elapsed time for attention_key_query_prob (512x2048x196x2048): 0.0121
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x196x2048): 69.661
+Elapsed time for attention_prob_times_values (512x2048x2048x196): 0.0149
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x196): 56.370
+Elapsed time for attention_linear_projection (4x25088x25088, b=2048): 0.1437
+Throughput (in TFLOP/s) for attention_linear_projection (4x25088x25088, b=2048): 71.777
+Elapsed time for mlp_h_to_4h (4x25088x100352, b=2048): 0.6243
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x25088x100352, b=2048): 66.069
+Elapsed time for mlp_4h_to_h (4x100352x25088, b=2048): 1.1121
+slurmstepd: error: *** JOB 1505822 ON frontier03291 CANCELLED AT 2023-11-20T17:37:36 DUE TO TIME LIMIT ***

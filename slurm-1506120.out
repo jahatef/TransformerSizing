@@ -1,0 +1,129 @@
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/12.2.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23     2) darshan-runtime/3.4.0
+
+0
+2
+4
+6
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+[2023-11-20 20:57:42,503] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-20 20:57:42,503] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-20 20:57:42,503] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-20 20:57:42,503] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2.1.1+rocm5.6 
+
+[2023-11-20 20:57:53,835] [INFO] [comm.py:637:init_distributed] cdb=None
+2.1.1+rocm5.6 
+
+[2023-11-20 20:57:53,835] [INFO] [comm.py:637:init_distributed] cdb=None
+2.1.1+rocm5.6 
+
+[2023-11-20 20:57:53,835] [INFO] [comm.py:637:init_distributed] cdb=None
+2.1.1+rocm5.6 
+
+[2023-11-20 20:57:53,835] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-11-20 20:57:53,835] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-20 20:57:53,836] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-20 20:57:53,836] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-20 20:57:53,836] [INFO] [comm.py:652:init_distributed] Not using the DeepSpeed or dist launchers, attempting to detect MPI environment...
+[2023-11-20 20:57:54,072] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.144.127, master_port=6000
+[2023-11-20 20:57:54,072] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.144.127, master_port=6000
+[2023-11-20 20:57:54,072] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.144.127, master_port=6000
+[2023-11-20 20:57:54,072] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-20 20:57:54,072] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-20 20:57:54,072] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-11-20 20:57:54,072] [INFO] [comm.py:702:mpi_discovery] Discovered MPI settings of world_rank=0, local_rank=0, world_size=1, master_addr=100.64.144.127, master_port=6000
+[2023-11-20 20:57:54,072] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:436] [c10d] The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:663] [c10d] The client socket cannot be initialized to connect to [frontier02175.hostmgmt2104.cm.frontier.olcf.ornl.gov]:6000 (errno: 97 - Address family not supported by protocol).
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops2.py", line 479, in <module>
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops4.py", line 480, in <module>
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/torch_transformer_flops0.py", line 479, in <module>
+    megatron_wrapper.initialize_megatron(configurations[0])
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 95, in initialize_megatron
+    megatron_wrapper.initialize_megatron(configurations[0])
+    megatron_wrapper.initialize_megatron(configurations[0])
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 95, in initialize_megatron
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron_wrapper.py", line 95, in initialize_megatron
+    megatron.initialize._initialize_distributed(neox_args=neox_args)
+    megatron.initialize._initialize_distributed(neox_args=neox_args)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/initialize.py", line 149, in _initialize_distributed
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/initialize.py", line 149, in _initialize_distributed
+    megatron.initialize._initialize_distributed(neox_args=neox_args)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/TransformerSizing/megatron/initialize.py", line 149, in _initialize_distributed
+    deepspeed.init_distributed(
+    deepspeed.init_distributed(
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/comm.py", line 670, in init_distributed
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/comm.py", line 670, in init_distributed
+    deepspeed.init_distributed(
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/comm.py", line 670, in init_distributed
+    cdb = TorchBackend(dist_backend, timeout, init_method, rank, world_size)
+    cdb = TorchBackend(dist_backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 120, in __init__
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 120, in __init__
+    cdb = TorchBackend(dist_backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 120, in __init__
+    self.init_process_group(backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 146, in init_process_group
+    self.init_process_group(backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 146, in init_process_group
+    torch.distributed.init_process_group(backend,
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 74, in wrapper
+    self.init_process_group(backend, timeout, init_method, rank, world_size)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/deepspeed/comm/torch.py", line 146, in init_process_group
+    torch.distributed.init_process_group(backend,
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 74, in wrapper
+    torch.distributed.init_process_group(backend,
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 74, in wrapper
+    func_return = func(*args, **kwargs)
+    func_return = func(*args, **kwargs)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1141, in init_process_group
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1141, in init_process_group
+    func_return = func(*args, **kwargs)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 1141, in init_process_group
+[2023-11-20 20:57:54,118] [INFO] [checkpointing.py:227:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 241, in _env_rendezvous_handler
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 241, in _env_rendezvous_handler
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 241, in _env_rendezvous_handler
+    store = _create_c10d_store(master_addr, master_port, rank, world_size, timeout)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 172, in _create_c10d_store
+    store = _create_c10d_store(master_addr, master_port, rank, world_size, timeout)
+    store = _create_c10d_store(master_addr, master_port, rank, world_size, timeout)
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 172, in _create_c10d_store
+  File "/lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/python3.9/site-packages/torch/distributed/rendezvous.py", line 172, in _create_c10d_store
+    return TCPStore(
+RuntimeError: The server socket has failed to listen on any local network address. The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol). The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+    return TCPStore(
+RuntimeError: The server socket has failed to listen on any local network address. The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol). The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+    return TCPStore(
+RuntimeError: The server socket has failed to listen on any local network address. The server socket cannot be initialized on [::]:6000 (errno: 97 - Address family not supported by protocol). The server socket has failed to bind to su-aliases.head-bmc.cm.frontier.olcf.ornl.gov:6000 (errno: 98 - Address already in use).
+slurmstepd: error: *** JOB 1506120 ON frontier02175 CANCELLED AT 2023-11-20T21:03:40 ***

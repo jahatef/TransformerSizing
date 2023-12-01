@@ -1,0 +1,627 @@
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/12.2.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23     2) darshan-runtime/3.4.0
+
+0
+2
+4
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+/opt/rocm-5.6.0/llvm/bin/clang++: /lustre/orion/csc439/scratch/jahatef/transformerSizing/miniconda3/lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/rocm-5.6.0/llvm/bin/clang++)
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+Use of uninitialized value $HIP_CLANG_VERSION in concatenation (.) or string at /opt/rocm-5.6.0/bin//hipconfig.pl line 79.
+[2023-11-22 19:53:43,203] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-22 19:53:43,203] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-22 19:53:43,203] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2.1.1+rocm5.6 
+
+2.1.1+rocm5.6 
+
+num_attention_heads: 128, hidden_size: 23040, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x23040x69120, b=2048): 0.4064
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x23040x69120, b=2048): 64.195
+Elapsed time for attention_key_query_prob (512x2048x180x2048): 0.0114
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x180x2048): 67.973
+Elapsed time for attention_prob_times_values (512x2048x2048x180): 0.0123
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x180): 62.638
+Elapsed time for attention_linear_projection (4x23040x23040, b=2048): 0.1312
+Throughput (in TFLOP/s) for attention_linear_projection (4x23040x23040, b=2048): 66.276
+Elapsed time for mlp_h_to_4h (4x23040x92160, b=2048): 0.5498
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x23040x92160, b=2048): 63.282
+Elapsed time for mlp_4h_to_h (4x92160x23040, b=2048): 0.9435
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x92160x23040, b=2048): 36.873
+
+Attention duration (in seconds): 0.5614
+Attention throughput (in TFLOP/s): 64.724
+MLP duration (in seconds): 1.4932
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.0546
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 23168, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x23168x69504, b=2048): 0.4108
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x23168x69504, b=2048): 64.218
+Elapsed time for attention_key_query_prob (512x2048x181x2048): 0.0116
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x181x2048): 66.964
+Elapsed time for attention_prob_times_values (512x2048x2048x181): 0.0128
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x181): 60.540
+Elapsed time for attention_linear_projection (4x23168x23168, b=2048): 0.1318
+Throughput (in TFLOP/s) for attention_linear_projection (4x23168x23168, b=2048): 66.700
+Elapsed time for mlp_h_to_4h (4x23168x92672, b=2048): 0.5530
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x23168x92672, b=2048): 63.612
+Elapsed time for mlp_4h_to_h (4x92672x23168, b=2048): 0.9627
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x92672x23168, b=2048): 36.541
+
+Attention duration (in seconds): 0.5671
+Attention throughput (in TFLOP/s): 64.768
+MLP duration (in seconds): 1.5157
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.0828
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 23296, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x23296x69888, b=2048): 0.4272
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x23296x69888, b=2048): 62.445
+Elapsed time for attention_key_query_prob (512x2048x182x2048): 0.0114
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x182x2048): 68.352
+Elapsed time for attention_prob_times_values (512x2048x2048x182): 0.0124
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x182): 63.006
+Elapsed time for attention_linear_projection (4x23296x23296, b=2048): 0.1361
+Throughput (in TFLOP/s) for attention_linear_projection (4x23296x23296, b=2048): 65.331
+Elapsed time for mlp_h_to_4h (4x23296x93184, b=2048): 0.5707
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x23296x93184, b=2048): 62.323
+Elapsed time for mlp_4h_to_h (4x93184x23296, b=2048): 0.9925
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x93184x23296, b=2048): 35.837
+
+Attention duration (in seconds): 0.5871
+Attention throughput (in TFLOP/s): 63.241
+MLP duration (in seconds): 1.5631
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.1503
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 23424, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x23424x70272, b=2048): 0.4201
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x23424x70272, b=2048): 64.204
+Elapsed time for attention_key_query_prob (512x2048x183x2048): 0.0116
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x183x2048): 67.477
+Elapsed time for attention_prob_times_values (512x2048x2048x183): 0.0128
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x183): 61.198
+Elapsed time for attention_linear_projection (4x23424x23424, b=2048): 0.1348
+Throughput (in TFLOP/s) for attention_linear_projection (4x23424x23424, b=2048): 66.713
+Elapsed time for mlp_h_to_4h (4x23424x93696, b=2048): 0.5646
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x23424x93696, b=2048): 63.685
+Elapsed time for mlp_4h_to_h (4x93696x23424, b=2048): 0.9909
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x93696x23424, b=2048): 36.288
+
+Attention duration (in seconds): 0.5793
+Attention throughput (in TFLOP/s): 64.787
+MLP duration (in seconds): 1.5556
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.1349
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 23552, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x23552x70656, b=2048): 0.4265
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x23552x70656, b=2048): 63.930
+Elapsed time for attention_key_query_prob (512x2048x184x2048): 0.0114
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x184x2048): 69.530
+Elapsed time for attention_prob_times_values (512x2048x2048x184): 0.0129
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x184): 61.259
+Elapsed time for attention_linear_projection (4x23552x23552, b=2048): 0.1371
+Throughput (in TFLOP/s) for attention_linear_projection (4x23552x23552, b=2048): 66.309
+Elapsed time for mlp_h_to_4h (4x23552x94208, b=2048): 0.5731
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x23552x94208, b=2048): 63.435
+Elapsed time for mlp_4h_to_h (4x94208x23552, b=2048): 0.9977
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x94208x23552, b=2048): 36.435
+
+Attention duration (in seconds): 0.5878
+Attention throughput (in TFLOP/s): 64.534
+MLP duration (in seconds): 1.5708
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.1586
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 23680, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x23680x71040, b=2048): 0.4298
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x23680x71040, b=2048): 64.126
+Elapsed time for attention_key_query_prob (512x2048x185x2048): 0.0118
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x185x2048): 67.102
+Elapsed time for attention_prob_times_values (512x2048x2048x185): 0.0129
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x185): 61.780
+Elapsed time for attention_linear_projection (4x23680x23680, b=2048): 0.1374
+2.1.1+rocm5.6 
+
+num_attention_heads: 128, hidden_size: 26624, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x26624x79872, b=2048): 0.5574
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x26624x79872, b=2048): 62.508
+Elapsed time for attention_key_query_prob (512x2048x208x2048): 0.0126
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x208x2048): 70.917
+Elapsed time for attention_prob_times_values (512x2048x2048x208): 0.0166
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x208): 53.943
+Elapsed time for attention_linear_projection (4x26624x26624, b=2048): 0.1773
+Throughput (in TFLOP/s) for attention_linear_projection (4x26624x26624, b=2048): 65.520
+Elapsed time for mlp_h_to_4h (4x26624x106496, b=2048): 0.7542
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x26624x106496, b=2048): 61.596
+Elapsed time for mlp_4h_to_h (4x106496x26624, b=2048): 1.3110
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x106496x26624, b=2048): 35.435
+
+Attention duration (in seconds): 0.7638
+Attention throughput (in TFLOP/s): 63.160
+MLP duration (in seconds): 2.0652
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.8290
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 26752, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x26752x80256, b=2048): 0.5724
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x26752x80256, b=2048): 61.459
+Elapsed time for attention_key_query_prob (512x2048x209x2048): 0.0133
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x209x2048): 67.660
+Elapsed time for attention_prob_times_values (512x2048x2048x209): 0.0169
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x209): 53.108
+Elapsed time for attention_linear_projection (4x26752x26752, b=2048): 0.1800
+Throughput (in TFLOP/s) for attention_linear_projection (4x26752x26752, b=2048): 65.148
+Elapsed time for mlp_h_to_4h (4x26752x107008, b=2048): 0.7673
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x26752x107008, b=2048): 61.123
+Elapsed time for mlp_4h_to_h (4x107008x26752, b=2048): 1.3113
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x107008x26752, b=2048): 35.769
+
+Attention duration (in seconds): 0.7825
+Attention throughput (in TFLOP/s): 62.232
+MLP duration (in seconds): 2.0786
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.8611
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 26880, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x26880x80640, b=2048): 0.5802
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x26880x80640, b=2048): 61.213
+Elapsed time for attention_key_query_prob (512x2048x210x2048): 0.0131
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x210x2048): 68.916
+Elapsed time for attention_prob_times_values (512x2048x2048x210): 0.0162
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x210): 55.770
+Elapsed time for attention_linear_projection (4x26880x26880, b=2048): 0.1818
+Throughput (in TFLOP/s) for attention_linear_projection (4x26880x26880, b=2048): 65.122
+Elapsed time for mlp_h_to_4h (4x26880x107520, b=2048): 0.7812
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x26880x107520, b=2048): 60.616
+Elapsed time for mlp_4h_to_h (4x107520x26880, b=2048): 1.3229
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x107520x26880, b=2048): 35.793
+
+Attention duration (in seconds): 0.7912
+Attention throughput (in TFLOP/s): 62.127
+MLP duration (in seconds): 2.1041
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.8953
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 27008, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x27008x81024, b=2048): 0.5831
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x27008x81024, b=2048): 61.486
+Elapsed time for attention_key_query_prob (512x2048x211x2048): 0.0133
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x211x2048): 67.996
+Elapsed time for attention_prob_times_values (512x2048x2048x211): 0.0170
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x211): 53.454
+Elapsed time for attention_linear_projection (4x27008x27008, b=2048): 0.1832
+Throughput (in TFLOP/s) for attention_linear_projection (4x27008x27008, b=2048): 65.217
+Elapsed time for mlp_h_to_4h (4x27008x108032, b=2048): 0.7817
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x27008x108032, b=2048): 61.151
+Elapsed time for mlp_4h_to_h (4x108032x27008, b=2048): 1.3282
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x108032x27008, b=2048): 35.992
+
+Attention duration (in seconds): 0.7966
+Attention throughput (in TFLOP/s): 62.283
+MLP duration (in seconds): 2.1099
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.9066
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 27136, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x27136x81408, b=2048): 0.5965
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x27136x81408, b=2048): 60.673
+Elapsed time for attention_key_query_prob (512x2048x212x2048): 0.0131
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x212x2048): 69.565
+Elapsed time for attention_prob_times_values (512x2048x2048x212): 0.0162
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x212): 56.349
+Elapsed time for attention_linear_projection (4x27136x27136, b=2048): 0.1871
+Throughput (in TFLOP/s) for attention_linear_projection (4x27136x27136, b=2048): 64.476
+Elapsed time for mlp_h_to_4h (4x27136x108544, b=2048): 0.7286
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x27136x108544, b=2048): 66.232
+Elapsed time for mlp_4h_to_h (4x108544x27136, b=2048): 1.2903
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x108544x27136, b=2048): 37.402
+
+Attention duration (in seconds): 0.8129
+Attention throughput (in TFLOP/s): 61.606
+MLP duration (in seconds): 2.0189
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.8318
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 27264, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x27264x81792, b=2048): 0.5960
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x27264x81792, b=2048): 61.307
+Elapsed time for attention_key_query_prob (512x2048x213x2048): 0.0134
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x213x2048): 68.386
+Elapsed time for attention_prob_times_values (512x2048x2048x213): 0.0170
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x213): 53.854
+Elapsed time for attention_linear_projection (4x27264x27264, b=2048): 0.1865
+Throughput (in TFLOP/s) for attention_linear_projection (4x23680x23680, b=2048): 66.866
+Elapsed time for mlp_h_to_4h (4x23680x94720, b=2048): 0.5776
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x23680x94720, b=2048): 63.628
+Elapsed time for mlp_4h_to_h (4x94720x23680, b=2048): 1.0164
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x94720x23680, b=2048): 36.157
+
+Attention duration (in seconds): 0.5919
+Attention throughput (in TFLOP/s): 64.770
+MLP duration (in seconds): 1.5939
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.1858
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 23808, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x23808x71424, b=2048): 0.4366
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x23808x71424, b=2048): 63.814
+Elapsed time for attention_key_query_prob (512x2048x186x2048): 0.0117
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x186x2048): 68.388
+Elapsed time for attention_prob_times_values (512x2048x2048x186): 0.0125
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x186): 64.156
+Elapsed time for attention_linear_projection (4x23808x23808, b=2048): 0.1396
+Throughput (in TFLOP/s) for attention_linear_projection (4x23808x23808, b=2048): 66.537
+Elapsed time for mlp_h_to_4h (4x23808x95232, b=2048): 0.5847
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x23808x95232, b=2048): 63.531
+Elapsed time for mlp_4h_to_h (4x95232x23808, b=2048): 1.0150
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x95232x23808, b=2048): 36.598
+
+Attention duration (in seconds): 0.6003
+Attention throughput (in TFLOP/s): 64.543
+MLP duration (in seconds): 1.5997
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.2000
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 23936, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x23936x71808, b=2048): 0.4453
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x23936x71808, b=2048): 63.244
+Elapsed time for attention_key_query_prob (512x2048x187x2048): 0.0119
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x187x2048): 67.503
+Elapsed time for attention_prob_times_values (512x2048x2048x187): 0.0129
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x187): 62.340
+Elapsed time for attention_linear_projection (4x23936x23936, b=2048): 0.1421
+Throughput (in TFLOP/s) for attention_linear_projection (4x23936x23936, b=2048): 66.064
+Elapsed time for mlp_h_to_4h (4x23936x95744, b=2048): 0.5689
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x23936x95744, b=2048): 66.004
+Elapsed time for mlp_4h_to_h (4x95744x23936, b=2048): 0.9862
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x95744x23936, b=2048): 38.071
+
+Attention duration (in seconds): 0.6121
+Attention throughput (in TFLOP/s): 63.962
+MLP duration (in seconds): 1.5551
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.1673
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 24064, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24064x72192, b=2048): 0.4477
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24064x72192, b=2048): 63.577
+Elapsed time for attention_key_query_prob (512x2048x188x2048): 0.0117
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x188x2048): 68.997
+Elapsed time for attention_prob_times_values (512x2048x2048x188): 0.0129
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x188): 62.626
+Elapsed time for attention_linear_projection (4x24064x24064, b=2048): 0.1425
+Throughput (in TFLOP/s) for attention_linear_projection (4x24064x24064, b=2048): 66.591
+Elapsed time for mlp_h_to_4h (4x24064x96256, b=2048): 0.5354
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24064x96256, b=2048): 70.884
+Elapsed time for mlp_4h_to_h (4x96256x24064, b=2048): 0.9603
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x96256x24064, b=2048): 39.520
+
+Attention duration (in seconds): 0.6148
+Attention throughput (in TFLOP/s): 64.359
+MLP duration (in seconds): 1.4957
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.1104
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 24192, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24192x72576, b=2048): 0.4544
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24192x72576, b=2048): 63.300
+Elapsed time for attention_key_query_prob (512x2048x189x2048): 0.0119
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x189x2048): 68.082
+Elapsed time for attention_prob_times_values (512x2048x2048x189): 0.0129
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x189): 62.869
+Elapsed time for attention_linear_projection (4x24192x24192, b=2048): 0.1443
+Throughput (in TFLOP/s) for attention_linear_projection (4x24192x24192, b=2048): 66.464
+Elapsed time for mlp_h_to_4h (4x24192x96768, b=2048): 0.5408
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24192x96768, b=2048): 70.923
+Elapsed time for mlp_4h_to_h (4x96768x24192, b=2048): 0.9817
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x96768x24192, b=2048): 39.072
+
+Attention duration (in seconds): 0.6235
+Attention throughput (in TFLOP/s): 64.115
+MLP duration (in seconds): 1.5225
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.1460
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 24320, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24320x72960, b=2048): 0.4551
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24320x72960, b=2048): 63.878
+Elapsed time for attention_key_query_prob (512x2048x190x2048): 0.0118
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x190x2048): 69.233
+Elapsed time for attention_prob_times_values (512x2048x2048x190): 0.0125
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x190): 65.195
+Elapsed time for attention_linear_projection (4x24320x24320, b=2048): 0.1458
+Throughput (in TFLOP/s) for attention_linear_projection (4x24320x24320, b=2048): 66.448
+Elapsed time for mlp_h_to_4h (4x24320x97280, b=2048): 0.5472
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24320x97280, b=2048): 70.838
+Elapsed time for mlp_4h_to_h (4x97280x24320, b=2048): 0.9810
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x97280x24320, b=2048): 39.513
+
+Attention duration (in seconds): 0.6252
+Attention throughput (in TFLOP/s): 64.605
+MLP duration (in seconds): 1.5282
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.1534
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 24448, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x24448x73344, b=2048): 0.4606
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x24448x73344, b=2048): 63.780
+Elapsed time for attention_key_query_prob (512x2048x191x2048): 0.0119
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x191x2048): 68.669
+Elapsed time for attention_prob_times_values (512x2048x2048x191): 0.0129
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x191): 63.367
+Elapsed time for attention_linear_projection (4x24448x24448, b=2048): 0.1463
+Throughput (in TFLOP/s) for attention_linear_projection (4x24448x24448, b=2048): 66.955
+Elapsed time for mlp_h_to_4h (4x24448x97792, b=2048): 0.5552
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x24448x97792, b=2048): 70.554
+Elapsed time for mlp_4h_to_h (4x97792x24448, b=2048): 1.0032
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x97792x24448, b=2048): 39.045
+
+Attention duration (in seconds): 0.6318
+Attention throughput (in TFLOP/s): 64.599
+MLP duration (in seconds): 1.5584
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.1902
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+Throughput (in TFLOP/s) for attention_linear_projection (4x27264x27264, b=2048): 65.291
+Elapsed time for mlp_h_to_4h (4x27264x109056, b=2048): 0.7131
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x27264x109056, b=2048): 68.309
+Elapsed time for mlp_4h_to_h (4x109056x27264, b=2048): 1.3323
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x109056x27264, b=2048): 36.565
+
+Attention duration (in seconds): 0.8128
+Attention throughput (in TFLOP/s): 62.182
+MLP duration (in seconds): 2.0454
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.8583
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 27392, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x27392x82176, b=2048): 0.6097
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x27392x82176, b=2048): 60.491
+Elapsed time for attention_key_query_prob (512x2048x214x2048): 0.0132
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x214x2048): 69.768
+Elapsed time for attention_prob_times_values (512x2048x2048x214): 0.0163
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x214): 56.510
+Elapsed time for attention_linear_projection (4x27392x27392, b=2048): 0.1906
+Throughput (in TFLOP/s) for attention_linear_projection (4x27392x27392, b=2048): 64.486
+Elapsed time for mlp_h_to_4h (4x27392x109568, b=2048): 0.7252
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x27392x109568, b=2048): 67.808
+Elapsed time for mlp_4h_to_h (4x109568x27392, b=2048): 1.3336
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x109568x27392, b=2048): 36.874
+
+Attention duration (in seconds): 0.8297
+Attention throughput (in TFLOP/s): 61.478
+MLP duration (in seconds): 2.0587
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.8885
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 27520, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x27520x82560, b=2048): 0.6135
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x27520x82560, b=2048): 60.681
+Elapsed time for attention_key_query_prob (512x2048x215x2048): 0.0134
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x215x2048): 68.866
+Elapsed time for attention_prob_times_values (512x2048x2048x215): 0.0170
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x215): 54.317
+Elapsed time for attention_linear_projection (4x27520x27520, b=2048): 0.1922
+Throughput (in TFLOP/s) for attention_linear_projection (4x27520x27520, b=2048): 64.571
+Elapsed time for mlp_h_to_4h (4x27520x110080, b=2048): 0.7360
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x27520x110080, b=2048): 67.440
+Elapsed time for mlp_4h_to_h (4x110080x27520, b=2048): 1.3598
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x110080x27520, b=2048): 36.501
+
+Attention duration (in seconds): 0.8360
+Attention throughput (in TFLOP/s): 61.577
+MLP duration (in seconds): 2.0957
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.9318
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 27648, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x27648x82944, b=2048): 0.6145
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x27648x82944, b=2048): 61.144
+Elapsed time for attention_key_query_prob (512x2048x216x2048): 0.0131
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x216x2048): 71.026
+Elapsed time for attention_prob_times_values (512x2048x2048x216): 0.0168
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x216): 55.110
+Elapsed time for attention_linear_projection (4x27648x27648, b=2048): 0.1923
+Throughput (in TFLOP/s) for attention_linear_projection (4x27648x27648, b=2048): 65.122
+Elapsed time for mlp_h_to_4h (4x27648x110592, b=2048): 0.7401
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x27648x110592, b=2048): 67.690
+Elapsed time for mlp_4h_to_h (4x110592x27648, b=2048): 1.3810
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x110592x27648, b=2048): 36.276
+
+Attention duration (in seconds): 0.8367
+Attention throughput (in TFLOP/s): 62.091
+MLP duration (in seconds): 2.1211
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 2.9578
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 27776, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x27776x83328, b=2048): 0.6279
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x27776x83328, b=2048): 60.391
+Elapsed time for attention_key_query_prob (512x2048x217x2048): 0.0136
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x217x2048): 68.519
+Elapsed time for attention_prob_times_values (512x2048x2048x217): 0.0170
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x217): 54.753
+Elapsed time for attention_linear_projection (4x27776x27776, b=2048): 0.1955
+Throughput (in TFLOP/s) for attention_linear_projection (4x27776x27776, b=2048): 64.665
+Elapsed time for mlp_h_to_4h (4x27776x111104, b=2048): 0.8396
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x27776x111104, b=2048): 60.224
+Elapsed time for mlp_4h_to_h (4x111104x27776, b=2048): 1.4290
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x111104x27776, b=2048): 35.383
+
+Attention duration (in seconds): 0.8540
+Attention throughput (in TFLOP/s): 61.387
+MLP duration (in seconds): 2.2685
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 3.1225
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+num_attention_heads: 128, hidden_size: 27904, train_micro_batch_size_per_gpu: 4, tensor_mp_size: 1, pipeline_mp_size: 1, dp_size: 1
+
+
+Estimate
+--------
+Elapsed time for attention_key_value_query_transform (4x27904x83712, b=2048): 0.6311
+Throughput (in TFLOP/s) for attention_key_value_query_transform (4x27904x83712, b=2048): 60.640
+Elapsed time for attention_key_query_prob (512x2048x218x2048): 0.0134
+Throughput (in TFLOP/s) for attention_key_query_prob (512x2048x218x2048): 69.861
+Elapsed time for attention_prob_times_values (512x2048x2048x218): 0.0163
+Throughput (in TFLOP/s) for attention_prob_times_values (512x2048x2048x218): 57.548
+Elapsed time for attention_linear_projection (4x27904x27904, b=2048): 0.1973
+Throughput (in TFLOP/s) for attention_linear_projection (4x27904x27904, b=2048): 64.674
+Elapsed time for mlp_h_to_4h (4x27904x111616, b=2048): 0.8497
+Throughput (in TFLOP/s) for mlp_h_to_4h (4x27904x111616, b=2048): 60.056
+Elapsed time for mlp_4h_to_h (4x111616x27904, b=2048): 1.4408
+Throughput (in TFLOP/s) for mlp_4h_to_h (4x111616x27904, b=2048): 35.418
+
+Attention duration (in seconds): 0.8581
+Attention throughput (in TFLOP/s): 61.653
+MLP duration (in seconds): 2.2904
+MLP throughput (in TFLOP/s): 1.000
+Transformer duration (in seconds): 3.1485
+Transformer throughput (in TFLOP/s): 1.000
+Transformer - MLP - Attention (in seconds): 0.0000
+========================================================================================================================
+slurmstepd: error: *** JOB 1507280 ON frontier10234 CANCELLED AT 2023-11-22T21:53:39 DUE TO TIME LIMIT ***
