@@ -81,21 +81,21 @@ if __name__ == '__main__':
     torch.cuda.set_device("cuda:0")
 
     #shared dimension sweep.
-    #N_values= range(64, 2**12, 64)
-    #for logb in range(5, 9):
-    #    bench_list(b=2**logb, m=2048, N=N_values, k=2048)
+    N_values= range(64, 2**12, 64)
+    for logb in range(5, 9):
+        bench_list(b=2**logb, m=2048, N=N_values, k=2048)
 
 
 
 
     # Try to determine the effect of b on throughput with square individual MMs.
-    '''for log_b in range(7):
+    for log_b in range(7):
         b = 2**log_b
         benchmark_bmm(b, m=1024, n=1024, k=1024)
         benchmark_bmm(b, m=2048, n=2048, k=2048)
         benchmark_bmm(b, m=4096, n=4096, k=4096)
         benchmark_bmm(b, m=8192, n=8192, k=8192)
-    '''
+    
     # Try to determine the effect of b and outer_dim on throughput with non-square
     # individual MMs.
     for log_b in range(7):
