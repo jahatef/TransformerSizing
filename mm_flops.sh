@@ -40,7 +40,7 @@ export DLTS_HOSTFILE=/fsx/home-jacob/hostfiles/hosts_$SLURM_JOBID
 #sudo chmod -R 777 /home/quentin
 
 i=0
-CUDA_VISIBLE_DEVICES=$i python mm_flops.py | tee -a results/a100_mm_data.out &
-i=1
-CUDA_VISIBLE_DEVICES=$i python bmm_flops.py | tee -a results/a100_bmm_data.out &
+CUDA_VISIBLE_DEVICES=$i python mm_flops.py | tee -a results/gemm_data/mm/ksweep_low/a100.out &
+#i=1
+#CUDA_VISIBLE_DEVICES=$i python bmm_flops.py | tee -a results/a100_bmm_data.out &
 wait 

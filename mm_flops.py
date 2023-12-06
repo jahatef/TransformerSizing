@@ -71,16 +71,16 @@ if __name__ == '__main__':
     torch.cuda.set_device("cuda:0")
 
     # Figure 3. basicGemmMSweep.out
-    for log_size in range(5, 14):
-        benchmark_mm(2**log_size, 4096, 2**log_size)
+    #for log_size in range(5, 14):
+    #    benchmark_mm(2**log_size, 4096, 2**log_size)
 
     # Figure 7. basicGemmKSweep.out
-    for k in range(64, 2**15, 64):
-        benchmark_mm(2048, 2048, k)
+    for k in range(64, 512, 2):
+        benchmark_mm(27648, 4096, k)
 
     # Figure 8. basicGemmLargeKSweep.out
-    for k in range(1536, 6208, 64):
-        benchmark_mm(2304, 4096, k)
+    #for k in range(1536, 6208, 64):
+    #    benchmark_mm(2304, 4096, k)
 
     # m from 1024 to 10000.
     #for m in range(64, 2**15, 64):
